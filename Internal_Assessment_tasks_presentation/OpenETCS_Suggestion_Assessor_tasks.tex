@@ -1,0 +1,204 @@
+\documentclass{template/openetcs_report}
+% Use the option "nocc" if the document is not licensed under Creative Commons
+%\documentclass[nocc]{template/openetcs_report}
+\usepackage{lipsum,url}
+\graphicspath{{./template/}{.}{./images/}}
+
+
+\begin{document}
+\frontmatter
+\project{openETCS}
+
+%Please do not change anything above this line
+%============================
+% The document metadata is defined below
+
+%assign a report number here
+\reportnum{openETCS/WP4/D4.x}
+
+%define your workpackage here
+\wp{Work-Package 4: "V\&V Strategy"}
+
+%set a title here
+\title{openETCS D4.x: OpenETCS Suggestion Assessor tasks}
+
+%set a subtitle here
+\subtitle{Set of Suggestions regarding Assessor's activities during Open ETCS Software development}
+
+%set the date of the report here
+\date{February 2013}
+
+%define a list of authors and their affiliation here
+\author{Anne-Catherine Vie (All4tec) \and Cyril Cornu (All4tec) \and Merlin Pokam (AEbt)}
+
+\affiliation{AEbt Angewandte Eisenbahntechnik GmbH\\
+  Adam-Klein-Stra\ss e 26\\
+  90429 N\"urnberg\\
+  Germany
+\\
+\\
+  All4tec\\
+  2-12, Rue du Chemin des femmes\\
+  91 300 MASSY\\
+  France
+}
+
+
+% define the coverart
+\coverart[width=350pt]{chart}
+
+%define the type of report
+\reporttype{Preliminary Report}
+
+
+\begin{abstract}
+This note is a set of suggestions regarding the Assessor tasks. These tasks shall be performed during the software development process of the project OpenETCS. 
+\end{abstract}
+
+%=============================
+%Do not change the next three lines
+\maketitle
+\tableofcontents
+%\listoffiguresandtables
+%=============================
+
+% The actual document starts below this line
+%=============================
+
+
+%Start here
+%\chapter{Preface}
+%\lipsum[1-5]
+
+\chapter{Role of the Assessor}
+
+The role of the Assessor is to perform an assessment of the software developed during the project OpenETCS. An assessment is a " Process of analysis to determine whether software, which may include process, documentation, system, subsystem hardware and/or software components, meets the specified requirements, and to form a judgment whether the software is fit for its intended purpose. Safety assessment is focused on but not limited to the safety properties of a system.\".
+The last sentence explains the fact that the safety properties of the software to be developed are a major concern of the assessment, but the overall quality and process aspects of the software development are totally concerned as well by assessment activities.
+
+According to the standard EN 50128 and the software safety integrity level (SIL4) of the project, it is very important to remind that the Assessor shall be independent from the project and shall be given authority to perform the software assessment.
+Then, the Assessor is not part of project stakeholders and is totally independent from the project teams (The project considered here is not the Open ETCS project, but the Software development. Therefore, a company part of the whole Open ETCS project, but not involved in the software development, could provide an assessor, at the moment he respects the both previous conditions).The Assessor shall write a Software Assessment Plan. It is like an assessment process which is linked to the software development process.
+More precisely, he shall explain the tasks needed to assess the software of the project OpenETCS.
+
+{\itshape 
+Note: The Verifier shall write a Software Assessment Verification Report, as required in the standard EN50128, to verify in the first time that the Software Assessment Plan meets the general requirements for readability and traceability.
+}
+
+During the software development, he shall evaluate the software verification and validation activities.
+We propose that the Assessor intervenes at least seven times during the software development process (this is equivalent to one time at least by Work Product).
+
+\textit{
+Note: the numbers of WPs are not given in the chronological order, e.g. WP1 is performed during all the development process and WP5 occurs before the end of WP4.
+}
+
+
+\textbf{
+During WP1: Project Management.
+}
+
+The Assessor is able to assess:
+\begin{itemize}\itemsep=0pt
+  \item The Quality Assurance
+  \item The capability of the Project Manager and the quality of his deliverables
+ \end{itemize}
+
+The Assessor shall assess the Software Quality Plan. We propose that he gives a formal approval of this document.
+
+
+\textbf{
+During WP2: Requirements for Open Proof.
+}
+
+
+The Assessor is able to assess:
+\begin{itemize}\itemsep=0pt
+  \item The System requirements specification, including:
+  \begin{itemize}\itemsep=3pt
+    \item functions and interfaces;
+    \item application conditions;
+    \item configuration or architecture of the system;
+    \item hazards to be controlled;
+    \item safety integrity requirements;
+    \item apportionment of requirements and allocation of SIL to software and hardware;
+    \item timing constraints
+   \end{itemize}
+  \item The software requirements specification,
+  \item The software architecture and design specification,
+  \item The software component specification,
+  \item The personnel key roles, responsibilities and competence,
+  \item The Quality Assurance
+ \end{itemize}
+Nevertheless, he shall assess the implementation of both activities and deliverables of WP 2.
+
+
+\textbf{
+During WP3: Modeling of (part of) ETCS specification.
+}
+
+The Assessor shall evaluate the software implementation respectively the software modeling.
+Furthermore, he is able to assess:
+\begin{itemize}\itemsep=0pt
+  \item A part of the lifecycle and the documentation,
+  \item The Quality Assurance,
+  \item The personnel roles and responsibilities and competence.
+ \end{itemize}
+The Assessor shall assess the implementation of both activities and deliverables of WP 3.
+
+
+\textbf{
+During WP4: Validation \& Verification Strategy.
+}
+
+The Assessor shall assess:
+\begin{itemize}\itemsep=0pt
+  \item the Software Verification Plan and the Software Validation Plan,
+  \item the Quality Assurance.
+ \end{itemize}
+We propose that he gives a formal approval on these documents. 
+He shall mainly evaluate the verification activities and the implementation of both activities and deliverables of the WP 4.
+
+
+\textbf{
+During WP5: Demonstrator.
+}
+
+The Assessor shall assess the specific openETCS software.
+Indeed, before the beginning of the validation activity (WP4), the Assessor shall assess the Software Integration Test Report to give or not the approval for software validation. This point is the Validation first step (the previous steps are related to the verification).
+
+
+\textbf{
+During WP6: Dissemination, Exploitation and Standardization.
+}
+
+The Assessor shall verify that the software maintenance plan is written and compliant with the software safety integrity level (SIL4).
+
+\textbf{
+During WP7: Language, ToolChain and Opensource Ecosystem.
+}
+
+The Assessor shall assess the developed tool chain according to Tool class T3 of EN 50128:2011. The other tools (T2) have to be assessed as well, but the effort is liter regarding the T3 assessment effort.
+
+At the end of the software development process, the Assessor shall perform a final assessment. Indeed, he shall evaluate that the lifecycle processes and products resulting are such that the software is of the defined software safety integrity level and fits for its intended application. All the steps of assessment performed during the software development process shall be gathered in the Software Assessment Report. This report could be updated all along the process.
+
+{\itshape
+Note: the Software Assessment Verification Report permit to verify the internal consistency of the Software Assessment Report.
+}
+
+Furthermore, the Assessor shall have the knowledge of the both ERTMS and ETCS, of the dependability and of the standard EN 50128, even if only ETCS EVC Software part iin the project scope.
+
+The assessor roles are described in the CENELEC EN50128 standard in following paragraphs: \S6.4.4.8, \S6.4.4.9, \S6.4.4.10, \S6.4.4.11, \S6.4.4.12, \S6.4.4.13, \S6.4.4.14 and \S6.4.4.15.
+
+\chapter{Assessor Tasks in the development process}
+
+
+
+\chapter{Conclusion}
+This note is also a preliminary document which can be used {\bfseries to elaborate the Software Assessment Plan}, as required by the standard EN 50128:2011.
+
+It can be also used to perform an “internal” assessment (within the WP4 for instance) during the software development.
+
+
+
+%===================================================
+%Do NOT change anything below this line
+
+\end{document}
