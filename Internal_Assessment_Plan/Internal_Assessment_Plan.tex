@@ -1,0 +1,147 @@
+\documentclass{template/openetcs_report}
+% Use the option "nocc" if the document is not licensed under Creative Commons
+%\documentclass[nocc]{template/openetcs_report}
+\usepackage{lipsum,url}
+\graphicspath{{./template/}{.}{./images/}}
+
+
+\begin{document}
+\frontmatter
+\project{openETCS}
+
+%Please do not change anything above this line
+%============================
+% The document metadata is defined below
+
+%assign a report number here
+\reportnum{openETCS/WP4/D4.5.1}
+
+%define your workpackage here
+\wp{Work-Package 4: "V\&V Strategy"}
+
+%set a title here
+\title{openETCS D4.5.1: OpenETCS Internal Assessment Plan}
+
+%set a subtitle here
+\subtitle{Planning and Description of tasks that are performed within Internal Assessment Activities in the Open ETCS project}
+
+%set the date of the report here
+\date{February 2013}
+
+%define a list of authors and their affiliation here
+\author{Cyril Cornu (All4tec)}
+
+\affiliation{All4tec\\
+  2-12, Rue du Chemin des femmes\\
+  91 300 MASSY\\
+  France
+}
+
+
+% define the coverart
+\coverart[width=350pt]{chart}
+
+%define the type of report
+\reporttype{Preliminary Report draft version}
+
+
+\begin{abstract}
+The Internal Assessment Plan describes the Internal Assessment strategy and plan in the Framework of Safety, Quality and V\&V activities in the Open ETCS project.
+The assessment is a \" Process of analysis to determine whether software, which may include process, documentation, system, subsystem hardware and/or software components, meets the specified requirements, and to form a judgment whether the software is fit for its intended purpose.\"
+\\
+The dates, highlights, deliverables and activities split is willing to be changed in accordance with the FPP final version.
+\end{abstract}
+
+%=============================
+%Do not change the next three lines
+\maketitle
+\tableofcontents
+%\listoffiguresandtables
+%=============================
+
+% The actual document starts below this line
+%=============================
+
+
+%Start here
+%\chapter{Preface}
+%\lipsum[1-5]
+
+\chapter{Introduction}
+The role of the Assessor is to perform an assessment of the software developed during the project OpenETCS. An assessment is a \" Process of analysis to determine whether software, which may include process, documentation, system, subsystem hardware and/or software components, meets the specified requirements, and to form a judgment whether the software is fit for its intended purpose.\".
+\\
+According to the standard EN 50128 and the software safety integrity level (SIL4) of the project, it is very important to remind that the Assessor shall be independent from the project and shall be given authority to perform the software assessment. Then, the Assessor shall not be part of project stakeholders, and is totally independent from the project teams. Furthermore, the Assessor shall have the knowledge of the both ERTMS and ETCS, of the dependability and of the standard EN 50128, even if only ETCS EVC Software part in the project scope.
+\\
+For these reasons, the need of an internal assessment has been identified at the beginning of the project. This activity would simulate a real external assessment process, that would be  enhanced by people part of the Open ETCS project, and responding to the 2 main skills conditions to perform such a task: the technical knowledge on the ETCS OBU and the technical independency regarding the whole Software development and project activities. 
+
+\section{project context}
+The aim of the internal assessment is to simulate a real assessor activity regarding a standard Railway signaling system design and production by a railway company. The Open ETCS project main objectives are:
+\begin{itemize}
+\item Transformation of higher-level, informal (i.e. expressed in natural language) ETCS requirements in formal and semi-formal requirements that will be used for validation and verification activities of embedded control systems.
+\item Adaptation of modelling languages such that train control systems can be designed in suitable formalisms and verified against ETCS requirements in early design phases.
+\item Integrating and developing formal and semi-formal validation and verification techniques in order to prove the correctness of train control systems against formalized ETCS requirements.
+\item Generating symbiotic effects of large companies, R\&D institutes, and SMEs in order to bring together all relevant experts in the field taking advantage from their diverse knowledge within a value adding chain (so called “eco-system” or “Co-Competition”).
+\end{itemize}
+
+These four objectives are all related to specific steps of an On Board Unit Software design and development (European Vital Computer). Moreover, they all encompass underneath performance, reliability, availability, maintainability and safety objectives, that are usually translated into a Safety Integrity Level (SIL), and the conditions regarding quality, process and overall development activities are gathered in the CENELEC standards EN50128, EN20126 and EN50129.
+Therefore, apply the common development strategy for such a railway system makes sense, and allows the project to base the whole OBU EVC Software development on existing CENELEC standards for such Railway signaling systems allows us to meet these both conditions on design process and Safety Level.
+
+\section{Internal Assessment Plan objectives}
+This document provides the overall assessment plan and objectives that will be followed in the frame of internal assessment activities.
+The activities are shared according to the main software development categories they deal with:
+\begin{itemize}
+\item Quality insurance
+\item Verification \& Validation
+\item Safety
+\end{itemize}
+
+For each assessment activities, this assessment plan will identify the relevant deliverables, and the criteria that will be especially considered during the assessment phase.
+
+As the project deliverables will be issued simultaneously whatever the category they belong to, the internal assessment activity will be performed at precise time
+
+\chapter{Project Quality Assessment}
+This chapter details what are the main features to be checked regarding the quality insurance regarding the whole Open ETCS software development activities, from the very beginning of the project to the end of it
+
+\section{Quality Assurance Plan - QAP}
+
+Quality Assurance Plan
+Configuration Management Plan
+Competencies Matrix
+Review Process
+Project Development Process
+
+\section{Compliance of project deliverables with QAP}
+
+\section{Quality Log and Traceability}
+
+
+\chapter{V\&V Activities Assessment}
+
+\section{V\&V Plan}
+
+\section{Compliance of project deliverables with V\&V Plan}
+
+\section{V\&V log and traceability for Model}
+
+\section{V\&V log and traceability for Code}
+
+
+\chapter{Safety Activities Assessment}
+
+\section{Safety Evaluation Criteria}
+
+\section{Safety Requirements Traceability}
+
+\section{Semi-Formal and Formal Models}
+
+\chapter{Internal assessment activities planing}
+
+\chapter{Conclusion}
+
+
+
+
+%===================================================
+%Do NOT change anything below this line
+
+\end{document}
