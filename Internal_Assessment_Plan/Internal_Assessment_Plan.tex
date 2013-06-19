@@ -100,30 +100,109 @@ For each assessment activities, this assessment plan will identify the relevant 
 As the project deliverables will be issued simultaneously whatever the category they belong to, the internal assessment activity will be performed at precise time
 
 \chapter{Project Quality Assessment}
-This chapter details what are the main features to be checked regarding the quality insurance regarding the whole Open ETCS software development activities, from the very beginning of the project to the end of it
+This chapter details what are the main features to be checked regarding the quality insurance regarding the whole Open ETCS activities, from the very beginning of the project to the end of it.
+The Safety Criteria are defined in the document D2.2 appendix B3, and these criteria will be checked during the Internal Assessment review. The main points to be assessed are:
+\begin{itemize}
+\item The Quality Assurance Plan completeness
+\item The Project Deliverables compliance with QAP
+\item The Management and Responsibilities management 
+\end{itemize}
 
 \section{Quality Assurance Plan - QAP}
+The purpose of the QA Plan is to define the processes, methods and tools that will be used to develop the OpenETCS project meeting ITEA requirements, following Open Source principles and practices and applying the SCRUM Methodology. Besides, two of the project outcomes, the OpenETCS software, the OpenETCS Tool Chain, will have to comply with CENELEC requirements.
 
-Quality Assurance Plan
-Configuration Management Plan
-Competencies Matrix
-Review Process
-Project Development Process
+The following parts of the QAP will be precisely checked by the assessor, whether they belong to the QAP document or to another document.
+\begin{itemize}
+\item  Open ETCS development process. This process describes the whole documentation to be issued in the framework of Open ETCS project, and the connexions between the project inputs, the project outcomes, and the work packages and tasks identified in the project. The coherency between the IO documents and informations identified in the development process and the related document content will be checked.
+\item  Open ETCS tool development process. This process has to be described as precisely as the Quality Assurance related to the OBU EVC Software development activity. The same verifications and assessments activities will be performed on this process than on the software development process.
+\item Configuration Management Plan. The
+\item Review Process
+\item Project Development Process
+\end{itemize}
 
-\section{Compliance of project deliverables with QAP}
+\section{Project Deliverables compliance with QAP}
+The Safety Criteria are defined in the document D2.2, and these criteria will be checked during the Internal Assessment review. The main points to be assessed for the project deliverables are:
+\begin{itemize}
+\item the documentation compliance for Software Safety Integrity Level 4. This includes a functional and interface description of the system, the application conditions, the configuration or architecture of the system, the hazards to be controlled, the safety integrity requirements, the SIL allocation to Software and Hardware, and the timing constraints.
+\item the Requirements for tools class T1, T2 and T3. Tools have been identified so far for each category (text editor, requirements support, configuration support tool for T1,  static code analysers, model checkers, model based testing tools, simulators for T2, and compilers or code generation tools for T3), and all proof of compliance with the CENELEC standard and justification for use will be check within internal assessment activities.
+\end{itemize}
+
+\section{The Management and Responsibilities management}
+The Quality Assurance in Open ETCS has to claim the proof that all people involved in project has the sufficient skills and competencies to fulfill their responsibilities. All these competencies have to be gathered and tracked whether in the QAP or in a separate quality related document that has to be identified in the QAP.
+According to the CENELEC EN50128, the 10 software development key roles to be identified are:
+\begin{itemize}
+\item the Requirements Manager,
+\item the Designer,
+\item the Implementer,
+\item the Tester,
+\item the Verifier,
+\item the Integrator,
+\item the Validator,
+\item the Project Manager,
+\item the Configuration Manager.
+\end{itemize}
+
+The information needed in Quality Assurance documentation is:
+\begin{itemize}
+\item The Actual Competencies Matrix of each committer in the project, linked to the work packages and the tasks they are involved in.
+\item The Needed Competencies Matrix for each task, document and project outcomes. Each people contribution as to be as detailed as possible (at least the contribution to a precise task or outcome).
+\item From the gab identified between the both actual competencies matrix and required competencies matrix, a Training plan has to be set up for all the commiters of the Open ETCS project. This plan will have to track all the identified needs, and then the solutions chosen in order to harmonize the competencies needs and the committers skills (training session, re-organization, 
+\end{itemize}
 
 \section{Quality Log and Traceability}
+In the framework of Asessment activities, all discrepancies related to Quality Assurance whatever the level considered, will be gathered in a table called the Quality Log. This log will be used by the Assessor as a list of possible or required improvements, to be used as a road map in order to get rid of all quality assurance concerns or discrepancies identified during the whole project life cycle.
+The Quality Log table will encompass the following information: 
+\begin{itemize}
+\item Number of the log row
+\item Document/ Outcome concerned and precise discrepancy localization
+\item Document/ Outcome version
+\item Date
+\item Discrepancy description by assessor, and comments (assessor, author or else)
+\item Action planned to fix (commonly defined by at least the document author and the assessor)
+\item Action Deadline
+\item Status of the log (fixed, under investigation...)
+\end{itemize}
 
 
 \chapter{V\&V Activities Assessment}
+This chapter details what are the main features to be checked regarding the V\&V activities regarding the whole Open ETCS software development activities, from the very beginning of the project to the end of it.
+The Quality Criteria regarding V\&V activities are defined in the document D2.2 appendix B4, and these criteria will be checked during the Internal Assessment review. The main points to be assessed are:
+\begin{itemize}
+\item V\&V Plan
+\item Verification \& Validation activities for Model
+\item Verification \& Validation activities for Primary Toolchain
+\item Verification \& Validation activities for Code
+\item Safety
+\end{itemize}
 
 \section{V\&V Plan}
+The purpose of the V\&V Plan is to define, describe and plan the verification and validation activities in the project openETCS. As the goals of the project include the selection, adaption and construction of methods and tools for a FLOSS development in addition to performing actual development steps, the V\&V plan will deal separately with these two aspects.
+The Verification Plan for the model should describe the selection of verification strategies and techniques to be applied to the Open ETCS for Testing the Open ETCS Semi-Formal Model and Formal Model. The set of techniques, the definition of the process for test creation, test coverage and completeness, and roles in the testing team will be assessed in the same way than for the Quality Assurance Aspects.
+The Verification Plan for the tool is based on the same principle than for the Model Assessment, but related to the tool or the whole toolchain. The Assessment will focus on quality assurance and traceability of the verification.
 
-\section{Compliance of project deliverables with V\&V Plan}
+The Validation Plan aims to give a frame to Validation activities to be performed within OpenETCS project. It aims at determining whether the developed tool fits the user needs, in particular with respect to safety and quality relatively to the environment it will be run it.
+
+
+\section{Verification and Testing Activities}
+The First aspect is related to the Verification activities. The Assessment for Verification will mainly concern the following points:
+\begin{itemize}
+\item Test Specifications. The Test Specifications will have to fulfill the CENELEC requirements regarding the tests objectives, the precise content of the test in terms of environment handling, data and expected results. Their coherency with the test policy will be checked and assessed.
+\item  Test Reports. The test report will have to report as precisely as possible the information related to the test performance. The tests results are compared with the expected results defined during the test specification, failures have to be recorded, described and then investigated. The test environment such as Tester names and test conditions have to be clearly described as well.
+\end{itemize}
+
+\section{Validation Activities}
+The second aspect is related to the Validation Activities. The Assessment for Validation will mainly concern the following points:
+\begin{itemize}
+\item The creation of a Validation Plan in order to give a frame
+\end{itemize}
 
 \section{V\&V log and traceability for Model}
+The V\&V activities can be split in testing activities and verification activities. The testing activities aim at verifying the Model behavior and performances against the corresponding system and software specification, in order to achieve the capability, maintainability, portability, functionality, reliability and usability objectives for the OBU EVC Kernel Software Model. 
+For each test, a Test Specification has to be issued and will have to fulfill the CENELEC requirements regarding the tests objectives, the precise content of the test in terms of environment handling, data and expected results. Their coherency with the test policy will be checked and assessed. At the end of the test, a test report is then created. The coherency between the Test specification and the Test
+
 
 \section{V\&V log and traceability for Code}
+
 
 
 \chapter{Safety Activities Assessment}
@@ -133,6 +212,7 @@ Project Development Process
 \section{Safety Requirements Traceability}
 
 \section{Semi-Formal and Formal Models}
+
 
 \chapter{Internal assessment activities planing}
 

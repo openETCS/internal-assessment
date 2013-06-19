@@ -3,16 +3,18 @@
 \contentsline {section}{\numberline {0.2}Internal Assessment Plan objectives}{v}
 \contentsline {chapter}{Project Quality Assessment}{vi}
 \contentsline {section}{\numberline {0.3}Quality Assurance Plan - QAP}{vi}
-\contentsline {section}{\numberline {0.4}Compliance of project deliverables with QAP}{vi}
-\contentsline {section}{\numberline {0.5}Quality Log and Traceability}{vi}
-\contentsline {chapter}{V\&V Activities Assessment}{vii}
-\contentsline {section}{\numberline {0.6}V\&V Plan}{vii}
-\contentsline {section}{\numberline {0.7}Compliance of project deliverables with V\&V Plan}{vii}
-\contentsline {section}{\numberline {0.8}V\&V log and traceability for Model}{vii}
-\contentsline {section}{\numberline {0.9}V\&V log and traceability for Code}{vii}
-\contentsline {chapter}{Safety Activities Assessment}{viii}
-\contentsline {section}{\numberline {0.10}Safety Evaluation Criteria}{viii}
-\contentsline {section}{\numberline {0.11}Safety Requirements Traceability}{viii}
-\contentsline {section}{\numberline {0.12}Semi-Formal and Formal Models}{viii}
-\contentsline {chapter}{Internal assessment activities planing}{ix}
-\contentsline {chapter}{Conclusion}{x}
+\contentsline {section}{\numberline {0.4}Project Deliverables compliance with QAP}{vi}
+\contentsline {section}{\numberline {0.5}The Management and Responsibilities management}{vii}
+\contentsline {section}{\numberline {0.6}Quality Log and Traceability}{vii}
+\contentsline {chapter}{V\&V Activities Assessment}{ix}
+\contentsline {section}{\numberline {0.7}V\&V Plan}{ix}
+\contentsline {section}{\numberline {0.8}Verification and Testing Activities}{ix}
+\contentsline {section}{\numberline {0.9}Validation Activities}{x}
+\contentsline {section}{\numberline {0.10}V\&V log and traceability for Model}{x}
+\contentsline {section}{\numberline {0.11}V\&V log and traceability for Code}{x}
+\contentsline {chapter}{Safety Activities Assessment}{xi}
+\contentsline {section}{\numberline {0.12}Safety Evaluation Criteria}{xi}
+\contentsline {section}{\numberline {0.13}Safety Requirements Traceability}{xi}
+\contentsline {section}{\numberline {0.14}Semi-Formal and Formal Models}{xi}
+\contentsline {chapter}{Internal assessment activities planing}{xii}
+\contentsline {chapter}{Conclusion}{xiii}

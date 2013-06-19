@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.2.25)  13 JUN 2013 20:28
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.2.25)  19 JUN 2013 18:56
 entering extended mode
 **C:/Users/Cyril*Cornu/Documents/GitHub/internal-assessment/Internal_Assessment
 _Plan/Internal_Assessment_Plan.tex
@@ -668,41 +668,240 @@ File: ./template/ccbysa.png Graphic file (type png)
 Package pdftex.def Info: ./template/ccbysa.png used on input line 102.
 (pdftex.def)             Requested size: 32.84999pt x 6.15186pt.
  [5]
+Underfull \hbox (badness 10000) detected at line 106
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 107
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 108
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 116
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 117
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 118
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 119
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 120
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 126
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 127
+[]\OMS/txsy/m/n/10.95 []
+ []
+
 File: ./template/ccbysa.png Graphic file (type png)
- <use ./template/ccbysa.png>
-Package pdftex.def Info: ./template/ccbysa.png used on input line 118.
+<use ./template/ccbysa.png>
+Package pdftex.def Info: ./template/ccbysa.png used on input line 128.
 (pdftex.def)             Requested size: 32.84999pt x 6.15186pt.
  [6
 
 ]
-File: ./template/ccbysa.png Graphic file (type png)
+Underfull \hbox (badness 10000) detected at line 134
+[]\OMS/txsy/m/n/10.95 []
+ []
 
+
+Underfull \hbox (badness 10000) detected at line 135
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 136
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 137
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 138
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 139
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 140
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 141
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 142
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 147
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 148
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 149
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 156
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 157
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+File: ./template/ccbysa.png Graphic file (type png)
 <use ./template/ccbysa.png>
-Package pdftex.def Info: ./template/ccbysa.png used on input line 129.
+Package pdftex.def Info: ./template/ccbysa.png used on input line 158.
 (pdftex.def)             Requested size: 32.84999pt x 6.15186pt.
- [7
+ [7]
+Underfull \hbox (badness 10000) detected at line 158
+[]\OMS/txsy/m/n/10.95 []
+ []
 
-]
+
+Underfull \hbox (badness 10000) detected at line 159
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 160
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 161
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 162
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 163
+[]\OMS/txsy/m/n/10.95 []
+ []
+
 File: ./template/ccbysa.png Graphic file (type png)
- <use ./template/ccbysa.png>
-Package pdftex.def Info: ./template/ccbysa.png used on input line 137.
-(pdftex.def)             Requested size: 32.84999pt x 6.15186pt.
- [8
-
-]
-File: ./template/ccbysa.png Graphic file (type png)
-
 <use ./template/ccbysa.png>
-Package pdftex.def Info: ./template/ccbysa.png used on input line 139.
+Package pdftex.def Info: ./template/ccbysa.png used on input line 167.
+(pdftex.def)             Requested size: 32.84999pt x 6.15186pt.
+ [8]
+Underfull \hbox (badness 10000) detected at line 171
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 172
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 173
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 174
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 175
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 189
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 190
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+File: ./template/ccbysa.png Graphic file (type png)
+<use ./template/ccbysa.png>
+Package pdftex.def Info: ./template/ccbysa.png used on input line 196.
 (pdftex.def)             Requested size: 32.84999pt x 6.15186pt.
  [9
 
 ]
+Underfull \hbox (badness 10000) detected at line 196
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+File: ./template/ccbysa.png Graphic file (type png)
+<use ./template/ccbysa.png>
+Package pdftex.def Info: ./template/ccbysa.png used on input line 208.
+(pdftex.def)             Requested size: 32.84999pt x 6.15186pt.
+ [10]
 File: ./template/ccbysa.png Graphic file (type png)
  <use ./template/ccbysa.png>
-Package pdftex.def Info: ./template/ccbysa.png used on input line 147.
+Package pdftex.def Info: ./template/ccbysa.png used on input line 217.
 (pdftex.def)             Requested size: 32.84999pt x 6.15186pt.
- [10
+ [11
+
+]
+File: ./template/ccbysa.png Graphic file (type png)
+
+<use ./template/ccbysa.png>
+Package pdftex.def Info: ./template/ccbysa.png used on input line 219.
+(pdftex.def)             Requested size: 32.84999pt x 6.15186pt.
+ [12
+
+]
+File: ./template/ccbysa.png Graphic file (type png)
+ <use ./template/ccbysa.png>
+Package pdftex.def Info: ./template/ccbysa.png used on input line 227.
+(pdftex.def)             Requested size: 32.84999pt x 6.15186pt.
+ [13
 
 ]
 ("C:\Users\Cyril Cornu\Documents\GitHub\internal-assessment\Internal_Assessment
@@ -712,13 +911,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 7044 strings out of 494045
- 104123 string characters out of 3145951
+ 7088 strings out of 494045
+ 104436 string characters out of 3145951
  270864 words of memory out of 3000000
  10045 multiletter control sequences out of 15000+200000
- 88501 words of font info for 236 fonts, out of 3000000 for 9000
+ 90426 words of font info for 269 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 43i,13n,59p,665b,398s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,13n,59p,665b,404s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Users/
 Cyril Cornu/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/txfonts/rtxr.pfb><C:/
 Users/Cyril Cornu/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/txfonts/t1xtt.p
@@ -728,9 +927,9 @@ txsy.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb
 gram Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Fil
 es (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/Mi
 KTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Internal_Assessment_Plan.pdf (12 pages, 119815 bytes).
+Output written on Internal_Assessment_Plan.pdf (15 pages, 130472 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
+ 91 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  47637 words of extra memory for PDF output out of 51595 (max. 10000000)
 
