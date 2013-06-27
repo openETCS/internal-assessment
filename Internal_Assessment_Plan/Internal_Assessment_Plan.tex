@@ -1,7 +1,9 @@
-\documentclass{template/openetcs_report}
+\documentclass{template/openetcs_article}
 % Use the option "nocc" if the document is not licensed under Creative Commons
 %\documentclass[nocc]{template/openetcs_report}
 \usepackage{lipsum,url}
+%\usepackage{titledoc}
+\usepackage{url,longtable}
 \usepackage{xspace}
 \usepackage{graphicx}
 \usepackage{fixme}
@@ -53,17 +55,19 @@
 
 
 \begin{abstract}
-The Internal Assessment Plan describes the Internal Assessment strategy and plan in the Frame of Safety, Quality and V\&V activities in the Open ETCS project.
+The Internal Assessment Plan describes the Internal Assessment strategy and plan in the frame \&V activities in the Open ETCS project.
 The assessment is a \"\ Process of analysis to determine whether software, which may include process, documentation, system, subsystem hardware and/or software components, meets the specified requirements, and to form a judgment whether the software is fit for its intended purpose.\"
 \\
-The dates, highlights, deliverables and activities split is willing to be changed in accordance with the FPP final version.
+The dates, highlights, deliverables and activities split presented in this plan are willing to be adapted in accordance with the FPP final version.
 \end{abstract}
 
 %=============================
 %Do not change the next three lines
 \maketitle
+\setcounter{tocdepth}{2}
 \tableofcontents
 %\listoffiguresandtables
+\newpage
 %=============================
 
 % The actual document starts below this line
@@ -74,7 +78,7 @@ The dates, highlights, deliverables and activities split is willing to be change
 %\chapter{Preface}
 %\lipsum[1-5]
 
-\chapter{Introduction}
+\section{Introduction}
 The role of the Assessor is to perform an assessment of the software developed during the project OpenETCS. According to the standard EN 50128 and the software safety integrity level (SIL4) of the project, it is very important to remind that the Assessor shall be independent from the project and shall be given authority to perform the software assessment. Then, the Assessor shall not be part of project stakeholders, and is totally independent from the project teams. Furthermore, the Assessor shall have the knowledge of the both ERTMS and ETCS, of the dependability and of the standard EN 50128, even if only the On Board Unit EVC Software part in the project scope.
 \\
 For these reasons, the need of an internal assessment has been identified at the beginning of the project. This activity would simulate a real external assessment process, that would be  enhanced by people part of the Open ETCS project, and responding to the 2 main skills conditions to perform such a task: the technical knowledge on the ETCS OBU and the technical independency regarding the whole Software development and project activities. 
@@ -187,7 +191,7 @@ These activities are recorded in the following outcomes so far:
 \item  
 \end{itemize}
 
-\subsection{V\&V Plan}
+\section{V\&V Plan}
 The purpose of the V\&V Plan is to define, describe and plan the verification and validation activities in the project openETCS. As the goals of the project include the selection, adaption and construction of methods and tools for a FLOSS development in addition to performing actual development steps, the V\&V plan will deal separately with these two aspects.
 The Verification Plan for the model should describe the selection of verification strategies and techniques to be applied to the Open ETCS for Testing the Open ETCS Semi-Formal Model and Formal Model. The set of techniques, the definition of the process for test creation, test coverage and completeness, and roles in the testing team will be assessed in the same way than for the Quality Assurance Aspects.
 The Verification Plan for the tool is based on the same principle than for the Model Assessment, but related to the tool or the whole toolchain. The Assessment will focus on quality assurance and traceability of the verification.
@@ -244,35 +248,97 @@ The overall Safety Activities are described in the Open ETCS Safety Plan.
 The Safety Evaluation Criteria that will be considered for the Internal Assessment are described in the Safety Criteria deliverable. These criteria will be checked during the V\&V phases, but will also be reviewed in the Frame of Internal Assessment.
 The main criteria to be assessed are:
 \begin{itemize}
-\item The method and process for Safety Activities, from Safety Plan to the whole Safety Case, and their consistency with the CENELEC;
+\item The method and process for Safety Activities, from Safety Plan to the whole Safety Case, and their consistency with the CENELEC. For instance
 \item The tools supporting the process and the method;
 \item The traceability between the software development process and the Safety related documents;
 \item The coverage of Safety requirements by V\&V activities at different levels (System,  sub-System, model, code) on Safety functions and components;
 \end{itemize}
 
-The different documents to be issued are
+The main Safety related documents to be assessed are:
 \begin{itemize}
-\item The Preliminary Risk Assessment
-\item The System ans sub-system Safety Study
-\item The Model Safety backlog
+\item The Preliminary Risk Assessment (this document initiates the Safety log or Hazard Log).
+\item The System and Sub-System Safety Study. These points have to be clearly defined and connected according to the software design steps defined in the Open ETCS process. The following points are especially relevant for the
+	\begin{itemize}
+	\item The transformation method from the Sub-System model (meta-model in MDD) to the Software model (COTS, branching, refinement and code generation algorithms and options);
+	\item The Software components refined from the sub-system model (components description and version, components traceability, SIL level, traceability for safety requirements traceability);
+	\item The compiling toolchain analysis (COTS, branching of the soft, the compilation options and scripts for compile or integration);
+	\item The software configuration management (version, date, developers, etc...);
+	\item The critical parameters, with the following :
+		\begin{itemize}
+		\item Common parameters for whatever the train or the trackside to be considered;
+		\item Interlocking parameters;
+		\item Fault data and fall-back positions;
+		\end{itemize}
+	\end{itemize}
+\item The Code Safety Analysis activities
+	\begin{itemize}
+	\item The code metrics analysis;
+	\item The Function call graph Analysis;
+	\item The SEEA (Software Errors and their Effects Analysis) for the whole code generated;
+	\item The CCR (Critical Code Review) for the Safety related functions;
+	\end{itemize}
 \item The Safety V\&V activities
-\item The Global Safety Case
+	\begin{itemize}
+	\item The Verification activities on the transformation method from the system model to the sub-system model (bugs on process, side files needed, terminology coherency, proof on formalized properties)
+	\item The verification activities on the compilation toolchain (compilation bugs, side files generated, memories mapping, comparison of compiling options)
+	\item Test plan, catalogs and reports on the software components
+	\item	
+	\end{itemize}
+\item The Safety log or Hazard log, filled during the whole project duration. The main informations to be assessed in are:
+	\begin{itemize}
+	\item The coverage for all hazardous situation identified during the project;
+	\item The list of all Safety tickets or corrective actions performed in the frame of safety activities, and their status regarding the Safety property or issue related;
+	\end{itemize}
+\item The Global Safety requirements coverage. This sheet should gather all the Safety requirements identified since the very beginning of the project. All the concerns encountered during the very beginning of the Safety activities should be gathered too, and then linked to the solutions identified and applied, in order to get rid of the concern. The Safety Backlog
 \end{itemize}
+
+All these documents constitute the Global Safety Case, and are a relevant set of documentation to be evaluated by the assessor.
+The detail on the detail for assessment
+
+\subsection{deliverable}
+One deliverable will be issued in the frame of this part of internal assessment activity: The Safety Assessment Report. This deliverable will present the results of the overall Safety assessment for the project.
+This document will be used as a frame for V\&V assessment during the whole project, and the very first version of this document will be issued one month after the first Safety Plan release. (To be defined)
+
+
+\section{Assessment Method and Processes}
+
+\subsection{Detail level for documentation evaluation}
+
+This table gives an overview of the depth of assessment and control activity
+
+\begin{tabular}{|p{5cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|} 
+\hline
+\textbf{Document to be evaluated} & \textbf{Not examined} & \textbf{Quick Read} & \textbf{Read by Sampling} & \textbf{Attentive Read} \\ \hline
+Quality Assurance Plan & & & & X \\ \hline
+Quality Procedures (e.g review process) & & & X & \\ \hline
+Quality logs documentation & & X & & \\ \hline
+Software Risk Analysis & & & X & \\ \hline
+Functional specification & & & & X \\ \hline
+Software Architecture and Safety properties (SSRS with Safety Properties) & & & & X \\ \hline
+Software Formal Model (System and Sub-System level) & & & X & \\ \hline
+Source code & X & & & \\ \hline
+Software Tests specification (Integration, installation and validation) & & & X & \\ \hline
+Overall tests results & & & X & \\ \hline
+Parameters Validation report & & & X & \\ \hline
+Safety Case & & & & X \\ \hline
+\end{tabular}
+
+
 
 \subsection{deliverable}
 One deliverable will be issued in the frame of this part of internal assessment activity: The Safety Assessment Report. This deliverable will present the results of the overall Safety assessment for the project.
 This document will be used as a frame for Safety assessment during the whole project, and the very first version of this document will be issued one month after the first Safety Plan release. (To be defined more precisely)
 
-\chapter{Internal assessment activities planing}
+\section{Internal assessment activities planing}
 This part describes how will be performed the Internal Assessment along the Open ETCs project. It will identify the main project outcomes and deadlines that will trigger Internal Assessment activities.
 The current planning proposes
 \input{gantt.tex}
 
 So far, the deadlines that have been decided in the frame of Internal Assessment
 
-\chapter{Internal assessment formalism}
+\section{Internal assessment formalism}
 
-\chapter{Conclusion}
+\section{Conclusion}
 
 
 

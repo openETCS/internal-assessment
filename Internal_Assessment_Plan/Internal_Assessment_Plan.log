@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.2.25)  21 JUN 2013 18:03
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.2.25)  27 JUN 2013 18:06
 entering extended mode
 **C:/Users/Cyril*Cornu/Documents/GitHub/internal-assessment/Internal_Assessment
 _Plan/Internal_Assessment_Plan.tex
@@ -18,27 +18,26 @@ sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
 senglishmax, welsh, loaded.
 
 ("C:\Users\Cyril Cornu\Documents\GitHub\internal-assessment\Internal_Assessment
-_Plan\template/openetcs_report.cls"
+_Plan\template/openetcs_article.cls"
 
-LaTeX Warning: You have requested document class `template/openetcs_report',
+LaTeX Warning: You have requested document class `template/openetcs_article',
                but the document class provides `openetcs'.
 
-Document Class: openetcs 2012/08/03 v0.1 Typesetting Technical Information Repo
-rts of openETCS project based on ERDC class v1.1
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\report.cls"
-Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+Document Class: openetcs 2012/10/11 v0.1 Typesetting Technical Information Arti
+cle of openETCS project 
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size11.clo"
 File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
-\c@chapter=\count80
-\c@section=\count81
-\c@subsection=\count82
-\c@subsubsection=\count83
-\c@paragraph=\count84
-\c@subparagraph=\count85
-\c@figure=\count86
-\c@table=\count87
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
@@ -70,7 +69,7 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count88
+\Gread@gobject=\count87
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
@@ -98,23 +97,23 @@ Package: caption3 2013/01/06 v1.5 caption3 kernel (AR)
 \caption@parindent=\dimen110
 \caption@hangindent=\dimen111
 )
-\c@ContinuedFloat=\count89
+\c@ContinuedFloat=\count88
 ) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\longtable.sty"
 Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip43
 \LTright=\skip44
 \LTpre=\skip45
 \LTpost=\skip46
-\LTchunksize=\count90
+\LTchunksize=\count89
 \LTcapwidth=\dimen112
 \LT@head=\box26
 \LT@firsthead=\box27
 \LT@foot=\box28
 \LT@lastfoot=\box29
-\LT@cols=\count91
-\LT@rows=\count92
-\c@LT@tables=\count93
-\c@LT@chunks=\count94
+\LT@cols=\count90
+\LT@rows=\count91
+\c@LT@tables=\count92
+\c@LT@chunks=\count93
 \LT@p@ftn=\toks15
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\dcolumn.sty"
@@ -133,7 +132,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip49
 \bibsep=\skip50
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count95
+\c@NAT@ctr=\count94
 ) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsmath.sty"
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip51
@@ -154,13 +153,13 @@ Package: amsbsy 1999/11/29 v1.2d
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count96
+\inf@bad=\count95
 LaTeX Info: Redefining \frac on input line 211.
-\uproot@=\count97
-\leftroot@=\count98
+\uproot@=\count96
+\leftroot@=\count97
 LaTeX Info: Redefining \overline on input line 307.
-\classnum@=\count99
-\DOTSCASE@=\count100
+\classnum@=\count98
+\DOTSCASE@=\count99
 LaTeX Info: Redefining \ldots on input line 379.
 LaTeX Info: Redefining \dots on input line 382.
 LaTeX Info: Redefining \cdots on input line 467.
@@ -169,15 +168,15 @@ LaTeX Info: Redefining \cdots on input line 467.
 \big@size=\dimen117
 LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
-\macc@depth=\count101
-\c@MaxMatrixCols=\count102
+\macc@depth=\count100
+\c@MaxMatrixCols=\count101
 \dotsspace@=\muskip10
-\c@parentequation=\count103
-\dspbrk@lvl=\count104
+\c@parentequation=\count102
+\dspbrk@lvl=\count103
 \tag@help=\toks18
-\row@=\count105
-\column@=\count106
-\maxfields@=\count107
+\row@=\count104
+\column@=\count105
+\maxfields@=\count106
 \andhelp@=\toks19
 \eqnshift@=\dimen118
 \alignsep@=\dimen119
@@ -196,7 +195,7 @@ LaTeX Info: Redefining \] on input line 2667.
 .sty"
 Package: microtype 2010/01/10 v2.4 Micro-typography with pdfTeX (RS)
 \MT@toks=\toks22
-\MT@count=\count108
+\MT@count=\count107
 LaTeX Info: Redefining \lsstyle on input line 1597.
 LaTeX Info: Redefining \lslig on input line 1597.
 \MT@outer@space=\skip54
@@ -208,7 +207,25 @@ Package microtype Info: Loading configuration file microtype.cfg.
 ("C:\Users\Cyril Cornu\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\microtype
 .cfg"
 File: microtype.cfg 2010/01/10 v2.4 microtype main configuration file (RS)
-)) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+)) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks23
+\inpenc@posthook=\toks24
+
+("C:\Users\Cyril Cornu\AppData\Roaming\MiKTeX\2.9\tex\latex\ucs\utf8x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+))
+("C:\Users\Cyril Cornu\AppData\Roaming\MiKTeX\2.9\tex\latex\ucs\ucs.sty"
+Package: ucs 2004/10/17 UCS: Unicode input support
+
+("C:\Users\Cyril Cornu\AppData\Roaming\MiKTeX\2.9\tex\latex\ucs\uni-global.def"
+File: uni-global.def 2012/08/28 UCS: Unicode global data
+)
+\uc@secondtry=\count108
+\uc@combtoks=\toks25
+\uc@combtoksb=\toks26
+\uc@temptokena=\toks27
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
@@ -316,7 +333,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutheight=\dimen130
 \Gm@layouthoffset=\dimen131
 \Gm@layoutvoffset=\dimen132
-\Gm@dimlist=\toks23
+\Gm@dimlist=\toks28
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
 ("C:\Users\Cyril Cornu\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.s
@@ -331,7 +348,7 @@ ty"
 \f@ncyO@olf=\skip62
 \f@ncyO@orf=\skip63
 )
-\@emptytoks=\toks24
+\@emptytoks=\toks29
 \abstractbox=\box32
 )
 ("C:\Users\Cyril Cornu\AppData\Roaming\MiKTeX\2.9\tex\latex\lipsum\lipsum.sty"
@@ -352,16 +369,16 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
 Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks25
-\verbatim@line=\toks26
+\every@verbatim=\toks30
+\verbatim@line=\toks31
 \verbatim@in@stream=\read1
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
 Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
-\XKV@toks=\toks27
-\XKV@tempa@toks=\toks28
+\XKV@toks=\toks32
+\XKV@tempa@toks=\toks33
 \XKV@depth=\count113
 File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
 ))
@@ -386,7 +403,7 @@ sty"
 s.sty"
 ("C:\Users\Cyril Cornu\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgf
 util-common.tex"
-\pgfutil@everybye=\toks29
+\pgfutil@everybye=\toks34
 )
 ("C:\Users\Cyril Cornu\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgf
 util-latex.def"
@@ -411,12 +428,12 @@ Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
 
 ("C:\Users\Cyril Cornu\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgf
 keys.code.tex"
-\pgfkeys@pathtoks=\toks30
-\pgfkeys@temptoks=\toks31
+\pgfkeys@pathtoks=\toks35
+\pgfkeys@temptoks=\toks36
 
 ("C:\Users\Cyril Cornu\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgf
 keysfiltered.code.tex"
-\pgfkeys@tmptoks=\toks32
+\pgfkeys@tmptoks=\toks37
 ))
 \pgf@x=\dimen133
 \pgf@y=\dimen134
@@ -490,9 +507,9 @@ arser.code.tex"
 \pgfmath@dimen=\dimen141
 \pgfmath@count=\count125
 \pgfmath@box=\box34
-\pgfmath@toks=\toks33
-\pgfmath@stack@operand=\toks34
-\pgfmath@stack@operation=\toks35
+\pgfmath@toks=\toks38
+\pgfmath@stack@operand=\toks39
+\pgfmath@stack@operation=\toks40
 )
 ("C:\Users\Cyril Cornu\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathf
 unctions.code.tex"
@@ -637,8 +654,8 @@ for.code.tex"
 Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
 \pgffor@iter=\dimen167
 \pgffor@skip=\dimen168
-\pgffor@stack=\toks36
-\pgffor@toks=\toks37
+\pgffor@stack=\toks41
+\pgffor@toks=\toks42
 ))
 ("C:\Users\Cyril Cornu\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer
 \tikz\tikz.code.tex"
@@ -816,46 +833,46 @@ put line 292.
 \dayofyear=\count171
 \dayofweek=\count172
 LaTeX Info: Redefining \today on input line 724.
-\dt@a=\toks38
-\dt@b=\toks39
+\dt@a=\toks43
+\dt@b=\toks44
 )
 ("C:\Users\Cyril Cornu\Documents\GitHub\internal-assessment\Internal_Assessment
 _Plan\Internal_Assessment_Plan.aux")
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 15.
-LaTeX Font Info:    Try loading font information for OML+txmi on input line 15.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 17.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 17.
 
 
 ("C:\Users\Cyril Cornu\AppData\Roaming\MiKTeX\2.9\tex\latex\txfonts\omltxmi.fd"
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 15.
-LaTeX Font Info:    Try loading font information for OMS+txsy on input line 15.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 17.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 17.
 
  ("C:\Users\Cyril Cornu\AppData\Roaming\MiKTeX\2.9\tex\latex\txfonts\omstxsy.fd
 "
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 15.
-LaTeX Font Info:    Try loading font information for OMX+txex on input line 15.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 17.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 17.
 
 
 ("C:\Users\Cyril Cornu\AppData\Roaming\MiKTeX\2.9\tex\latex\txfonts\omxtxex.fd"
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 15.
-LaTeX Font Info:    Try loading font information for U+txexa on input line 15.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 17.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 17.
  ("C:\Users\Cyril Cornu\AppData\Roaming\MiKTeX\2.9\tex\latex\txfonts\utxexa.fd"
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Try loading font information for T1+txr on input line 15.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Try loading font information for T1+txr on input line 17.
  ("C:\Users\Cyril Cornu\AppData\Roaming\MiKTeX\2.9\tex\latex\txfonts\t1txr.fd"
 File: t1txr.fd 2000/12/15 v3.1
 )
@@ -867,12 +884,12 @@ i"
 \scratchbox=\box46
 \nofMPsegments=\count174
 \nofMParguments=\count175
-\everyMPshowfont=\toks40
+\everyMPshowfont=\toks45
 \MPscratchCnt=\count176
 \MPscratchDim=\dimen188
 \MPnumerator=\count177
 \makeMPintoPDFobject=\count178
-\everyMPtoPDFconversion=\toks41
+\everyMPtoPDFconversion=\toks46
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: longtable package is loaded.
@@ -882,7 +899,7 @@ ty"
 Package: ltcaption 2011/09/12 v1.3 longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \microtypecontext on input line 15.
+LaTeX Info: Redefining \microtypecontext on input line 17.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -896,6 +913,8 @@ Package microtype Info: No adjustment of character kerning.
 ("C:\Users\Cyril Cornu\AppData\Roaming\MiKTeX\2.9\tex\latex\microtype\mt-ptm.cf
 g"
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
+) ("C:\Users\Cyril Cornu\AppData\Roaming\MiKTeX\2.9\tex\latex\ucs\ucsencs.def"
+File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -906,11 +925,11 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: twoside 
 * h-part:(L,W,R)=(90.3375pt, 416.83289pt, 90.3375pt)
-* v-part:(T,H,B)=(72.26999pt, 722.18808pt, 50.58878pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=416.83289pt
-* \textheight=722.18808pt
+* \textheight=700.50687pt
 * \oddsidemargin=18.0675pt
 * \evensidemargin=18.0675pt
 * \topmargin=-37.0pt
@@ -932,291 +951,248 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EveryShipout initializing macros
-LaTeX Font Info:    Try loading font information for T1+txss on input line 64.
+LaTeX Font Info:    Try loading font information for T1+txss on input line 66.
 
 ("C:\Users\Cyril Cornu\AppData\Roaming\MiKTeX\2.9\tex\latex\txfonts\t1txss.fd"
 File: t1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 64.
+(Font)              scaled to size 10.40245pt on input line 66.
 LaTeX Font Info:    Font shape `T1/txss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/txss/m/sl' tried instead on input line 64.
+(Font)              Font shape `T1/txss/m/sl' tried instead on input line 66.
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
-(Font)              scaled to size 10.40245pt on input line 64.
+(Font)              scaled to size 10.40245pt on input line 66.
 LaTeX Font Info:    Font shape `T1/txss/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/txss/bx/sl' tried instead on input line 64.
+(Font)              Font shape `T1/txss/bx/sl' tried instead on input line 66.
 LaTeX Font Info:    Font shape `T1/txss/bx/sl' will be
-(Font)              scaled to size 10.40245pt on input line 64.
+(Font)              scaled to size 10.40245pt on input line 66.
 LaTeX Font Info:    Font shape `T1/txss/bx/it' in size <22> not available
-(Font)              Font shape `T1/txss/bx/sl' tried instead on input line 64.
+(Font)              Font shape `T1/txss/bx/sl' tried instead on input line 66.
 LaTeX Font Info:    Font shape `T1/txss/bx/sl' will be
-(Font)              scaled to size 20.89993pt on input line 64.
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 64.
+(Font)              scaled to size 20.89993pt on input line 66.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 66.
 ("C:\Users\Cyril Cornu\AppData\Roaming\MiKTeX\2.9\tex\latex\txfonts\ot1txr.fd"
 File: ot1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 64.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 66.
 ("C:\Users\Cyril Cornu\AppData\Roaming\MiKTeX\2.9\tex\latex\txfonts\utxmia.fd"
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 64.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 66.
 ("C:\Users\Cyril Cornu\AppData\Roaming\MiKTeX\2.9\tex\latex\txfonts\utxsya.fd"
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 64.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 66.
 ("C:\Users\Cyril Cornu\AppData\Roaming\MiKTeX\2.9\tex\latex\txfonts\utxsyb.fd"
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 64.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 66.
 ("C:\Users\Cyril Cornu\AppData\Roaming\MiKTeX\2.9\tex\latex\txfonts\utxsyc.fd"
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 10.40245pt on input line 64.
+(Font)              scaled to size 10.40245pt on input line 66.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 17.09995pt on input line 64.
+(Font)              scaled to size 17.09995pt on input line 66.
 
 LaTeX Font Warning: Font shape `T1/txss/k/n' undefined
-(Font)              using `T1/txss/m/n' instead on input line 64.
+(Font)              using `T1/txss/m/n' instead on input line 66.
 
 <./template/itea.jpg, id=4, 240.9pt x 67.452pt>
 File: ./template/itea.jpg Graphic file (type jpg)
  <use ./template/itea.jpg>
-Package pdftex.def Info: ./template/itea.jpg used on input line 64.
+Package pdftex.def Info: ./template/itea.jpg used on input line 66.
 (pdftex.def)             Requested size: 145.0pt x 40.60118pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--64
+Underfull \hbox (badness 10000) in paragraph at lines 66--66
 
  []
 
 LaTeX Font Info:    Font shape `T1/txss/k/n' will be
-(Font)              scaled to size 10.40245pt on input line 64.
+(Font)              scaled to size 10.40245pt on input line 66.
 
 LaTeX Font Warning: Font shape `T1/txss/k/it' undefined
-(Font)              using `T1/txss/k/n' instead on input line 64.
+(Font)              using `T1/txss/k/n' instead on input line 66.
 
 LaTeX Font Info:    Font shape `T1/txss/k/it' will be
-(Font)              scaled to size 10.40245pt on input line 64.
+(Font)              scaled to size 10.40245pt on input line 66.
 
 LaTeX Font Warning: Font shape `T1/txss/h/n' undefined
-(Font)              using `T1/txss/m/n' instead on input line 64.
+(Font)              using `T1/txss/m/n' instead on input line 66.
 
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 18.99994pt on input line 64.
+(Font)              scaled to size 18.99994pt on input line 66.
 LaTeX Font Info:    Font shape `T1/txss/h/n' will be
-(Font)              scaled to size 10.40245pt on input line 64.
+(Font)              scaled to size 10.40245pt on input line 66.
 <./template/chart.png, id=5, 401.5pt x 301.125pt>
 File: ./template/chart.png Graphic file (type png)
  <use ./template/chart.png>
-Package pdftex.def Info: ./template/chart.png used on input line 64.
+Package pdftex.def Info: ./template/chart.png used on input line 66.
 (pdftex.def)             Requested size: 350.0pt x 262.51881pt.
 LaTeX Font Info:    Font shape `T1/txss/k/n' will be
-(Font)              scaled to size 8.54997pt on input line 64.
+(Font)              scaled to size 8.54997pt on input line 66.
 
-<./template/ccbysabig.png, id=6, 97.0827pt x 33.9669pt>
-File: ./template/ccbysabig.png Graphic file (type png)
+<./template/oOLT.png, id=6, 590.95781pt x 292.84406pt>
+File: ./template/oOLT.png Graphic file (type png)
 
-<use ./template/ccbysabig.png>
-Package pdftex.def Info: ./template/ccbysabig.png used on input line 64.
-(pdftex.def)             Requested size: 40.0pt x 13.99492pt.
+<use ./template/oOLT.png>
+Package pdftex.def Info: ./template/oOLT.png used on input line 66.
+(pdftex.def)             Requested size: 30.0pt x 14.862pt.
  [1
 
 {C:/Users/Cyril Cornu/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Us
 ers/Cyril Cornu/Documents/GitHub/internal-assessment/Internal_Assessment_Plan/t
 emplate/itea.jpg> <C:/Users/Cyril Cornu/Documents/GitHub/internal-assessment/In
 ternal_Assessment_Plan/template/chart.png> <C:/Users/Cyril Cornu/Documents/GitH
-ub/internal-assessment/Internal_Assessment_Plan/template/ccbysabig.png>] [2]
-Overfull \hbox (113.16711pt too wide) in paragraph at lines 64--64
+ub/internal-assessment/Internal_Assessment_Plan/template/oOLT.png>] [2]
+Overfull \hbox (113.16711pt too wide) in paragraph at lines 66--66
 [][][][] 
  []
 
 LaTeX Font Info:    Font shape `T1/txss/h/n' will be
-(Font)              scaled to size 18.99994pt on input line 64.
+(Font)              scaled to size 18.99994pt on input line 66.
 
-Overfull \hbox (80.0pt too wide) in paragraph at lines 64--64
+Overfull \hbox (80.0pt too wide) in paragraph at lines 66--66
 []$[]$[] 
  []
 
 LaTeX Font Info:    Font shape `T1/txss/k/it' will be
-(Font)              scaled to size 8.54997pt on input line 64.
+(Font)              scaled to size 8.54997pt on input line 66.
 
-Overfull \hbox (80.0pt too wide) in paragraph at lines 64--64
+Overfull \hbox (80.0pt too wide) in paragraph at lines 66--66
 []$[]$[] 
  []
 
-File: ./template/ccbysabig.png Graphic file (type png)
-<use ./template/ccbysabig.png>
-Package pdftex.def Info: ./template/ccbysabig.png used on input line 64.
-(pdftex.def)             Requested size: 40.0pt x 13.99492pt.
 
-Overfull \hbox (80.0pt too wide) in paragraph at lines 64--64
+Overfull \hbox (80.0pt too wide) in paragraph at lines 66--66
 []$[]$ 
  []
 
 LaTeX Font Info:    Font shape `T1/txss/k/n' will be
-(Font)              scaled to size 9.49997pt on input line 64.
-[1]
-LaTeX Font Info:    Try loading font information for T1+txtt on input line 64.
-
-("C:\Users\Cyril Cornu\AppData\Roaming\MiKTeX\2.9\tex\latex\txfonts\t1txtt.fd"
-File: t1txtt.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Calculating math sizes for size <8.5> on input line 64.
+(Font)              scaled to size 9.49997pt on input line 66.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 8.54997pt on input line 64.
+(Font)              scaled to size 8.54997pt on input line 66.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-<./template/ccbysa.png, id=22, 64.3203pt x 12.045pt>
-File: ./template/ccbysa.png Graphic file (type png)
+[1]
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 66.
 
-<use ./template/ccbysa.png>
-Package pdftex.def Info: ./template/ccbysa.png used on input line 64.
-(pdftex.def)             Requested size: 32.84999pt x 6.15186pt.
- [2
+("C:\Users\Cyril Cornu\AppData\Roaming\MiKTeX\2.9\tex\latex\txfonts\t1txtt.fd"
+File: t1txtt.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Calculating math sizes for size <8.5> on input line 66.
+[2
 
- <C:/Users/Cyril Cornu/Documents/GitHub/internal-assessment/Internal_Assessment
-_Plan/template/ccbysa.png>]
+]
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 65.
+(Font)              scaled to size 8.54997pt on input line 68.
 
 ("C:\Users\Cyril Cornu\Documents\GitHub\internal-assessment\Internal_Assessment
 _Plan\Internal_Assessment_Plan.toc")
 \tf@toc=\write4
-File: ./template/ccbysa.png Graphic file (type png)
- <use ./template/ccbysa.png>
-Package pdftex.def Info: ./template/ccbysa.png used on input line 77.
-(pdftex.def)             Requested size: 32.84999pt x 6.15186pt.
  [3
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+txr on input line 85.
+LaTeX Font Info:    Font shape `T1/txss/m/n' will be
+(Font)              scaled to size 11.39996pt on input line 81.
+LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
+(Font)              scaled to size 11.39996pt on input line 81.
+LaTeX Font Info:    Try loading font information for OMS+txr on input line 89.
 
 ("C:\Users\Cyril Cornu\AppData\Roaming\MiKTeX\2.9\tex\latex\txfonts\omstxr.fd"
 File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 85.
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 89.
 
-Underfull \hbox (badness 10000) detected at line 85
+Underfull \hbox (badness 10000) detected at line 89
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 86
+Underfull \hbox (badness 10000) detected at line 90
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 87
+Underfull \hbox (badness 10000) detected at line 91
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 88
+Underfull \hbox (badness 10000) detected at line 92
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+("C:\Users\Cyril Cornu\AppData\Roaming\MiKTeX\2.9\tex\latex\ucs\uni-32.def"
+File: uni-32.def 2012/08/28 UCS: Unicode data U+2000..U+20FF
+)
+Underfull \hbox (badness 10000) detected at line 102
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 98
+Underfull \hbox (badness 10000) detected at line 103
 []\OMS/txsy/m/n/10.95 []
  []
 
-File: ./template/ccbysa.png Graphic file (type png)
-<use ./template/ccbysa.png>
-Package pdftex.def Info: ./template/ccbysa.png used on input line 99.
-(pdftex.def)             Requested size: 32.84999pt x 6.15186pt.
- [4
-
-]
-Underfull \hbox (badness 10000) detected at line 99
+[4]
+Underfull \hbox (badness 10000) detected at line 104
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 100
-[]\OMS/txsy/m/n/10.95 []
- []
-
-LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 107.
-LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 11.39996pt on input line 107.
-
-Underfull \hbox (badness 10000) detected at line 111
+Underfull \hbox (badness 10000) detected at line 115
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 112
+Underfull \hbox (badness 10000) detected at line 116
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 113
+Underfull \hbox (badness 10000) detected at line 117
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 121
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 122
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 123
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 124
-[]\OMS/txsy/m/n/10.95 []
- []
-
-File: ./template/ccbysa.png Graphic file (type png)
-<use ./template/ccbysa.png>
-Package pdftex.def Info: ./template/ccbysa.png used on input line 125.
-(pdftex.def)             Requested size: 32.84999pt x 6.15186pt.
- [5]
 Underfull \hbox (badness 10000) detected at line 125
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 131
+Underfull \hbox (badness 10000) detected at line 126
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 132
+Underfull \hbox (badness 10000) detected at line 127
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 139
+Underfull \hbox (badness 10000) detected at line 128
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+[5]
+Underfull \hbox (badness 10000) detected at line 129
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 140
+Underfull \hbox (badness 10000) detected at line 135
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 141
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 142
+Underfull \hbox (badness 10000) detected at line 136
 []\OMS/txsy/m/n/10.95 []
  []
 
@@ -1246,41 +1222,37 @@ Underfull \hbox (badness 10000) detected at line 147
  []
 
 
-Underfull \hbox (badness 10000) detected at line 152
+Underfull \hbox (badness 10000) detected at line 148
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 153
+Underfull \hbox (badness 10000) detected at line 149
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 154
-[]\OMS/txsy/m/n/10.95 []
- []
-
-File: ./template/ccbysa.png Graphic file (type png)
-<use ./template/ccbysa.png>
-Package pdftex.def Info: ./template/ccbysa.png used on input line 155.
-(pdftex.def)             Requested size: 32.84999pt x 6.15186pt.
- [6]
-Underfull \hbox (badness 10000) detected at line 161
+Underfull \hbox (badness 10000) detected at line 150
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 162
+Underfull \hbox (badness 10000) detected at line 151
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 163
+Underfull \hbox (badness 10000) detected at line 156
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 164
+Underfull \hbox (badness 10000) detected at line 157
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+[6]
+Underfull \hbox (badness 10000) detected at line 158
 []\OMS/txsy/m/n/10.95 []
  []
 
@@ -1305,22 +1277,22 @@ Underfull \hbox (badness 10000) detected at line 168
  []
 
 
-Underfull \hbox (badness 10000) detected at line 179
+Underfull \hbox (badness 10000) detected at line 169
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 180
+Underfull \hbox (badness 10000) detected at line 170
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 181
+Underfull \hbox (badness 10000) detected at line 171
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 182
+Underfull \hbox (badness 10000) detected at line 172
 []\OMS/txsy/m/n/10.95 []
  []
 
@@ -1329,125 +1301,113 @@ Underfull \hbox (badness 10000) detected at line 183
 []\OMS/txsy/m/n/10.95 []
  []
 
-File: ./template/ccbysa.png Graphic file (type png)
-<use ./template/ccbysa.png>
-Package pdftex.def Info: ./template/ccbysa.png used on input line 184.
-(pdftex.def)             Requested size: 32.84999pt x 6.15186pt.
- [7]
-Underfull \hbox (badness 10000) detected at line 188
+
+Underfull \hbox (badness 10000) detected at line 184
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 201
+Underfull \hbox (badness 10000) detected at line 185
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 202
+Underfull \hbox (badness 10000) detected at line 186
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+[7]
+Underfull \hbox (badness 10000) detected at line 187
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 203
-[]\OMS/txsy/m/n/10.95 []
- []
-
-File: ./template/ccbysa.png Graphic file (type png)
-<use ./template/ccbysa.png>
-Package pdftex.def Info: ./template/ccbysa.png used on input line 207.
-(pdftex.def)             Requested size: 32.84999pt x 6.15186pt.
- [8]
-Underfull \hbox (badness 10000) detected at line 210
+Underfull \hbox (badness 10000) detected at line 192
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 211
+Underfull \hbox (badness 10000) detected at line 205
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 219
+Underfull \hbox (badness 10000) detected at line 206
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 220
+Underfull \hbox (badness 10000) detected at line 207
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+[8]
+Underfull \hbox (badness 10000) detected at line 214
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 221
+Underfull \hbox (badness 10000) detected at line 215
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 222
+Underfull \hbox (badness 10000) detected at line 223
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 230
+Underfull \hbox (badness 10000) detected at line 224
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 231
+Underfull \hbox (badness 10000) detected at line 225
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 232
+Underfull \hbox (badness 10000) detected at line 226
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 233
-[]\OMS/txsy/m/n/10.95 []
- []
-
-File: ./template/ccbysa.png Graphic file (type png)
-<use ./template/ccbysa.png>
-Package pdftex.def Info: ./template/ccbysa.png used on input line 234.
-(pdftex.def)             Requested size: 32.84999pt x 6.15186pt.
- [9]
-Underfull \hbox (badness 10000) detected at line 247
+Underfull \hbox (badness 10000) detected at line 234
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 248
+Underfull \hbox (badness 10000) detected at line 235
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 249
+Underfull \hbox (badness 10000) detected at line 236
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+[9]
+Underfull \hbox (badness 10000) detected at line 237
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 250
+Underfull \hbox (badness 10000) detected at line 251
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 255
+Underfull \hbox (badness 10000) detected at line 252
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 256
+Underfull \hbox (badness 10000) detected at line 253
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 257
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 258
+Underfull \hbox (badness 10000) detected at line 254
 []\OMS/txsy/m/n/10.95 []
  []
 
@@ -1456,48 +1416,153 @@ Underfull \hbox (badness 10000) detected at line 259
 []\OMS/txsy/m/n/10.95 []
  []
 
-File: ./template/ccbysa.png Graphic file (type png)
-<use ./template/ccbysa.png>
-Package pdftex.def Info: ./template/ccbysa.png used on input line 266.
-(pdftex.def)             Requested size: 32.84999pt x 6.15186pt.
- [10]
-File: ./template/ccbysa.png Graphic file (type png)
- <use ./template/ccbysa.png>
-Package pdftex.def Info: ./template/ccbysa.png used on input line 266.
-(pdftex.def)             Requested size: 32.84999pt x 6.15186pt.
- [11]
+
+Underfull \hbox (badness 10000) detected at line 260
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 262
+[]\T1/txr/bx/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 263
+[]\T1/txr/bx/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 264
+[]\T1/txr/bx/n/10.95 []
+ []
+
+[10]
+Underfull \hbox (badness 10000) detected at line 265
+[]\T1/txr/bx/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 266
+[]\T1/txr/bx/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 268
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 269
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 270
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 273
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 275
+[]\T1/txr/bx/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 276
+[]\T1/txr/bx/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 277
+[]\T1/txr/bx/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 278
+[]\T1/txr/bx/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 280
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 282
+[]\T1/txr/bx/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 283
+[]\T1/txr/bx/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 284
+[]\T1/txr/bx/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 286
+[]\T1/txr/bx/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 287
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 289
+[]\T1/txr/bx/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 290
+[]\T1/txr/bx/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 292
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
+[]|\T1/txr/bx/n/10.95 Not ex-am-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
+[]|\T1/txr/bx/n/10.95 Read by
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
+[]|\T1/txr/bx/n/10.95 Attentive
+ []
+
+
+Underfull \hbox (badness 1292) in paragraph at lines 317--317
+\T1/txr/m/n/10.95 (+20) prop-er-ties (SSRS with Safety
+ []
+
+
+Overfull \hbox (15.45287pt too wide) in paragraph at lines 309--325
+[][] 
+ []
+
+
 ("C:\Users\Cyril Cornu\Documents\GitHub\internal-assessment\Internal_Assessment
-_Plan\gantt.tex"
-File: ./template/ccbysa.png Graphic file (type png)
- <use ./template/ccbysa.png>
-Package pdftex.def Info: ./template/ccbysa.png used on input line 2.
-(pdftex.def)             Requested size: 32.84999pt x 6.15186pt.
- [12
-
-]
+_Plan\gantt.tex" [12]
 Missing character: There is no , in font nullfont!
-File: ./template/ccbysa.png Graphic file (type png)
- <use ./template/ccbysa.png>
-Package pdftex.def Info: ./template/ccbysa.png used on input line 97.
-(pdftex.def)             Requested size: 32.84999pt x 6.15186pt.
-
-[13
+ [13
 
 ])
-File: ./template/ccbysa.png Graphic file (type png)
- <use ./template/ccbysa.png>
-Package pdftex.def Info: ./template/ccbysa.png used on input line 273.
-(pdftex.def)             Requested size: 32.84999pt x 6.15186pt.
- [14
-
-]
-File: ./template/ccbysa.png Graphic file (type png)
- <use ./template/ccbysa.png>
-Package pdftex.def Info: ./template/ccbysa.png used on input line 275.
-(pdftex.def)             Requested size: 32.84999pt x 6.15186pt.
- [15
-
-]
 
 FiXme Summary: Number of notes: 0,
 (FiXme)        Number of warnings: 0,
@@ -1505,11 +1570,7 @@ FiXme Summary: Number of notes: 0,
 (FiXme)        Number of fatal errors: 0,
 (FiXme)        Total: 0.
 
-File: ./template/ccbysa.png Graphic file (type png)
-<use ./template/ccbysa.png>
-Package pdftex.def Info: ./template/ccbysa.png used on input line 283.
-(pdftex.def)             Requested size: 32.84999pt x 6.15186pt.
- [16
+[14
 
 ]
 ("C:\Users\Cyril Cornu\Documents\GitHub\internal-assessment\Internal_Assessment
@@ -1519,11 +1580,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 18575 strings out of 494045
- 332195 string characters out of 3145951
- 573578 words of memory out of 3000000
- 21184 multiletter control sequences out of 15000+200000
- 102873 words of font info for 305 fonts, out of 3000000 for 9000
+ 19076 strings out of 494045
+ 340086 string characters out of 3145951
+ 589388 words of memory out of 3000000
+ 21663 multiletter control sequences out of 15000+200000
+ 106402 words of font info for 310 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  63i,13n,60p,1034b,997s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Users/
@@ -1538,9 +1599,9 @@ a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/
 MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Internal_Assessment_Plan.pdf (18 pages, 158990 bytes).
+Output written on Internal_Assessment_Plan.pdf (16 pages, 388539 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
+ 107 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 64033 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 65052 words of extra memory for PDF output out of 74296 (max. 10000000)
 
