@@ -35,7 +35,7 @@
 \subtitle{Planning and Description of tasks that are performed within Internal Assessment Activities in the Open ETCS project}
 
 %set the date of the report here
-\date{February 2013}
+\date{July 2013}
 
 %define a list of authors and their affiliation here
 \author{Cyril Cornu (All4tec)}
@@ -55,8 +55,8 @@
 
 
 \begin{abstract}
-The Internal Assessment Plan describes the Internal Assessment strategy and plan in the frame \&V activities in the Open ETCS project.
-The assessment is a \"\ Process of analysis to determine whether software, which may include process, documentation, system, subsystem hardware and/or software components, meets the specified requirements, and to form a judgment whether the software is fit for its intended purpose.\"
+The Internal Assessment Plan describes the Internal Assessment strategy and plan in the frame of V\&V activities in the Open ETCS project.
+According to the CENELEC EN50128 standrad, the assessment is a \"\ Process of analysis to determine whether software, which may include process, documentation, system, subsystem hardware and/or software components, meets the specified requirements, and to form a judgment whether the software is fit for its intended purpose.\"
 \\
 The dates, highlights, deliverables and activities split presented in this plan are willing to be adapted in accordance with the FPP final version.
 \end{abstract}
@@ -79,39 +79,39 @@ The dates, highlights, deliverables and activities split presented in this plan 
 %\lipsum[1-5]
 
 \section{Introduction}
-The role of the Assessor is to perform an assessment of the software developed during the project OpenETCS. According to the standard EN 50128 and the software safety integrity level (SIL4) of the project, it is very important to remind that the Assessor shall be independent from the project and shall be given authority to perform the software assessment. Then, the Assessor shall not be part of project stakeholders, and is totally independent from the project teams. Furthermore, the Assessor shall have the knowledge of the both ERTMS and ETCS, of the dependability and of the standard EN 50128, even if only the On Board Unit EVC Software part in the project scope.
+The role of the Assessor is to perform an assessment of the software developed during the project OpenETCS. According to the standard EN 50128 and the software safety integrity level (SIL4) of the project, it is very important to remind that the Assessor shall be independent from the project and shall be given authority to perform the software assessment. Then, the Assessor shall not be part of project stakeholders, and is totally independent from the project teams. Furthermore, the Assessor shall have the knowledge of both ERTMS and ETCS, of the dependability and of the standard EN 50128, even if only the On Board Unit EVC Software takes part in the project scope.
 \\
 For these reasons, the need of an internal assessment has been identified at the beginning of the project. This activity would simulate a real external assessment process, that would be  enhanced by people part of the Open ETCS project, and responding to the 2 main skills conditions to perform such a task: the technical knowledge on the ETCS OBU and the technical independency regarding the whole Software development and project activities. 
 
-\subsection{project context}
-The aim of the internal assessment is to simulate a real assessor activity regarding a standard Railway signaling system design and production by a railway company. The Open ETCS project main objectives are:
+\subsection{Project context}
+The aim of the internal assessment is to simulate a real assessor activity regarding a usual Railway signaling system development by a railway company. The Open ETCS project main objectives are:
 \begin{itemize}
-\item Transformation of higher-level, informal (i.e. expressed in natural language) ETCS requirements in formal and semi-formal requirements that will be used for validation and verification activities of embedded control systems.
-\item Adaptation of modelling languages such that train control systems can be designed in suitable formalisms and verified against ETCS requirements in early design phases.
+\item Transforming of higher-level, informal (i.e. expressed in natural language) ETCS requirements in formal and semi-formal requirements that will be used for validation and verification activities of embedded control systems.
+\item Adapting of modeling languages such that train control systems can be designed in suitable formalisms and verified against ETCS requirements in early design phases.
 \item Integrating and developing formal and semi-formal validation and verification techniques in order to prove the correctness of train control systems against formalized ETCS requirements.
 \item Generating symbiotic effects of large companies, R\&D institutes, and SMEs in order to bring together all relevant experts in the field taking advantage from their diverse knowledge within a value adding chain (so called “eco-system” or “Co-Competition”).
 \end{itemize}
 
-These four objectives are all related to specific steps of an On Board Unit Software design and development (European Vital Computer). Moreover, they all encompass underneath performance, reliability, availability, maintainability and safety objectives, that are usually translated into a Safety Integrity Level (SIL), and the conditions regarding quality, process and overall development activities are gathered in the CENELEC standards EN50128, EN20126 and EN50129.
-Therefore, apply the common development strategy for such a railway system makes sense, and allows the project to base the whole OBU EVC Software development on existing CENELEC standards for such Railway signaling systems allows us to meet these both conditions on design process and Safety Level.
+These four objectives are all related to specific steps of On Board Unit Software development (European Vital Computer). Moreover, they all encompass underneath performance, reliability, availability, maintainability and safety objectives, that are usually translated into a Safety Integrity Level (SIL), and the conditions regarding quality, process and overall development activities are gathered in the CENELEC standards EN50128, EN20126 and EN50129.
+Therefore, apply the common development strategy for such a railway system makes sense, and allows the project to base the whole OBU EVC Software development on existing CENELEC standards for such Railway signaling systems. Thus, it will allow us to meet these both conditions on design process and Safety Level.
 
 \subsection{Internal Assessment Plan objectives}
 This document provides the overall assessment plan and objectives that will be followed in the frame of internal assessment activities.
-The activities are shared according to the main software development categories they deal with:
+The activities are shared according to the main software development categories and deal with:
 \begin{itemize}
-\item Quality insurance
+\item Project and Software Quality insurance
 \item Verification \& Validation
 \item Safety
 \end{itemize}
 
-For each assessment activities, this assessment plan will identify the relevant deliverables, and the criteria that will be considered for the assessment.
-The Internal Assessment Plan shall provide and detail the following aspects: 
+For each assessment activities, this assessment plan identifies the relevant deliverables, and the criteria that will be considered for the assessment.
+The Internal Assessment Plan assumes that: 
 \begin{itemize}
 \item All versions of the present Assessment Plan and modification tracking are provided in the part 1.3 of this document.
-\item Authors of this document are:
+\item Author of this document is Cyril Cornu (All4tec)
+\item Main reviewers are of this document are:
 	\begin{itemize}
-	\item Cyril Cornu (All4tec) is the Internal Assessment Activity Organizer. 
-	\item Frederique Vallee (All4tec) is an Internal Assessor for Open ETCS project
+	\item Frederique Vall\'ee (All4tec) is an Internal Assessor for Open ETCS project
 	\item Merlin Pokam (AEbT) is an Internal Assessor for Open ETCS project (to be confirmed)
 	\item Jean-louis Boulanger (Certifer) is an Internal Assessor for Open ETCS project (to be confirmed)
 	\end{itemize}
@@ -121,20 +121,26 @@ The Internal Assessment Plan shall provide and detail the following aspects:
 \item The standards to be applied for Assessment are the CENELEC EN50126, EN50128 and EN50129 Standards.
 \end{itemize}
 
-According to the CENELEC standards, the Independant External Assessor has to get the agreement signature for submission of the customer (here open ETCS project) to the assessor expectations according to the EN45001 standard, defining the juridical and technical standard for an independent evaluating structure.
-This point is major because it defines precisely the difference between the Internal Assessment Task
+According to the CENELEC standards, the Independant External Assessor has to get the agreement signature of the customer for submission to the assessor expectations according to the EN45001 standard  (in our case, the Open ETCS project is the customer). This standard is defining the juridical and technical scope for an independent evaluating structure.
+This point is major because it defines precisely the difference between the Internal Assessment Task and the real assessment according to the CENELEC EN50128. In our case, the people taking part in the Internal Assessment are not necessarily evaluating structures according to the EN45001 standard, and are moreover part of the project.
 
-
+\newpage
+\subsection{Internal Assessment Plan modifications}
 \begin{tabular}{|p{2cm}|p{2cm}|p{6cm}|p{3cm}|} 
 \hline
 \textbf{Date of modification} & \textbf{Paragraph/ Page} & \textbf{Modification object} & \textbf{Author} \\ \hline
 28/06/2013 & all & 1st document draft issue & Cyril Cornu (All4tec) \\ \hline
+ & & & \\ \hline
+ & & & \\ \hline
+ & & & \\ \hline
+ & & & \\ \hline
+ & & & \\ \hline
 \end{tabular}
 
-
+\newpage
 \section{Project Quality Assessment}
 This chapter details what are the main features to be checked regarding the quality insurance regarding the whole Open ETCS activities, from the very beginning of the project to the end of it.
-The Safety Criteria are defined in the document D2.2 appendix B3, and these criteria will be checked during the Internal Assessment review. The main points to be assessed are:
+The Safety Criteria are defined in the document D2.2 appendix B3, and these criteria will be checked during the Internal Assessment reviews. The main points to be assessed are:
 \begin{itemize}
 \item The Quality Assurance Plan completeness
 \item The Project Deliverables compliance with QAP
@@ -154,39 +160,38 @@ The major standards to considered within Open ETCS are:
 \subsection{Quality Assurance Plan - QAP}
 The purpose of the QA Plan is to define the processes, methods and tools that will be used to develop the OpenETCS project meeting ITEA requirements, following Open Source principles and practices and applying the SCRUM Methodology. Besides, two of the project outcomes, the OpenETCS software, the OpenETCS Tool Chain, will have to comply with CENELEC requirements.
 
-The following parts of the QAP will be precisely checked by the assessor, whether they belong to the QAP document or to another document.
+The following aspects of quality will be precisely checked by the assessor, whether they belong to the QAP document or to other document.
 \begin{itemize}
-\item  Open ETCS development process. This process describes the whole documentation to be issued in the framework of Open ETCS project, and the connexions between the project inputs, the project outcomes, and the work packages and tasks identified in the project. The coherency between the IO documents and informations identified in the development process and the related document content will be checked.
-\item  Open ETCS tool development process. This process has to be described as precisely as the Quality Assurance related to the OBU EVC Software development activity. The same verifications and assessments activities will be performed on this process than on the software development process.
-\item Configuration Management Plan. This Configuration Management Plan has to consider each outcomes of the project from its very first release version to end of the document whole life-cycle. The documentation change management related to the toolchains definitions or related to the OBU EVC software development have to be considered for both aspects of Open ETCS project development. This configuration management plan shall consider documentation change but also toolchain, model (formal and semi-formal) and code issued in the frame of Open ETCS project.
+\item  Open ETCS development process. This process describes the whole documentation to be issued in the framework of Open ETCS project, and the connections between the project inputs, the project outcomes, and the work packages and tasks identified in the project. The consistency between the IO documents and informations identified in the development process and the related document content will be checked.
+\item  Open ETCS tool development process, depending of the tool usage and SIL level required. This process has to be described as precisely as the Quality Assurance related to the OBU EVC Software development activity. The same verifications and assessments activities will be performed on this process than on the software development process. This point is developed in paragraph 5 of the plan.
+\item Configuration Management Plan. This Configuration Management Plan has to consider each outcomes of the project from its very first release version to end of the document whole life-cycle. The documentation change management related to the toolchains definitions or related to the OBU EVC software development have to be considered for both aspects of Open ETCS project development. This configuration management plan shall consider documentation changes but also toolchain, model (formal and semi-formal) and code issued in the frame of Open ETCS project.
 \item Review Process. The review process has to be applied from the very beginning of the project to its end.
-\item Project Development Process. All the development phases have to be described and specified for the whole software development process and cycle.
 \end{itemize}
 
 \subsection{Project Deliverables compliance with QAP}
 The Safety Criteria are defined in the document D2.2, and these criteria will be checked during the Internal Assessment review. The main points to be assessed for the project deliverables are:
 \begin{itemize}
-\item the documentation compliance for Software Safety Integrity Level 4. This includes a functional and interface description of the system, the application conditions, the configuration or architecture of the system, the hazards to be controlled, the safety integrity requirements, the SIL allocation to Software and Hardware, and the timing constraints.
-\item the Requirements for tools class T1, T2 and T3. Tools have been identified so far for each category (text editor, requirements support, configuration support tool for T1,  static code analyzers, model checkers, model based testing tools, simulators for T2, and compilers or code generation tools for T3), and all proof of compliance with the CENELEC standard and justification for use will be check within internal assessment activities.
+\item the documentation compliance for Software Safety Integrity Level 4. This includes for instance: a functional and interface description of the system, the application conditions, the configuration or architecture of the system, the hazards to be controlled, the safety integrity requirements, the SIL allocation to Software and Hardware, and the timing constraints.
+\item the Requirements for tools class T1, T2 and T3. Tools have been identified so far for each category (text editor, requirements support, configuration support tool for T1,  static code analyzers, model checkers, model based testing tools, simulators for T2, and compilers or code generation tools for T3), and all proof of compliance with the CENELEC standard and justification for use will be checked within internal assessment activities.
 \end{itemize}
 
 \subsection{Project Development Process}
-The Project Development Process is a major point of the Quality Management System. It describes the overall project process, from the very first inputs used in the project, the all activities that going to be performed and the corresponding outcomes to be issued, to the final deliverables of the project. The Inputs/outputs of each task and documents, within a work package or a specific task, as well as the interfaces between all these tasks and activities, have to be described in this process description.
-The documents have to be identified in this process, and the connection  between the activities to be performed and the related document shall be provided.
+The Project Development Process is a major point of the Quality Management System. It describes the overall project process, from the very first inputs used in the project, the all activities that going to be performed and the corresponding outcomes to be issued, until the final deliverables of the project. The inputs/outputs of each task, within a work package or a specific task, as well as the interfaces between all these tasks and activities, have to be described in this process description.
+The documents have to be identified in this process, and the connection  between the activities to be performed and the related documents shall be provided.
 
-Documents or information related to some points of this process are more important for the assessor. Here is a list of technical items that should be closer observed by the assessor:
+Documents or information related to some points of this process are of major importance for the assessor. Here is a list of technical items that should be more deeply examined by the assessor:
 \begin{itemize}
 \item The organic Architecture;
 \item The Software components, with their functional interfaces (internal and external);
 \item The functions and sub-functions of the software;
 \item The Safety Requirement traceability;
-\item The coherency of applied technics and methods to the Quality Assurance Plan;
+\item The consistency of applied technics and methods to the Quality Assurance Plan;
 \item ...
 \end{itemize}
 
 \subsection{The Role and Responsibilities management}
-The Quality Assurance in Open ETCS has to claim the proof that all people involved in project has the sufficient skills and competencies to fulfill their responsibilities. All these competencies have to be gathered and tracked whether in the QAP or in a separate quality related document that has to be identified in the QAP.
-According to the CENELEC EN50128, the 10 software development key roles to be identified are:
+The Quality Assurance in Open ETCS has to demonstrate that all people involved in project has the sufficient skills and competencies to fulfill their responsibilities. All these competencies have to be gathered and tracked whether in the QAP or in a separate quality related document that has to be identified in the QAP.
+According to the CENELEC EN50128, the 9 software development key roles to be identified are:
 \begin{itemize}
 \item the Requirements Manager,
 \item the Designer,
@@ -203,11 +208,11 @@ The information needed in Quality Assurance documentation is:
 \begin{itemize}
 \item The Actual Competencies Matrix of each committer in the project, linked to the work packages and the tasks they are involved in.
 \item The Needed Competencies Matrix for each task, document and project outcomes. Each people contribution as to be as detailed as possible (at least the contribution to a precise task or outcome).
-\item From the gab identified between the both actual competencies matrix and required competencies matrix, a Training plan has to be set up for all the commiters of the Open ETCS project. This plan will have to track all the identified needs, and then the solutions chosen in order to harmonize the competencies needs and the committers skills (training session, re-organization, 
+\item From the gap identified between actual competencies matrix and required competencies matrix, a Training plan has to be set up for all the commiters of the Open ETCS project. This plan will have to track all the identified needs, and then the solutions chosen in order to harmonize the competencies needs and the committers skills (training session, re-organization, role split, task force re-enforcement, etc...).
 \end{itemize}
 
 \subsection{Quality Log and Traceability}
-In the framework of Asessment activities, all discrepancies related to Quality Assurance whatever the level considered, will be gathered in a table called the Quality Log. This log will be used by the Assessor as a list of possible or required improvements, to be used as a road map in order to get rid of all quality assurance concerns or discrepancies identified during the whole project life cycle.
+In the framework of assessment activities, all discrepancies related to Quality Assurance whatever the level considered, will be gathered in a table called the Quality Log. This log will be used by the Assessor as a list of possible or required improvements, to be used as a roadmap in order to get rid of all quality assurance concerns or discrepancies identified during the whole project life cycle.
 The Quality Log table will encompass the following information: 
 \begin{itemize}
 \item Number of the log row
@@ -220,7 +225,7 @@ The Quality Log table will encompass the following information:
 \item Status of the log (fixed, under investigation...)
 \end{itemize}
 
-\subsection{deliverable}
+\subsection{Deliverable}
 One deliverable will be issued in the frame of this part of internal assessment activity: The Project Quality Assurance Assessment Report. This deliverable will present the results of the overall quality assessment for the project.
 This document will be used as a frame for quality assessment during the whole project, and the very first version will be issued one month after the first QA Plan release. (To be defined)
 
@@ -234,10 +239,10 @@ The Quality Criteria regarding V\&V activities are defined in the document D2.2 
 \item Verification \& Validation activities for Code
 \item Safety
 \end{itemize}
-These activities are recorded in the following outcomes so far:
-\begin{itemize}
-\item  
-\end{itemize}
+%These activities are recorded in the following outcomes so far:
+%\begin{itemize}
+%\item  
+%\end{itemize}
 
 \subsection{V\&V Plan}
 The purpose of the V\&V Plan is to define, describe and plan the verification and validation activities in the project openETCS. As the goals of the project include the selection, adaption and construction of methods and tools for a FLOSS development in addition to performing actual development steps, the V\&V plan will deal separately with these two aspects.
@@ -248,10 +253,10 @@ The Validation Plan aims to give a frame to Validation activities to be performe
 The Validation plan shall describe the validation strategy for both primary and secondary toolchains and for the OBU EVC Software to be developed as well. The documentation shall be provided on techniques and tools used and on environment description. The assessment will focus on the coverage of artifacts to be covered within the Open ETCS project validation plan, and the coherency between the Validation outcomes description in the plan and the effective Validation activities performed in the Frame of Open ETCS project.
 
 \subsection{Verification and Testing Activities}
-The First aspect is related to the Verification activities. The Assessment for Verification will mainly concern the following points:
+The first aspect is related to the Verification activities. The Assessment for Verification will mainly concern the following points:
 \begin{itemize}
 \item Evidence
-\item Test Specifications. The Test Specifications will have to fulfill the CENELEC requirements regarding the tests objectives, the precise content of the test in terms of environment handling, data and expected results. Their coherency with the test policy will be checked and assessed.
+\item Test Specifications. The Test Specifications will have to fulfill the CENELEC requirements regarding the tests objectives, the precise content of the test in terms of environment handling, data and expected results. Their consistency with the test policy will be checked and assessed.
 \item  Test Reports. The test report will have to report as precisely as possible the information related to the test performance. The tests results are compared with the expected results defined during the test specification, failures have to be recorded, described and then investigated. The test environment such as Tester names and test conditions have to be clearly described as well.
 \end{itemize}
 The Final reports of the Verification and Testing activities have to be integrated in the Quality Assurance Verification report, in order to prove the consistency of the Verification activities with the CENELEC Standards.
@@ -260,24 +265,24 @@ The Final reports of the Verification and Testing activities have to be integrat
 The second aspect is related to the Validation Activities. The Assessment for Validation will mainly concern the following points:
 \begin{itemize}
 \item The creation of a Validation Plan in order to define a frame for Validation activities (as described in previous paragraph);
-\item The creation of a Validation Report. This report should describe the toolchain, the model or the code tested by functional approach, provide the results of validation activities and provide the analysis and the identified discrepancies  between expected and actual results. All discrepancies detected and/or treated shall be gathered in the Software Validation Report (V\&V log).
+\item The creation of a Validation Report. This report should describe the toolchain, the model or the code tested by functional approach, provide the results of validation activities and provide the analysis and the identified discrepancies  between expected and actual results. All discrepancies detected and/or treated shall be gathered in the Software Validation Report.
 \end{itemize}
 
 \subsection{V\&V log and traceability for Model}
-The V\&V activities can be split in testing activities and verification activities. The testing activities aim at verifying the Model behavior and performances against the corresponding system and software specification, in order to achieve the capability, maintainability, portability, functionality, reliability and usability objectives for the OBU EVC Kernel Software Model. 
-For each test, a Test Specification has to be issued and will have to fulfill the CENELEC requirements regarding the tests objectives, the precise content of the test in terms of environment handling, data and expected results. Their coherency with the test policy will be checked and assessed. At the end of the test, a test report is then created. The coherency between the Test specification and the Test Results is then gathered and Analyzed in the V\&V documents.
+The V\&V activities can be split in testing activities and verification activities. The testing activities aim at verifying the Model behavior and performances against the corresponding software specification, in order to achieve the objectives for the OBU EVC Kernel Software Model. 
+For each test, a Test Specification has to be issued and will have to fulfill the CENELEC requirements regarding the tests objectives, the precise content of the test in terms of environment handling, data and expected results. Their consistency with the test policy will be checked and assessed. At the end of the test, a test report is then created. The consistency between the Test specification and the Test Results is then gathered and analyzed in the V\&V documents.
 The internal Assessment will not focus on the Verification activity itself (which is dealt with in the frame of Verification and Validation activities), but on the following assessment activities:
 \begin{itemize}
-\item The coherency between the tests to be performed, and the coverage of the functional requirements by these tests;
+\item The consistency between the tests to be performed, and the coverage of the functional requirements by these tests;
 \item The traceability between the tests and the requirements;
-\item The robustness of the  methods employed and its compliance to the CENELEC Standards;
-\item The fulfillment of V\&V results according to the expected results defined in the V\&V;
+\item The robustness of the  methods employed and their compliance to the CENELEC Standards;
+\item The fulfillment of V\&V results according to the expected results defined in the V\&V.
 \end{itemize}
 
 
 \subsection{V\&V log and traceability for Code}
-V\&V activities on code will have to take place, mainly in order to complete the coverage of the Model Verification and Validation activities. Indeed, requirements that are not covered at the sub-system level will have to highlighted in the Code Verification activity, whatever its content.
-The internal assessment activity will focus on the coverage of
+V\&V activities on code will have to take place, mainly in order to complete the coverage of the Model Verification and Validation activities. Indeed, requirements that are not covered at the sub-system level will have to be highlighted in the Code Verification activity, whatever their content.
+The internal assessment activity will focus on the coverage of:
 \begin{itemize}
 \item The method and process used to fill this log, and the accordance to the CENELEC EN50128;
 \item The tools supporting the process for V\&V at Code level;
@@ -285,12 +290,12 @@ The internal assessment activity will focus on the coverage of
 \item The traceability respect between the V\&V documentation issued in the frame of V\&V activities, and the V\&V log;
 \end{itemize}
 
-\subsection{deliverable}
+\subsection{Deliverable}
 One deliverable will be issued in the frame of this part of internal assessment activity: The V\&V Assessment Report. This deliverable will present the results of the overall Verification and Validation assessment for the project.
 This document will be used as a frame for V\&V assessment during the whole project, and the very first version of this document will be issued one month after the first V\&V Plan release. (To be defined)
 
 \section{Safety Activities Assessment}
-The Safety Activity is particularly relevant to be assessed, as a necessary condition to develop and supply a SIL4 OBU EVC Software. The Safety Strategy defined within the WP4 activities for Open ETCS project assume that the overall Safety activities in Open ETCS project will be performed on a part only of the EVC Software, but the full software development life-cycle will covered by these Safety activities.
+The Safety Activity is particularly relevant to be assessed, as a necessary condition to develop and supply a SIL4 OBU EVC Software. The Safety Strategy defined within the WP4 activities for Open ETCS project assume that the overall Safety activities in Open ETCS project will be performed on a part only of the EVC Software, but the full software development life-cycle will be covered by these Safety activities.
 The overall Safety Activities are described in the Open ETCS Safety Plan.
 
 \subsection{Safety Evaluation Criteria}
@@ -300,13 +305,13 @@ The main criteria to be assessed are:
 \item The method and process for Safety Activities, from Safety Plan to the whole Safety Case, and their consistency with the CENELEC. For instance
 \item The tools supporting the process and the method;
 \item The traceability between the software development process and the Safety related documents;
-\item The coverage of Safety requirements by V\&V activities at different levels (System,  sub-System, model, code) on Safety functions and components;
+\item The coverage of Safety requirements by V\&V activities at different levels (System,  sub-System, model, code) on Safety functions and components.
 \end{itemize}
 
 \subsection{Safety Documentation Assessment}
 The main Safety related documents to be assessed are:
 \begin{itemize}
-\item The Preliminary Risk Assessment (this document initiates the Safety log or Hazard Log).
+\item The Preliminary Risk Assessment (this document initiates the Safety log).
 \item The System and Sub-System Safety Study. These points have to be clearly defined and connected according to the software design steps defined in the Open ETCS process. The following points are especially relevant for the
 	\begin{itemize}
 	\item The transformation method from the Sub-System model (meta-model in MDD) to the Software model (COTS, branching, refinement and code generation algorithms and options);
@@ -331,25 +336,24 @@ The main Safety related documents to be assessed are:
 	\end{itemize}
 \item The Safety V\&V activities:
 	\begin{itemize}
-	\item The Verification activities on the transformation method from the system model to the sub-system model (bugs on process, side files needed, terminology coherency, proof on formalized properties);
+	\item The Verification activities on the transformation method from the system model to the sub-system model (bugs on process, side files needed, terminology consistency, proof on formalized properties);
 	\item The verification activities on the compilation toolchain (compilation bugs, side files generated, memories mapping, comparison of compiling options);
 	\item Test plan, catalogs and reports on the software components;
-	\item	
 	\end{itemize}
-\item The Safety log or Hazard log, filled during the whole project duration. The main informations to be assessed in are:
+\item The Safety log, filled during the whole project duration. The main informations to be assessed in are:
 	\begin{itemize}
 	\item The coverage for all hazardous situation identified during the project;
 	\item The list of all Safety tickets or corrective actions performed in the frame of safety activities, and their status regarding the Safety property or issue related;
 	\end{itemize}
-\item The Global Safety requirements coverage. This sheet should gather all the Safety requirements identified since the very beginning of the project. All the concerns encountered during the very beginning of the Safety activities should be gathered too, and then linked to the solutions identified and applied, in order to get rid of the concern. The Safety Backlog
+\item The Global Safety requirements coverage. This document should gather all the Safety requirements identified since the very beginning of the project. All the concerns encountered during the very beginning of the Safety activities should be gathered too, and then linked to the solutions identified and applied, in order to get rid of the concern.
 \end{itemize}
 
 All these documents constitute the Global Safety Case, and are a relevant set of documentation to be evaluated by the assessor. The Global Safety Case is analyzed, with the verification that all risks identified in the Hazard log have been covered, and that external constraints (exported constraints) are precisely defined.
 
 
-\subsection{deliverable}
+\subsection{Deliverable}
 One deliverable will be issued in the frame of this part of internal assessment activity: The Safety Assessment Report. This deliverable will present the results of the overall Safety assessment for the project.
-This document will be used as a frame for V\&V assessment during the whole project, and the very first version of this document will be issued one month after the first Safety Plan release. (To be defined)
+This document will be used as a frame for V\&V part of assessment during the whole project, and the very first version of this document will be issued one month after the first Safety Plan release. (To be defined)
 
 
 \section{Assessment Method and Processes}
@@ -376,13 +380,13 @@ Safety Case & & & & X \\ \hline
 \end{tabular}
 
 \subsection{Intermediate Evaluation Assessment}
-The Internal Assessment activities is supposed to improve the Open ETCS project compliance with a standard need of Assessment for such a SIL4 Software. Therefore, different activities related to the assessment have to be performed during the on-going process for the Software development.These actions can be performed in different ways:
+The Internal Assessment activities is supposed to improve the Open ETCS project compliance with a standard need of Assessment for such a SIL4 Software. Therefore, different activities related to the assessment have to be performed during the on-going process of Software development.These actions can be performed in different ways:
 \begin{itemize}
 \item Audits;
 \item Main document issue;
 \item ...
 \end{itemize}
-These specific assessment activities minutes and conclusions are gathered in 
+These specific assessment activities minutes and conclusions are gathered in the final assessment report, provided at the very end of the software development project.
 
 \subsection{Assessment Report Evaluation}
 The Assessment Report is the global document gathering all the evaluations or audits that have been performed during the Internal Assessment of the project.
@@ -397,16 +401,40 @@ The results presented in this report are:
 \end{itemize}
 
 \section{Internal assessment activities planing}
-This part describes how will be performed the Internal Assessment along the Open ETCs project. It will identify the main project outcomes and deadlines that will trigger Internal Assessment activities.
-The current planning proposes
+This part describes how will be performed the Internal Assessment all along the Open ETCS project. It will identify the main project outcomes and deadlines that will trigger Internal Assessment activities.
+The project is now following this planing:
 \input{gantt.tex}
 
-So far, the deadlines that have been decided in the frame of Internal Assessment
+So far, the deadlines that have been decided in the frame of Internal Assessment are corresponding to some of the main outcomes for the overall project, with a month of delay. This delay is supposed to encompass the Internal Assessment Activity and production of the outcomes related to the deadlines considered. The main deadlines so far are the following:
+\begin{itemize}
+\item End of August 2013: 1st Assessment of the Quality Documentation in the project;
+\item End of October 2013: 1st Assessment of the V\&V documentation issued;
+\item End of December 2013: 1st Assessment on Safety Documentation;
+\item End of July 2014: 2nd Assessment on all issued documentation (to be refined);
+\item End of July 2015: 3rd and last Assessment of all issued documentation (to be refined];
+\end{itemize}
 
-\section{Internal assessment formalism}
+\subsection{Internal Assessment committers}
+The internal assessment shall be realized with people part of the project, but not strongly involved in the main outcomes related to the main topics/objects to be assessed. Moreover
+So far, the people chosen to be candidate are the following:
+\begin{itemize}
+\item Frederique Vallee (Head of All4tec)
+\item Norbert Schaff (Head of AEbT)
+\item Klaus-Rüdiger Hase (Head of Open ETCS project)
+\end{itemize}
+
+\subsection{Internal assessment formalism}
+The formalism and structure of each part of the Internal Assessment Plan is based on the LaTeX templates provided to the project as global template.
+The plan and structure of each of assessment report will be based on the same principle:
+ \begin{itemize}
+\item Description of the processes, documents and outcomes to be assessed;
+\item Evaluation criteria for each item to be evaluated;
+\item Results of the evaluation on rough criteria (passed or not passed);
+\item List of concerns detected in the frame of evaluation, and recommendations to the project;
+\end{itemize}
 
 \section{Conclusion}
-
+...
 
 
 

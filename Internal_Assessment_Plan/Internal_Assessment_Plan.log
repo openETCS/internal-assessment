@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.2.25)  28 JUN 2013 16:28
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.2.25)  4 JUL 2013 20:13
 entering extended mode
 **C:/Users/Cyril*Cornu/Documents/GitHub/internal-assessment/Internal_Assessment
 _Plan/Internal_Assessment_Plan.tex
@@ -1136,12 +1136,12 @@ Underfull \hbox (badness 10000) detected at line 102
 []\OMS/txsy/m/n/10.95 []
  []
 
-
+[4]
 Underfull \hbox (badness 10000) detected at line 103
 []\OMS/txsy/m/n/10.95 []
  []
 
-[4]
+
 Underfull \hbox (badness 10000) detected at line 104
 []\OMS/txsy/m/n/10.95 []
  []
@@ -1157,8 +1157,8 @@ Underfull \hbox (badness 10000) detected at line 111
  []
 
 
-Underfull \hbox (badness 10000) detected at line 113
-[]\T1/txr/bx/n/10.95 []
+Underfull \hbox (badness 10000) detected at line 112
+[]\OMS/txsy/m/n/10.95 []
  []
 
 
@@ -1196,118 +1196,88 @@ Underfull \hbox (badness 10000) detected at line 121
 []\OMS/txsy/m/n/10.95 []
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--130
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
 []|\T1/txr/bx/n/10.95 Date of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--130
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
 \T1/txr/bx/n/10.95 mod-i-fi-ca-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--130
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
 []|\T1/txr/bx/n/10.95 Paragraph/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--131
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
 []|\T1/txr/m/n/10.95 (+20) Cyril Cornu
  []
 
 
-Overfull \hbox (3.05287pt too wide) in paragraph at lines 128--133
+Overfull \hbox (3.05287pt too wide) in paragraph at lines 129--139
 [][] 
  []
 
-
-Underfull \hbox (badness 10000) detected at line 139
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 140
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 141
-[]\OMS/txsy/m/n/10.95 []
- []
-
-[5]
-Underfull \hbox (badness 10000) detected at line 148
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 149
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 150
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 159
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 160
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 161
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 162
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 163
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 169
-[]\OMS/txsy/m/n/10.95 []
- []
-
 [6]
-Underfull \hbox (badness 10000) detected at line 170
+Underfull \hbox (badness 10000) detected at line 145
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 179
+Underfull \hbox (badness 10000) detected at line 146
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 180
+Underfull \hbox (badness 10000) detected at line 147
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 181
+Underfull \hbox (badness 10000) detected at line 154
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 182
+Underfull \hbox (badness 10000) detected at line 155
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 183
+Underfull \hbox (badness 10000) detected at line 156
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 165
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 166
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 167
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+[7]
+Underfull \hbox (badness 10000) detected at line 168
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 174
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 175
 []\OMS/txsy/m/n/10.95 []
  []
 
@@ -1317,31 +1287,31 @@ Underfull \hbox (badness 10000) detected at line 184
  []
 
 
-Underfull \hbox (badness 10000) detected at line 191
+Underfull \hbox (badness 10000) detected at line 185
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 192
+Underfull \hbox (badness 10000) detected at line 186
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 193
+Underfull \hbox (badness 10000) detected at line 187
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 194
+Underfull \hbox (badness 10000) detected at line 188
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 195
+Underfull \hbox (badness 10000) detected at line 189
 []\OMS/txsy/m/n/10.95 []
  []
 
-
+[8]
 Underfull \hbox (badness 10000) detected at line 196
 []\OMS/txsy/m/n/10.95 []
  []
@@ -1351,7 +1321,7 @@ Underfull \hbox (badness 10000) detected at line 197
 []\OMS/txsy/m/n/10.95 []
  []
 
-[7]
+
 Underfull \hbox (badness 10000) detected at line 198
 []\OMS/txsy/m/n/10.95 []
  []
@@ -1362,42 +1332,42 @@ Underfull \hbox (badness 10000) detected at line 199
  []
 
 
+Underfull \hbox (badness 10000) detected at line 200
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 201
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 202
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 203
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
 Underfull \hbox (badness 10000) detected at line 204
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 205
+Underfull \hbox (badness 10000) detected at line 209
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 206
+Underfull \hbox (badness 10000) detected at line 210
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 213
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 214
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 215
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 216
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 217
+Underfull \hbox (badness 10000) detected at line 211
 []\OMS/txsy/m/n/10.95 []
  []
 
@@ -1416,28 +1386,48 @@ Underfull \hbox (badness 10000) detected at line 220
 []\OMS/txsy/m/n/10.95 []
  []
 
-[8]
-Underfull \hbox (badness 10000) detected at line 231
+
+Underfull \hbox (badness 10000) detected at line 221
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 232
+Underfull \hbox (badness 10000) detected at line 222
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+[9]
+Underfull \hbox (badness 10000) detected at line 223
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 233
+Underfull \hbox (badness 10000) detected at line 224
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 234
+Underfull \hbox (badness 10000) detected at line 225
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 235
+Underfull \hbox (badness 10000) detected at line 236
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 237
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 238
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 239
 []\OMS/txsy/m/n/10.95 []
  []
 
@@ -1446,124 +1436,99 @@ Underfull \hbox (badness 10000) detected at line 240
 []\OMS/txsy/m/n/10.95 []
  []
 
-
-Underfull \hbox (badness 10000) detected at line 253
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 254
-[]\OMS/txsy/m/n/10.95 []
- []
-
-[9]
-Underfull \hbox (badness 10000) detected at line 255
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 262
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 263
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 271
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 272
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 273
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 274
-[]\OMS/txsy/m/n/10.95 []
- []
-
 [10]
-Underfull \hbox (badness 10000) detected at line 282
+Underfull \hbox (badness 10000) detected at line 258
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 283
+Underfull \hbox (badness 10000) detected at line 259
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 284
+Underfull \hbox (badness 10000) detected at line 260
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 285
+Underfull \hbox (badness 10000) detected at line 267
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 300
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 301
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 302
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 303
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 309
+Underfull \hbox (badness 10000) detected at line 268
 []\OMS/txsy/m/n/10.95 []
  []
 
 [11]
-Underfull \hbox (badness 10000) detected at line 310
+Underfull \hbox (badness 10000) detected at line 276
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 312
-[]\T1/txr/bx/n/10.95 []
+Underfull \hbox (badness 10000) detected at line 277
+[]\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 313
-[]\T1/txr/bx/n/10.95 []
+Underfull \hbox (badness 10000) detected at line 278
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 279
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 287
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 288
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 289
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 290
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 305
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+[12]
+Underfull \hbox (badness 10000) detected at line 306
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 307
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 308
+[]\OMS/txsy/m/n/10.95 []
  []
 
 
 Underfull \hbox (badness 10000) detected at line 314
-[]\T1/txr/bx/n/10.95 []
+[]\OMS/txsy/m/n/10.95 []
  []
 
 
 Underfull \hbox (badness 10000) detected at line 315
-[]\T1/txr/bx/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 316
-[]\T1/txr/bx/n/10.95 []
+[]\OMS/txsy/m/n/10.95 []
  []
 
 
@@ -1572,53 +1537,63 @@ Underfull \hbox (badness 10000) detected at line 317
  []
 
 
+Underfull \hbox (badness 10000) detected at line 318
+[]\T1/txr/bx/n/10.95 []
+ []
+
+
 Underfull \hbox (badness 10000) detected at line 319
-[]\OMS/txsy/m/n/10.95 []
+[]\T1/txr/bx/n/10.95 []
  []
 
 
 Underfull \hbox (badness 10000) detected at line 320
-[]\OMS/txsy/m/n/10.95 []
+[]\T1/txr/bx/n/10.95 []
  []
 
 
 Underfull \hbox (badness 10000) detected at line 321
-[]\OMS/txsy/m/n/10.95 []
+[]\T1/txr/bx/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 322
+[]\T1/txr/bx/n/10.95 []
  []
 
 
 Underfull \hbox (badness 10000) detected at line 324
-[]\OMS/txsy/m/n/10.95 []
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 325
+[]\OMS/txsy/m/n/10.95 []
  []
 
 
 Underfull \hbox (badness 10000) detected at line 326
-[]\T1/txr/bx/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 327
-[]\T1/txr/bx/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 328
-[]\T1/txr/bx/n/10.95 []
+[]\OMS/txsy/m/n/10.95 []
  []
 
 
 Underfull \hbox (badness 10000) detected at line 329
-[]\T1/txr/bx/n/10.95 []
+[]\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 330
+Underfull \hbox (badness 10000) detected at line 331
 []\T1/txr/bx/n/10.95 []
  []
 
 
 Underfull \hbox (badness 10000) detected at line 332
-[]\OMS/txsy/m/n/10.95 []
+[]\T1/txr/bx/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 333
+[]\T1/txr/bx/n/10.95 []
  []
 
 
@@ -1632,18 +1607,18 @@ Underfull \hbox (badness 10000) detected at line 335
  []
 
 
-Underfull \hbox (badness 10000) detected at line 336
-[]\T1/txr/bx/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 338
-[]\T1/txr/bx/n/10.95 []
+Underfull \hbox (badness 10000) detected at line 337
+[]\OMS/txsy/m/n/10.95 []
  []
 
 
 Underfull \hbox (badness 10000) detected at line 339
-[]\OMS/txsy/m/n/10.95 []
+[]\T1/txr/bx/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 340
+[]\T1/txr/bx/n/10.95 []
  []
 
 
@@ -1652,72 +1627,62 @@ Underfull \hbox (badness 10000) detected at line 341
  []
 
 
-Underfull \hbox (badness 10000) detected at line 342
+Underfull \hbox (badness 10000) detected at line 343
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 345
+[]\T1/txr/bx/n/10.95 []
+ []
+
+[13]
+Underfull \hbox (badness 10000) detected at line 346
 []\T1/txr/bx/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 344
+Underfull \hbox (badness 10000) detected at line 348
 []\OMS/txsy/m/n/10.95 []
  []
 
-[12]
-Underfull \hbox (badness 10000) in paragraph at lines 363--363
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--367
 []|\T1/txr/bx/n/10.95 Not ex-am-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 363--363
+Underfull \hbox (badness 10000) in paragraph at lines 367--367
 []|\T1/txr/bx/n/10.95 Read by
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 363--363
+Underfull \hbox (badness 10000) in paragraph at lines 367--367
 []|\T1/txr/bx/n/10.95 Attentive
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 369--369
+Underfull \hbox (badness 1292) in paragraph at lines 373--373
 \T1/txr/m/n/10.95 (+20) prop-er-ties (SSRS with Safety
  []
 
 
-Overfull \hbox (15.45287pt too wide) in paragraph at lines 361--377
+Overfull \hbox (15.45287pt too wide) in paragraph at lines 365--381
 [][] 
  []
 
-[13]
-Underfull \hbox (badness 10000) detected at line 381
+[14]
+Underfull \hbox (badness 10000) detected at line 385
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 382
+Underfull \hbox (badness 10000) detected at line 386
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 383
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 392
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 393
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 394
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 395
+Underfull \hbox (badness 10000) detected at line 387
 []\OMS/txsy/m/n/10.95 []
  []
 
@@ -1727,12 +1692,93 @@ Underfull \hbox (badness 10000) detected at line 396
  []
 
 
+Underfull \hbox (badness 10000) detected at line 397
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 398
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+[15]
+Underfull \hbox (badness 10000) detected at line 399
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 400
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
 ("C:\Users\Cyril Cornu\Documents\GitHub\internal-assessment\Internal_Assessment
-_Plan\gantt.tex" [14]
+_Plan\gantt.tex" [16]
 Missing character: There is no , in font nullfont!
- [15
+ [17
 
 ])
+Underfull \hbox (badness 10000) detected at line 410
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 411
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 412
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 413
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 414
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 421
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 422
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 423
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+("C:\Users\Cyril Cornu\AppData\Roaming\MiKTeX\2.9\tex\latex\ucs\uni-0.def"
+File: uni-0.def 2012/08/28 UCS: Unicode data U+0000..U+00FF
+)
+Underfull \hbox (badness 10000) detected at line 430
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 431
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 432
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 433
+[]\OMS/txsy/m/n/10.95 []
+ []
+
 
 FiXme Summary: Number of notes: 0,
 (FiXme)        Number of warnings: 0,
@@ -1740,7 +1786,7 @@ FiXme Summary: Number of notes: 0,
 (FiXme)        Number of fatal errors: 0,
 (FiXme)        Total: 0.
 
-[16
+[18
 
 ]
 ("C:\Users\Cyril Cornu\Documents\GitHub\internal-assessment\Internal_Assessment
@@ -1750,13 +1796,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 19084 strings out of 494045
- 340144 string characters out of 3145951
- 589480 words of memory out of 3000000
- 21663 multiletter control sequences out of 15000+200000
- 106752 words of font info for 316 fonts, out of 3000000 for 9000
+ 19564 strings out of 494045
+ 345137 string characters out of 3145951
+ 588474 words of memory out of 3000000
+ 22148 multiletter control sequences out of 15000+200000
+ 106402 words of font info for 310 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 63i,13n,60p,1034b,997s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 63i,12n,60p,1034b,993s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Users/
 Cyril Cornu/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/txfonts/rtxb.pfb><C:/
 Users/Cyril Cornu/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/txfonts/rtxr.pf
@@ -1769,9 +1815,9 @@ a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/
 MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Internal_Assessment_Plan.pdf (18 pages, 393916 bytes).
+Output written on Internal_Assessment_Plan.pdf (20 pages, 397993 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
+ 120 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  65052 words of extra memory for PDF output out of 74296 (max. 10000000)
 
