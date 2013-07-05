@@ -111,9 +111,10 @@ The Internal Assessment Plan assumes that:
 \item Author of this document is Cyril Cornu (All4tec)
 \item Main reviewers are of this document are:
 	\begin{itemize}
-	\item Frederique Vall\'ee (All4tec) is an Internal Assessor for Open ETCS project
-	\item Merlin Pokam (AEbT) is an Internal Assessor for Open ETCS project (to be confirmed)
-	\item Jean-louis Boulanger (Certifer) is an Internal Assessor for Open ETCS project (to be confirmed)
+	\item Frederique Vall\'ee (All4tec), as Internal Assessor for Open ETCS project;
+	\item Merlin Pokam (AEbT), as specialist of CENELEC Standards (to be confirmed);
+	\item Marc Behrens (DLR), as V\&V leader for Open ETCS project (to be confirmed);
+	\item Jan Welte (TU Braunschweig), as Safety leader for Open ETCS project (to be confirmed);
 	\end{itemize}
 \item Customer identification (to be defined for our specific case, the Open ETCS )
 \item Mission context (product description, context regarding the existing assessment of tools or artifacts in the project)
@@ -156,6 +157,7 @@ The major standards to considered within Open ETCS are:
 \item CENELEC EN 50129
 \end{itemize}
 
+So far, the 3 CENELEC standards have been identified as defining the normative frame for the OBU EVC Software development. At this moment in the project, we are not sure that EN 50126 and EN 50129 standards will  be applied for the assessment. so far, the CENELEC EN 50128 will be applied for sure, and what is presented in this document is mainly based on the EN 50128 standard.
 
 \subsection{Quality Assurance Plan - QAP}
 The purpose of the QA Plan is to define the processes, methods and tools that will be used to develop the OpenETCS project meeting ITEA requirements, following Open Source principles and practices and applying the SCRUM Methodology. Besides, two of the project outcomes, the OpenETCS software, the OpenETCS Tool Chain, will have to comply with CENELEC requirements.
@@ -163,7 +165,7 @@ The purpose of the QA Plan is to define the processes, methods and tools that wi
 The following aspects of quality will be precisely checked by the assessor, whether they belong to the QAP document or to other document.
 \begin{itemize}
 \item  Open ETCS development process. This process describes the whole documentation to be issued in the framework of Open ETCS project, and the connections between the project inputs, the project outcomes, and the work packages and tasks identified in the project. The consistency between the IO documents and informations identified in the development process and the related document content will be checked.
-\item  Open ETCS tool development process, depending of the tool usage and SIL level required. This process has to be described as precisely as the Quality Assurance related to the OBU EVC Software development activity. The same verifications and assessments activities will be performed on this process than on the software development process. This point is developed in paragraph 5 of the plan.
+\item  Open ETCS tool development process, depending of the tool usage and leve of qualification required (T1, T2 and T3). This process has to be described as precisely as the Quality Assurance related to the OBU EVC Software development activity. The verifications and assessments activities that will be performed on this software development process are described in paragraph 5 of the plan.
 \item Configuration Management Plan. This Configuration Management Plan has to consider each outcomes of the project from its very first release version to end of the document whole life-cycle. The documentation change management related to the toolchains definitions or related to the OBU EVC software development have to be considered for both aspects of Open ETCS project development. This configuration management plan shall consider documentation changes but also toolchain, model (formal and semi-formal) and code issued in the frame of Open ETCS project.
 \item Review Process. The review process has to be applied from the very beginning of the project to its end.
 \end{itemize}
@@ -172,7 +174,7 @@ The following aspects of quality will be precisely checked by the assessor, whet
 The Safety Criteria are defined in the document D2.2, and these criteria will be checked during the Internal Assessment review. The main points to be assessed for the project deliverables are:
 \begin{itemize}
 \item the documentation compliance for Software Safety Integrity Level 4. This includes for instance: a functional and interface description of the system, the application conditions, the configuration or architecture of the system, the hazards to be controlled, the safety integrity requirements, the SIL allocation to Software and Hardware, and the timing constraints.
-\item the Requirements for tools class T1, T2 and T3. Tools have been identified so far for each category (text editor, requirements support, configuration support tool for T1,  static code analyzers, model checkers, model based testing tools, simulators for T2, and compilers or code generation tools for T3), and all proof of compliance with the CENELEC standard and justification for use will be checked within internal assessment activities.
+\item the Requirements for tools class T1, T2 and T3. Tools have been identified so far for each category (text editor, requirements support, configuration support tool for T1,  static code analyzers, model checkers, model based testing tools, simulators for T2, and compilers or code generation tools for T3), and all proof of compliance with the CENELEC standard and justification for use will be checked within internal assessment activities. This point is developed in paragraph 5 of the plan.
 \end{itemize}
 
 \subsection{Project Development Process}
@@ -234,8 +236,8 @@ This chapter details what are the main features to be checked regarding the V\&V
 The Quality Criteria regarding V\&V activities are defined in the document D2.2 appendix B4, and these criteria will be checked during the Internal Assessment review. The main points to be assessed are:
 \begin{itemize}
 \item V\&V Plan
-\item Verification \& Validation activities for Model
 \item Verification \& Validation activities for Primary Toolchain
+\item Verification \& Validation activities for Model
 \item Verification \& Validation activities for Code
 \item Safety
 \end{itemize}
@@ -247,7 +249,7 @@ The Quality Criteria regarding V\&V activities are defined in the document D2.2 
 \subsection{V\&V Plan}
 The purpose of the V\&V Plan is to define, describe and plan the verification and validation activities in the project openETCS. As the goals of the project include the selection, adaption and construction of methods and tools for a FLOSS development in addition to performing actual development steps, the V\&V plan will deal separately with these two aspects.
 The Verification Plan for the model should describe the selection of verification strategies and techniques to be applied to the Open ETCS for Testing the Open ETCS Semi-Formal Model and Formal Model. The set of techniques, the definition of the process for test creation, test coverage and completeness, and roles in the testing team will be assessed in the same way than for the Quality Assurance Aspects.
-The Verification Plan for the tool is based on the same principle than for the Model Assessment, but related to the tool or the whole toolchain. The Assessment will focus on quality assurance and traceability of the verification.
+The Verification Plan for the tool is based on the CENELEC compliance for the qualified tools T1, T2 and T3. The Assessment will focus on quality assurance and traceability of the verification.
 
 The Validation Plan aims to give a frame to Validation activities to be performed within OpenETCS project. It aims at determining whether the developed tool fits the user needs, in particular with respect to safety and quality relatively to the environment it will be run in.
 The Validation plan shall describe the validation strategy for both primary and secondary toolchains and for the OBU EVC Software to be developed as well. The documentation shall be provided on techniques and tools used and on environment description. The assessment will focus on the coverage of artifacts to be covered within the Open ETCS project validation plan, and the coherency between the Validation outcomes description in the plan and the effective Validation activities performed in the Frame of Open ETCS project.
@@ -378,6 +380,35 @@ Overall tests results & & & X & \\ \hline
 Parameters Validation report & & & X & \\ \hline
 Safety Case & & & & X \\ \hline
 \end{tabular}
+
+\subsection{Detailed tool assessment}
+According to the CENELEC there are 3 different kind of tools, leading to specific assessment for each tool class. According to the D2.2 document, the tool Assessment for the project toolchain will focus on different aspects according to the role and the category of each tool proposed for the project. The tool category definition is also described 
+
+The assessment will focus on the following criteria for T1 tools:
+\begin{itemize}
+\item The cooperation of the T1 tools used in the toolchain;
+\item The inclusion of these tools in a Configuration Management Facility.
+\end{itemize}
+
+The assessment will focus on the following criteria for T2 tools:
+\begin{itemize}
+\item The cooperation of the T1 tools used in the toolchain;
+\item The proof that errors and bugs are detected by the tool;
+\item A user manual for the tool;
+\item The inclusion of these tools in a Configuration Management Facility;
+\item The evidence that no bugs or faults are present in the new software version provided.
+\end{itemize}
+
+The assessment will focus on the following criteria for T3 tools:
+\begin{itemize}
+\item The cooperation of the T1 tools used in the toolchain;
+\item The proof that errors and bugs are detected by the tool;
+\item A user manual for the tool;
+\item The evidence that the software is compliant to its specification;
+\item A validation report encompassing the following items.
+\item The inclusion of these tools in a Configuration Management Facility.
+\item The evidence that no bugs or faults are present in the new software version provided.
+\end{itemize}
 
 \subsection{Intermediate Evaluation Assessment}
 The Internal Assessment activities is supposed to improve the Open ETCS project compliance with a standard need of Assessment for such a SIL4 Software. Therefore, different activities related to the assessment have to be performed during the on-going process of Software development.These actions can be performed in different ways:
