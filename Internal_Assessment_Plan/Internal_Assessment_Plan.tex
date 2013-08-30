@@ -6,15 +6,43 @@
 \usepackage{url,longtable}
 \usepackage{xspace}
 \usepackage{graphicx}
+\usepackage{supertabular}
 \usepackage{fixme}
 \usepackage{lscape} 
 \usepackage{pgfgantt}
 \usepackage{adjustbox}
+\usepackage{hhline}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{color, colortbl}
+\definecolor{myblue}{rgb}{0.6,.6,1}
+\definecolor{mydarkblue}{rgb}{0,0,0.5}
 \usepackage{datetime}
 \graphicspath{{./template/}{.}{./images/}}
 
 
 \begin{document}
+
+\section*{Document History}
+
+\begin{flushleft}
+\tablefirsthead{\hline \rowcolor{myblue} Version & Date & Chapters modified & Reason & Name\\}
+
+%\tabletail{}
+%\tablelasttail{}
+\begin{supertabular}{m{1.1cm}m{1.8cm}m{2cm}m{5cm}m{4cm}}
+\hline
+
+ 0.1 & 28/06/2013 & all & 1st version & Cyril Cornu (Document Author)\\ \hline
+ 0.1 & 05/07/2013 & §1.3 &  Consistence with Project Quality Documentation & Merlin Pokam\\ \hline
+ & & & & \\ \hline
+ & & & & \\ \hline
+ & & & & \\ \hline
+\end{supertabular}
+\end{flushleft}
+
+\newpage
+
 \frontmatter
 \project{openETCS}
 
@@ -56,7 +84,7 @@
 
 \begin{abstract}
 The Internal Assessment Plan describes the Internal Assessment strategy and plan in the frame of V\&V activities in the Open ETCS project.
-According to the CENELEC EN50128 standrad, the assessment is a \"\ Process of analysis to determine whether software, which may include process, documentation, system, subsystem hardware and/or software components, meets the specified requirements, and to form a judgment whether the software is fit for its intended purpose.\"
+According to the CENELEC EN50128 standrad, the assessment is a \"\ Process of analysis to determine whether software, which may include process, documentation, system, subsystem hardware and/or software components, meets the specified requirements, and to form a judgment whether the software is fit for its intended purpose.\"\
 \\
 The dates, highlights, deliverables and activities split presented in this plan are willing to be adapted in accordance with the FPP final version.
 \end{abstract}
@@ -125,18 +153,6 @@ The Internal Assessment Plan assumes that:
 According to the CENELEC standards, the Independant External Assessor has to get the agreement signature of the customer for submission to the assessor expectations according to the EN45001 standard  (in our case, the Open ETCS project is the customer). This standard is defining the juridical and technical scope for an independent evaluating structure.
 This point is major because it defines precisely the difference between the Internal Assessment Task and the real assessment according to the CENELEC EN50128. In our case, the people taking part in the Internal Assessment are not necessarily evaluating structures according to the EN45001 standard, and are moreover part of the project.
 
-\newpage
-\subsection{Internal Assessment Plan modifications}
-\begin{tabular}{|p{2cm}|p{2cm}|p{6cm}|p{3cm}|} 
-\hline
-\textbf{Date of modification} & \textbf{Paragraph/ Page} & \textbf{Modification object} & \textbf{Author} \\ \hline
-28/06/2013 & all & 1st document draft issue & Cyril Cornu (All4tec) \\ \hline
- & & & \\ \hline
- & & & \\ \hline
- & & & \\ \hline
- & & & \\ \hline
- & & & \\ \hline
-\end{tabular}
 
 \newpage
 \section{Project Quality Assessment}
