@@ -1,33 +1,33 @@
-\contentsline {section}{Document History}{1}
-\contentsline {section}{\numberline {1}Introduction}{4}
-\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {1.1}Project context}{4}
-\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {1.2}Internal Assessment Plan objectives}{4}
-\contentsline {section}{\numberline {2}Project Quality Assessment}{6}
-\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {2.1}Applicable Standards}{6}
-\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {2.2}Quality Assurance Plan - QAP}{6}
-\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {2.3}Project Deliverables compliance with QAP}{7}
-\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {2.4}Project Development Process}{7}
-\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {2.5}The Role and Responsibilities management}{8}
-\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {2.6}Quality Log and Traceability}{8}
-\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {2.7}Deliverable}{9}
-\contentsline {section}{\numberline {3}V\&V Assessment}{9}
-\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {3.1}V\&V Plan}{9}
-\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {3.2}Verification and Testing Activities}{10}
-\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {3.3}Validation Activities}{10}
-\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {3.4}V\&V log and traceability for Model}{10}
-\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {3.5}V\&V log and traceability for Code}{11}
-\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {3.6}Deliverable}{11}
-\contentsline {section}{\numberline {4}Safety Activities Assessment}{11}
-\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {4.1}Safety Evaluation Criteria}{11}
-\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {4.2}Safety Documentation Assessment}{12}
-\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {4.3}Deliverable}{13}
-\contentsline {section}{\numberline {5}Assessment Method and Processes}{13}
-\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {5.1}Detail level for documentation evaluation}{13}
-\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {5.2}Detailed tool assessment}{14}
-\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {5.3}Intermediate Evaluation Assessment}{15}
-\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {5.4}Assessment Report Evaluation}{15}
-\contentsline {section}{\numberline {6}Internal assessment activities planing}{15}
-\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {6.1}GANTT chart}{16}
-\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {6.2}Internal Assessment committers}{17}
-\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {6.3}Internal assessment formalism}{17}
-\contentsline {section}{\numberline {7}Conclusion}{17}
+\contentsline {section}{Document History}{4}
+\contentsline {section}{\numberline {1}Introduction}{5}
+\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {1.1}Project context}{5}
+\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {1.2}Internal Assessment Plan objectives}{5}
+\contentsline {section}{\numberline {2}Project Quality Assessment}{7}
+\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {2.1}Applicable Standards}{7}
+\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {2.2}Quality Assurance Plan - QAP}{7}
+\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {2.3}Project Deliverables compliance with QAP}{8}
+\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {2.4}Project Development Process}{8}
+\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {2.5}The Role and Responsibilities management}{9}
+\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {2.6}Quality Log and Traceability}{9}
+\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {2.7}Deliverable}{10}
+\contentsline {section}{\numberline {3}V\&V Assessment}{10}
+\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {3.1}V\&V Plan}{10}
+\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {3.2}Verification and Testing Activities}{11}
+\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {3.3}Validation Activities}{11}
+\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {3.4}V\&V log and traceability for Model}{11}
+\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {3.5}V\&V log and traceability for Code}{12}
+\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {3.6}Deliverable}{12}
+\contentsline {section}{\numberline {4}Safety Activities Assessment}{12}
+\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {4.1}Safety Evaluation Criteria}{12}
+\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {4.2}Safety Documentation Assessment}{13}
+\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {4.3}Deliverable}{14}
+\contentsline {section}{\numberline {5}Assessment Method and Processes}{14}
+\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {5.1}Detail level for documentation evaluation}{14}
+\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {5.2}Detailed tool assessment}{15}
+\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {5.3}Intermediate Evaluation Assessment}{16}
+\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {5.4}Assessment Report Evaluation}{16}
+\contentsline {section}{\numberline {6}Internal assessment activities planing}{17}
+\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {6.1}GANTT chart}{18}
+\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {6.2}Internal Assessment committers}{19}
+\contentsline {subsection}{\itshape \fontsize {9}{12}\selectfont \numberline {6.3}Internal assessment formalism}{19}
+\contentsline {section}{\numberline {7}Conclusion}{19}

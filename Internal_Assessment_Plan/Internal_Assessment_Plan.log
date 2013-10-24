@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.2.25)  30 AUG 2013 15:07
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.2.25)  24 OCT 2013 11:52
 entering extended mode
 **C:/Users/Cyril*Cornu/Documents/GitHub/internal-assessment/internal-assessment
 /Internal_Assessment_Plan/Internal_Assessment_Plan.tex
@@ -1004,183 +1004,147 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EveryShipout initializing macros
-LaTeX Font Info:    Try loading font information for T1+txss on input line 26.
+LaTeX Font Info:    Try loading font information for T1+txss on input line 75.
 
 ("C:\Users\Cyril Cornu\AppData\Roaming\MiKTeX\2.9\tex\latex\txfonts\t1txss.fd"
 File: t1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 26.
-LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 11.39996pt on input line 26.
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 33.
+(Font)              scaled to size 10.40245pt on input line 75.
+LaTeX Font Info:    Font shape `T1/txss/m/it' in size <10.95> not available
+(Font)              Font shape `T1/txss/m/sl' tried instead on input line 75.
+LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
+(Font)              scaled to size 10.40245pt on input line 75.
+LaTeX Font Info:    Font shape `T1/txss/bx/it' in size <10.95> not available
+(Font)              Font shape `T1/txss/bx/sl' tried instead on input line 75.
+LaTeX Font Info:    Font shape `T1/txss/bx/sl' will be
+(Font)              scaled to size 10.40245pt on input line 75.
+LaTeX Font Info:    Font shape `T1/txss/bx/it' in size <22> not available
+(Font)              Font shape `T1/txss/bx/sl' tried instead on input line 75.
+LaTeX Font Info:    Font shape `T1/txss/bx/sl' will be
+(Font)              scaled to size 20.89993pt on input line 75.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 75.
 ("C:\Users\Cyril Cornu\AppData\Roaming\MiKTeX\2.9\tex\latex\txfonts\ot1txr.fd"
 File: ot1txr.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 33.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 75.
 ("C:\Users\Cyril Cornu\AppData\Roaming\MiKTeX\2.9\tex\latex\txfonts\utxmia.fd"
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsya on input line 33.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 75.
 ("C:\Users\Cyril Cornu\AppData\Roaming\MiKTeX\2.9\tex\latex\txfonts\utxsya.fd"
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 33.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 75.
 ("C:\Users\Cyril Cornu\AppData\Roaming\MiKTeX\2.9\tex\latex\txfonts\utxsyb.fd"
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 33.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 75.
 ("C:\Users\Cyril Cornu\AppData\Roaming\MiKTeX\2.9\tex\latex\txfonts\utxsyc.fd"
 File: utxsyc.fd 2000/12/15 v3.1
 )
-Overfull \hbox (1.46066pt too wide) in paragraph at lines 33--33
-[]|\T1/txr/m/n/10.95 (-20) Version| 
+LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
+(Font)              scaled to size 10.40245pt on input line 75.
+LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
+(Font)              scaled to size 17.09995pt on input line 75.
+
+LaTeX Font Warning: Font shape `T1/txss/k/n' undefined
+(Font)              using `T1/txss/m/n' instead on input line 75.
+
+<./template/itea.jpg, id=4, 240.9pt x 67.452pt>
+File: ./template/itea.jpg Graphic file (type jpg)
+ <use ./template/itea.jpg>
+Package pdftex.def Info: ./template/itea.jpg used on input line 75.
+(pdftex.def)             Requested size: 145.0pt x 40.60118pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
+
  []
 
+LaTeX Font Info:    Font shape `T1/txss/k/n' will be
+(Font)              scaled to size 10.40245pt on input line 75.
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--33
-[]|\T1/txr/m/n/10.95 (+20) Chapters
- []
+LaTeX Font Warning: Font shape `T1/txss/k/it' undefined
+(Font)              using `T1/txss/k/n' instead on input line 75.
 
+LaTeX Font Info:    Font shape `T1/txss/k/it' will be
+(Font)              scaled to size 10.40245pt on input line 75.
 
-Overfull \hbox (38.66066pt too wide) in paragraph at lines 33--33
-[] 
- []
-
-
-Overfull \hbox (1.06647pt too wide) in paragraph at lines 33--33
-[]\T1/txr/m/n/10.95 (-20) Version| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--33
-[]\T1/txr/m/n/10.95 (+20) Chapters
- []
-
-
-Underfull \hbox (badness 1052) in paragraph at lines 36--36
-[]\T1/txr/m/n/10.95 (+20) Cyril Cornu (Doc-u-ment
- []
-
-("C:\Users\Cyril Cornu\AppData\Roaming\MiKTeX\2.9\tex\latex\ucs\uni-0.def"
-File: uni-0.def 2012/08/28 UCS: Unicode data U+0000..U+00FF
-)
-Overfull \hbox (38.66066pt too wide) in paragraph at lines 33--42
-[]  
- []
+LaTeX Font Warning: Font shape `T1/txss/h/n' undefined
+(Font)              using `T1/txss/m/n' instead on input line 75.
 
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 44.
+(Font)              scaled to size 18.99994pt on input line 75.
+LaTeX Font Info:    Font shape `T1/txss/h/n' will be
+(Font)              scaled to size 10.40245pt on input line 75.
+<./template/chart.png, id=5, 401.5pt x 301.125pt>
+File: ./template/chart.png Graphic file (type png)
+ <use ./template/chart.png>
+Package pdftex.def Info: ./template/chart.png used on input line 75.
+(pdftex.def)             Requested size: 350.0pt x 262.51881pt.
+LaTeX Font Info:    Font shape `T1/txss/k/n' will be
+(Font)              scaled to size 8.54997pt on input line 75.
+
+<./template/oOLT.png, id=6, 590.95781pt x 292.84406pt>
+File: ./template/oOLT.png Graphic file (type png)
+
+<use ./template/oOLT.png>
+Package pdftex.def Info: ./template/oOLT.png used on input line 75.
+(pdftex.def)             Requested size: 30.0pt x 14.862pt.
+ [1
+
+{C:/Users/Cyril Cornu/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Us
+ers/Cyril Cornu/Documents/GitHub/internal-assessment/internal-assessment/Intern
+al_Assessment_Plan/template/itea.jpg> <C:/Users/Cyril Cornu/Documents/GitHub/in
+ternal-assessment/internal-assessment/Internal_Assessment_Plan/template/chart.p
+ng> <C:/Users/Cyril Cornu/Documents/GitHub/internal-assessment/internal-assessm
+ent/Internal_Assessment_Plan/template/oOLT.png>]
+[2]
+Overfull \hbox (113.16711pt too wide) in paragraph at lines 75--75
+[][][][] 
+ []
+
+LaTeX Font Info:    Font shape `T1/txss/h/n' will be
+(Font)              scaled to size 18.99994pt on input line 75.
+
+Overfull \hbox (80.0pt too wide) in paragraph at lines 75--75
+[]$[]$[] 
+ []
+
+LaTeX Font Info:    Font shape `T1/txss/k/it' will be
+(Font)              scaled to size 8.54997pt on input line 75.
+
+Overfull \hbox (80.0pt too wide) in paragraph at lines 75--75
+[]$[]$[] 
+ []
+
+
+Overfull \hbox (80.0pt too wide) in paragraph at lines 75--75
+[]$[]$ 
+ []
+
+LaTeX Font Info:    Font shape `T1/txss/k/n' will be
+(Font)              scaled to size 9.49997pt on input line 75.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 10.40245pt on input line 44.
-LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 8.54997pt on input line 44.
+(Font)              scaled to size 8.54997pt on input line 75.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[1{C:/Users/Cyril Cornu/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
-
-]
-LaTeX Font Info:    Font shape `T1/txss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/txss/m/sl' tried instead on input line 94.
-LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
-(Font)              scaled to size 10.40245pt on input line 94.
-LaTeX Font Info:    Font shape `T1/txss/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/txss/bx/sl' tried instead on input line 94.
-LaTeX Font Info:    Font shape `T1/txss/bx/sl' will be
-(Font)              scaled to size 10.40245pt on input line 94.
-LaTeX Font Info:    Font shape `T1/txss/bx/it' in size <22> not available
-(Font)              Font shape `T1/txss/bx/sl' tried instead on input line 94.
-LaTeX Font Info:    Font shape `T1/txss/bx/sl' will be
-(Font)              scaled to size 20.89993pt on input line 94.
-LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 17.09995pt on input line 94.
-
-
-LaTeX Font Warning: Font shape `T1/txss/k/n' undefined
-(Font)              using `T1/txss/m/n' instead on input line 94.
-
-<./template/itea.jpg, id=12, 240.9pt x 67.452pt>
-File: ./template/itea.jpg Graphic file (type jpg)
- <use ./template/itea.jpg>
-Package pdftex.def Info: ./template/itea.jpg used on input line 94.
-(pdftex.def)             Requested size: 145.0pt x 40.60118pt.
-LaTeX Font Info:    Font shape `T1/txss/k/n' will be
-(Font)              scaled to size 10.40245pt on input line 94.
-
-
-LaTeX Font Warning: Font shape `T1/txss/k/it' undefined
-(Font)              using `T1/txss/k/n' instead on input line 94.
-
-LaTeX Font Info:    Font shape `T1/txss/k/it' will be
-(Font)              scaled to size 10.40245pt on input line 94.
-
-LaTeX Font Warning: Font shape `T1/txss/h/n' undefined
-(Font)              using `T1/txss/m/n' instead on input line 94.
-
-LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 18.99994pt on input line 94.
-LaTeX Font Info:    Font shape `T1/txss/h/n' will be
-(Font)              scaled to size 10.40245pt on input line 94.
-<./template/chart.png, id=13, 401.5pt x 301.125pt>
-File: ./template/chart.png Graphic file (type png)
- <use ./template/chart.png>
-Package pdftex.def Info: ./template/chart.png used on input line 94.
-(pdftex.def)             Requested size: 350.0pt x 262.51881pt.
-LaTeX Font Info:    Font shape `T1/txss/k/n' will be
-(Font)              scaled to size 8.54997pt on input line 94.
-
-<./template/oOLT.png, id=14, 590.95781pt x 292.84406pt>
-File: ./template/oOLT.png Graphic file (type png)
-
-<use ./template/oOLT.png>
-Package pdftex.def Info: ./template/oOLT.png used on input line 94.
-(pdftex.def)             Requested size: 30.0pt x 14.862pt.
- [1 <C:/Users/Cyril Cornu/Documents/GitHub/internal-assessment/internal-assessm
-ent/Internal_Assessment_Plan/template/itea.jpg> <C:/Users/Cyril Cornu/Documents
-/GitHub/internal-assessment/internal-assessment/Internal_Assessment_Plan/templa
-te/chart.png> <C:/Users/Cyril Cornu/Documents/GitHub/internal-assessment/intern
-al-assessment/Internal_Assessment_Plan/template/oOLT.png>] [2]
-Overfull \hbox (113.16711pt too wide) in paragraph at lines 94--94
-[][][][] 
- []
-
-LaTeX Font Info:    Font shape `T1/txss/h/n' will be
-(Font)              scaled to size 18.99994pt on input line 94.
-
-Overfull \hbox (80.0pt too wide) in paragraph at lines 94--94
-[]$[]$[] 
- []
-
-LaTeX Font Info:    Font shape `T1/txss/k/it' will be
-(Font)              scaled to size 8.54997pt on input line 94.
-
-Overfull \hbox (80.0pt too wide) in paragraph at lines 94--94
-[]$[]$[] 
- []
-
-
-Overfull \hbox (80.0pt too wide) in paragraph at lines 94--94
-[]$[]$ 
- []
-
-LaTeX Font Info:    Font shape `T1/txss/k/n' will be
-(Font)              scaled to size 9.49997pt on input line 94.
 [1]
-LaTeX Font Info:    Try loading font information for T1+txtt on input line 94.
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 75.
 
 ("C:\Users\Cyril Cornu\AppData\Roaming\MiKTeX\2.9\tex\latex\txfonts\t1txtt.fd"
 File: t1txtt.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Calculating math sizes for size <8.5> on input line 94.
+LaTeX Font Info:    Calculating math sizes for size <8.5> on input line 75.
 [2
 
 ]
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 96.
+(Font)              scaled to size 8.54997pt on input line 77.
 
 ("C:\Users\Cyril Cornu\Documents\GitHub\internal-assessment\internal-assessment
 \Internal_Assessment_Plan\Internal_Assessment_Plan.toc")
@@ -1189,79 +1153,106 @@ LaTeX Font Info:    Font shape `T1/txss/m/n' will be
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+txr on input line 117.
+LaTeX Font Info:    Font shape `T1/txss/m/n' will be
+(Font)              scaled to size 11.39996pt on input line 87.
+LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
+(Font)              scaled to size 11.39996pt on input line 87.
+
+Overfull \hbox (1.46066pt too wide) in paragraph at lines 94--94
+[]|\T1/txr/m/n/10.95 (-20) Version| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+[]|\T1/txr/m/n/10.95 (+20) Chapters
+ []
+
+
+Overfull \hbox (38.66066pt too wide) in paragraph at lines 94--94
+[] 
+ []
+
+
+Overfull \hbox (1.06647pt too wide) in paragraph at lines 94--94
+[]\T1/txr/m/n/10.95 (-20) Version| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+[]\T1/txr/m/n/10.95 (+20) Chapters
+ []
+
+
+Underfull \hbox (badness 1052) in paragraph at lines 97--97
+[]\T1/txr/m/n/10.95 (+20) Cyril Cornu (Doc-u-ment
+ []
+
+("C:\Users\Cyril Cornu\AppData\Roaming\MiKTeX\2.9\tex\latex\ucs\uni-0.def"
+File: uni-0.def 2012/08/28 UCS: Unicode data U+0000..U+00FF
+)
+Overfull \hbox (38.66066pt too wide) in paragraph at lines 94--103
+[]  
+ []
+
+[4]
+LaTeX Font Info:    Try loading font information for OMS+txr on input line 120.
 
 
 ("C:\Users\Cyril Cornu\AppData\Roaming\MiKTeX\2.9\tex\latex\txfonts\omstxr.fd"
 File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 117.
-
-Underfull \hbox (badness 10000) detected at line 117
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 118
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 119
-[]\OMS/txsy/m/n/10.95 []
- []
-
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 120.
 
 Underfull \hbox (badness 10000) detected at line 120
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 121
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 122
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 123
 []\OMS/txsy/m/n/10.95 []
  []
 
 ("C:\Users\Cyril Cornu\AppData\Roaming\MiKTeX\2.9\tex\latex\ucs\uni-32.def"
 File: uni-32.def 2012/08/28 UCS: Unicode data U+2000..U+20FF
 )
-Underfull \hbox (badness 10000) detected at line 130
+Underfull \hbox (badness 10000) detected at line 133
 []\OMS/txsy/m/n/10.95 []
  []
 
-[4]
-Underfull \hbox (badness 10000) detected at line 131
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 132
+[5]
+Underfull \hbox (badness 10000) detected at line 134
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 138
+Underfull \hbox (badness 10000) detected at line 135
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 139
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 140
+Underfull \hbox (badness 10000) detected at line 141
 []\OMS/txsy/m/n/10.95 []
  []
 
 
 Underfull \hbox (badness 10000) detected at line 142
-[]\T1/txr/bx/n/10.95 []
+[]\OMS/txsy/m/n/10.95 []
  []
 
 
 Underfull \hbox (badness 10000) detected at line 143
-[]\T1/txr/bx/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 144
-[]\T1/txr/bx/n/10.95 []
+[]\OMS/txsy/m/n/10.95 []
  []
 
 
@@ -1270,18 +1261,18 @@ Underfull \hbox (badness 10000) detected at line 145
  []
 
 
+Underfull \hbox (badness 10000) detected at line 146
+[]\T1/txr/bx/n/10.95 []
+ []
+
+
 Underfull \hbox (badness 10000) detected at line 147
-[]\OMS/txsy/m/n/10.95 []
+[]\T1/txr/bx/n/10.95 []
  []
 
 
 Underfull \hbox (badness 10000) detected at line 148
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 149
-[]\OMS/txsy/m/n/10.95 []
+[]\T1/txr/bx/n/10.95 []
  []
 
 
@@ -1289,78 +1280,78 @@ Underfull \hbox (badness 10000) detected at line 150
 []\OMS/txsy/m/n/10.95 []
  []
 
-[5]
-Underfull \hbox (badness 10000) detected at line 162
+
+Underfull \hbox (badness 10000) detected at line 151
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 163
+Underfull \hbox (badness 10000) detected at line 152
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 164
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 171
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 172
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 173
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 183
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 184
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 185
+Underfull \hbox (badness 10000) detected at line 153
 []\OMS/txsy/m/n/10.95 []
  []
 
 [6]
+Underfull \hbox (badness 10000) detected at line 165
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 166
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 167
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 174
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 175
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 176
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
 Underfull \hbox (badness 10000) detected at line 186
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 192
+Underfull \hbox (badness 10000) detected at line 187
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 193
+Underfull \hbox (badness 10000) detected at line 188
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+[7]
+Underfull \hbox (badness 10000) detected at line 189
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 202
+Underfull \hbox (badness 10000) detected at line 195
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 203
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 204
+Underfull \hbox (badness 10000) detected at line 196
 []\OMS/txsy/m/n/10.95 []
  []
 
@@ -1379,22 +1370,22 @@ Underfull \hbox (badness 10000) detected at line 207
 []\OMS/txsy/m/n/10.95 []
  []
 
-[7]
-Underfull \hbox (badness 10000) detected at line 214
+
+Underfull \hbox (badness 10000) detected at line 208
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 215
+Underfull \hbox (badness 10000) detected at line 209
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 216
+Underfull \hbox (badness 10000) detected at line 210
 []\OMS/txsy/m/n/10.95 []
  []
 
-
+[8]
 Underfull \hbox (badness 10000) detected at line 217
 []\OMS/txsy/m/n/10.95 []
  []
@@ -1425,32 +1416,32 @@ Underfull \hbox (badness 10000) detected at line 222
  []
 
 
-Underfull \hbox (badness 10000) detected at line 227
+Underfull \hbox (badness 10000) detected at line 223
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 228
+Underfull \hbox (badness 10000) detected at line 224
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 229
+Underfull \hbox (badness 10000) detected at line 225
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 236
+Underfull \hbox (badness 10000) detected at line 230
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 237
+Underfull \hbox (badness 10000) detected at line 231
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 238
+Underfull \hbox (badness 10000) detected at line 232
 []\OMS/txsy/m/n/10.95 []
  []
 
@@ -1464,7 +1455,7 @@ Underfull \hbox (badness 10000) detected at line 240
 []\OMS/txsy/m/n/10.95 []
  []
 
-[8]
+
 Underfull \hbox (badness 10000) detected at line 241
 []\OMS/txsy/m/n/10.95 []
  []
@@ -1479,18 +1470,18 @@ Underfull \hbox (badness 10000) detected at line 243
 []\OMS/txsy/m/n/10.95 []
  []
 
-
-Underfull \hbox (badness 10000) detected at line 254
+[9]
+Underfull \hbox (badness 10000) detected at line 244
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 255
+Underfull \hbox (badness 10000) detected at line 245
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 256
+Underfull \hbox (badness 10000) detected at line 246
 []\OMS/txsy/m/n/10.95 []
  []
 
@@ -1504,63 +1495,63 @@ Underfull \hbox (badness 10000) detected at line 258
 []\OMS/txsy/m/n/10.95 []
  []
 
-[9]
-Underfull \hbox (badness 10000) detected at line 276
+
+Underfull \hbox (badness 10000) detected at line 259
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 277
+Underfull \hbox (badness 10000) detected at line 260
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 278
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 285
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 286
+Underfull \hbox (badness 10000) detected at line 261
 []\OMS/txsy/m/n/10.95 []
  []
 
 [10]
-Underfull \hbox (badness 10000) detected at line 294
+Underfull \hbox (badness 10000) detected at line 279
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 295
+Underfull \hbox (badness 10000) detected at line 280
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 296
+Underfull \hbox (badness 10000) detected at line 281
 []\OMS/txsy/m/n/10.95 []
  []
 
 
+Underfull \hbox (badness 10000) detected at line 288
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 289
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+[11]
 Underfull \hbox (badness 10000) detected at line 297
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 305
+Underfull \hbox (badness 10000) detected at line 298
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 306
+Underfull \hbox (badness 10000) detected at line 299
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 307
+Underfull \hbox (badness 10000) detected at line 300
 []\OMS/txsy/m/n/10.95 []
  []
 
@@ -1570,17 +1561,17 @@ Underfull \hbox (badness 10000) detected at line 308
  []
 
 
-Underfull \hbox (badness 10000) detected at line 323
-[]\OMS/txsy/m/n/10.95 []
- []
-
-[11]
-Underfull \hbox (badness 10000) detected at line 324
+Underfull \hbox (badness 10000) detected at line 309
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 325
+Underfull \hbox (badness 10000) detected at line 310
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 311
 []\OMS/txsy/m/n/10.95 []
  []
 
@@ -1589,29 +1580,29 @@ Underfull \hbox (badness 10000) detected at line 326
 []\OMS/txsy/m/n/10.95 []
  []
 
-
-Underfull \hbox (badness 10000) detected at line 332
+[12]
+Underfull \hbox (badness 10000) detected at line 327
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 333
+Underfull \hbox (badness 10000) detected at line 328
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 329
 []\OMS/txsy/m/n/10.95 []
  []
 
 
 Underfull \hbox (badness 10000) detected at line 335
-[]\T1/txr/bx/n/10.95 []
+[]\OMS/txsy/m/n/10.95 []
  []
 
 
 Underfull \hbox (badness 10000) detected at line 336
-[]\T1/txr/bx/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 337
-[]\T1/txr/bx/n/10.95 []
+[]\OMS/txsy/m/n/10.95 []
  []
 
 
@@ -1630,38 +1621,38 @@ Underfull \hbox (badness 10000) detected at line 340
  []
 
 
+Underfull \hbox (badness 10000) detected at line 341
+[]\T1/txr/bx/n/10.95 []
+ []
+
+
 Underfull \hbox (badness 10000) detected at line 342
-[]\OMS/txsy/m/n/10.95 []
+[]\T1/txr/bx/n/10.95 []
  []
 
 
 Underfull \hbox (badness 10000) detected at line 343
+[]\T1/txr/bx/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 345
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 344
+Underfull \hbox (badness 10000) detected at line 346
 []\OMS/txsy/m/n/10.95 []
  []
 
 
 Underfull \hbox (badness 10000) detected at line 347
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 349
-[]\T1/txr/bx/n/10.95 []
+[]\OMS/txsy/m/n/10.95 []
  []
 
 
 Underfull \hbox (badness 10000) detected at line 350
-[]\T1/txr/bx/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 351
-[]\T1/txr/bx/n/10.95 []
+[]\OMS/txsy/m/n/10.95 []
  []
 
 
@@ -1675,92 +1666,92 @@ Underfull \hbox (badness 10000) detected at line 353
  []
 
 
-Underfull \hbox (badness 10000) detected at line 355
-[]\OMS/txsy/m/n/10.95 []
+Underfull \hbox (badness 10000) detected at line 354
+[]\T1/txr/bx/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 357
+Underfull \hbox (badness 10000) detected at line 355
+[]\T1/txr/bx/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 356
 []\T1/txr/bx/n/10.95 []
  []
 
 
 Underfull \hbox (badness 10000) detected at line 358
-[]\T1/txr/bx/n/10.95 []
+[]\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 359
+Underfull \hbox (badness 10000) detected at line 360
 []\T1/txr/bx/n/10.95 []
  []
 
 
 Underfull \hbox (badness 10000) detected at line 361
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 363
 []\T1/txr/bx/n/10.95 []
  []
 
-[12]
+
+Underfull \hbox (badness 10000) detected at line 362
+[]\T1/txr/bx/n/10.95 []
+ []
+
+
 Underfull \hbox (badness 10000) detected at line 364
-[]\T1/txr/bx/n/10.95 []
+[]\OMS/txsy/m/n/10.95 []
  []
 
 
 Underfull \hbox (badness 10000) detected at line 366
+[]\T1/txr/bx/n/10.95 []
+ []
+
+[13]
+Underfull \hbox (badness 10000) detected at line 367
+[]\T1/txr/bx/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 369
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 385--385
+Underfull \hbox (badness 10000) in paragraph at lines 388--388
 []|\T1/txr/bx/n/10.95 Not ex-am-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 385--385
+Underfull \hbox (badness 10000) in paragraph at lines 388--388
 []|\T1/txr/bx/n/10.95 Read by
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 385--385
+Underfull \hbox (badness 10000) in paragraph at lines 388--388
 []|\T1/txr/bx/n/10.95 Attentive
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 391--391
+Underfull \hbox (badness 1292) in paragraph at lines 394--394
 \T1/txr/m/n/10.95 (+20) prop-er-ties (SSRS with Safety
  []
 
 
-Overfull \hbox (15.45287pt too wide) in paragraph at lines 383--399
+Overfull \hbox (15.45287pt too wide) in paragraph at lines 386--402
 [][] 
  []
 
-[13]
-Underfull \hbox (badness 10000) detected at line 405
+[14]
+Underfull \hbox (badness 10000) detected at line 408
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 406
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 411
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 412
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 413
+Underfull \hbox (badness 10000) detected at line 409
 []\OMS/txsy/m/n/10.95 []
  []
 
@@ -1775,17 +1766,17 @@ Underfull \hbox (badness 10000) detected at line 415
  []
 
 
-Underfull \hbox (badness 10000) detected at line 420
-[]\OMS/txsy/m/n/10.95 []
- []
-
-[14]
-Underfull \hbox (badness 10000) detected at line 421
+Underfull \hbox (badness 10000) detected at line 416
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 422
+Underfull \hbox (badness 10000) detected at line 417
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 418
 []\OMS/txsy/m/n/10.95 []
  []
 
@@ -1794,7 +1785,7 @@ Underfull \hbox (badness 10000) detected at line 423
 []\OMS/txsy/m/n/10.95 []
  []
 
-
+[15]
 Underfull \hbox (badness 10000) detected at line 424
 []\OMS/txsy/m/n/10.95 []
  []
@@ -1810,32 +1801,32 @@ Underfull \hbox (badness 10000) detected at line 426
  []
 
 
-Underfull \hbox (badness 10000) detected at line 432
+Underfull \hbox (badness 10000) detected at line 427
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 433
+Underfull \hbox (badness 10000) detected at line 428
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 434
+Underfull \hbox (badness 10000) detected at line 429
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 443
+Underfull \hbox (badness 10000) detected at line 435
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 444
+Underfull \hbox (badness 10000) detected at line 436
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 445
+Underfull \hbox (badness 10000) detected at line 437
 []\OMS/txsy/m/n/10.95 []
  []
 
@@ -1850,27 +1841,27 @@ Underfull \hbox (badness 10000) detected at line 447
  []
 
 
+Underfull \hbox (badness 10000) detected at line 448
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 449
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 450
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
 ("C:\Users\Cyril Cornu\Documents\GitHub\internal-assessment\internal-assessment
-\Internal_Assessment_Plan\gantt.tex" [15]
+\Internal_Assessment_Plan\gantt.tex" [16] [17]
 Missing character: There is no , in font nullfont!
- [16
+ [18
 
 ])
-Underfull \hbox (badness 10000) detected at line 457
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 458
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
-Underfull \hbox (badness 10000) detected at line 459
-[]\OMS/txsy/m/n/10.95 []
- []
-
-
 Underfull \hbox (badness 10000) detected at line 460
 []\OMS/txsy/m/n/10.95 []
  []
@@ -1881,37 +1872,52 @@ Underfull \hbox (badness 10000) detected at line 461
  []
 
 
-Underfull \hbox (badness 10000) detected at line 468
+Underfull \hbox (badness 10000) detected at line 462
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 469
+Underfull \hbox (badness 10000) detected at line 463
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 470
+Underfull \hbox (badness 10000) detected at line 464
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 477
+Underfull \hbox (badness 10000) detected at line 471
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 478
+Underfull \hbox (badness 10000) detected at line 472
 []\OMS/txsy/m/n/10.95 []
  []
 
 
-Underfull \hbox (badness 10000) detected at line 479
+Underfull \hbox (badness 10000) detected at line 473
 []\OMS/txsy/m/n/10.95 []
  []
 
 
 Underfull \hbox (badness 10000) detected at line 480
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 481
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 482
+[]\OMS/txsy/m/n/10.95 []
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 483
 []\OMS/txsy/m/n/10.95 []
  []
 
@@ -1922,7 +1928,7 @@ FiXme Summary: Number of notes: 0,
 (FiXme)        Number of fatal errors: 0,
 (FiXme)        Total: 0.
 
-[17
+[19
 
 ]
 ("C:\Users\Cyril Cornu\Documents\GitHub\internal-assessment\internal-assessment
@@ -1932,11 +1938,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 19767 strings out of 494045
- 348575 string characters out of 3145951
- 597870 words of memory out of 3000000
+ 19771 strings out of 494045
+ 348606 string characters out of 3145951
+ 596867 words of memory out of 3000000
  22336 multiletter control sequences out of 15000+200000
- 106227 words of font info for 307 fonts, out of 3000000 for 9000
+ 106402 words of font info for 310 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  63i,13n,60p,1054b,993s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Users/
@@ -1951,9 +1957,9 @@ a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/
 MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Internal_Assessment_Plan.pdf (20 pages, 399471 bytes).
+Output written on Internal_Assessment_Plan.pdf (21 pages, 401076 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
+ 123 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  65052 words of extra memory for PDF output out of 74296 (max. 10000000)
 
