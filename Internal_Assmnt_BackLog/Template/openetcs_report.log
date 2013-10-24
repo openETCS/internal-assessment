@@ -1,0 +1,16 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdftex 2013.2.25)  25 FEB 2013 11:22
+entering extended mode
+**C:/Users/Cyril*Cornu/Documents/GitHub/v-v-report/Template/openetcs_report.cls
+
+("C:/Users/Cyril Cornu/Documents/GitHub/v-v-report/Template/openetcs_report.cls
+"
+! Undefined control sequence.
+l.55 \NeedsTeXFormat
+                    {LaTeX2e}
+? 
+! Emergency stop.
+l.55 \NeedsTeXFormat
+                    {LaTeX2e}
+End of file on the terminal!
+
+!  ==> Fatal error occurred, no output PDF file produced!
