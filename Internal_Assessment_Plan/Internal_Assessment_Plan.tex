@@ -44,30 +44,41 @@
 \subtitle{Planning and Description of tasks that are performed in the frame of Open ETCS Internal Assessment Activities}
 
 %set the date of the report here
-\date{July 2013}
+\date{July 2013\\revised August 2015}
 
 %define a list of authors and their affiliation here
-\author{Cyril Cornu (All4tec)}
+\author{Fr\'ed\'erique Vall\'ee}
 
 \affiliation{All4tec\\
-  2-12, Rue du Chemin des femmes\\
+  2-12, rue du Chemin des femmes\\
   91 300 MASSY\\
   France
 }
+
+\author{Norbert Sch\"afer}
+
+\affiliation{AEbt Angewandte Eisenbahntechnik GmbH\\
+  Adam-Klein-Strasse. 26\\
+  90429 N\"urnberg\\
+  Germany
+}
+
+
+
 
 
 % define the coverart
 \coverart[width=350pt]{chart}
 
 %define the type of report
-\reporttype{Preliminary Report draft version}
+\reporttype{final version}
 
 
 \begin{abstract}
 The Internal Assessment Plan describes the Internal Assessment strategy and plan in the frame of V\&V activities in the Open ETCS project.
-According to the CENELEC EN50128 standrad, the assessment is a \"\ Process of analysis to determine whether software, which may include process, documentation, system, subsystem hardware and/or software components, meets the specified requirements, and to form a judgment whether the software is fit for its intended purpose.\"\
+According to the CENELEC EN50128 standrad, the assessment is a \"\ Process of analysis to determine whether software, which may include process, documentation, system, subsystem hardware and/or software components, meets the specified requirements, and to form a judgment as to whether the software is fit for its intended purpose.\"\
 \\
-The dates, highlights, deliverables and activities split presented in this plan are willing to be adapted in accordance with the FPP final version.
+The dates, highlights, deliverables and activities split presented in this plan are have been adapted in accordance with the FPP final version.
 \end{abstract}
 
 %=============================
@@ -94,9 +105,9 @@ The dates, highlights, deliverables and activities split presented in this plan 
 \begin{supertabular}{m{1.1cm}m{1.8cm}m{2cm}m{5cm}m{4cm}}
 \hline
 
- 0.1 & 28/06/2013 & all & 1st version & Cyril Cornu (Document Author)\\ \hline
+ 0.1 & 28/06/2013 & all & 1st version & Cyril Cornu\\ \hline
  0.1 & 05/07/2013 & §1.3 &  Consistence with Project Quality Documentation & Merlin Pokam\\ \hline
- & & & & \\ \hline
+ 0.9 & 04/09/2015 & all & updating to final FPP & Fr\'ed\'erique Vall\'ee, Norbert Sch\"afer \\ \hline
  & & & & \\ \hline
  & & & & \\ \hline
 \end{supertabular}
@@ -112,7 +123,7 @@ The dates, highlights, deliverables and activities split presented in this plan 
 \section{Introduction}
 The role of the Assessor is to perform an assessment of the software developed during the project OpenETCS. According to the standard EN 50128 and the software safety integrity level (SIL4) of the project, it is very important to remind that the Assessor shall be independent from the project and shall be given authority to perform the software assessment. Then, the Assessor shall not be part of project stakeholders, and is totally independent from the project teams. Furthermore, the Assessor shall have the knowledge of both ERTMS and ETCS, of the dependability and of the standard EN 50128, even if only the On Board Unit EVC Software takes part in the project scope.
 \\
-For these reasons, the need of an internal assessment has been identified at the beginning of the project. This activity would simulate a real external assessment process, that would be  enhanced by people part of the Open ETCS project, and responding to the 2 main skills conditions to perform such a task: the technical knowledge on the ETCS OBU and the technical independency regarding the whole Software development and project activities. 
+For these reasons, the need of an internal assessment has been identified at the beginning of the project. This activity would simulate a real external assessment process, that would be  enhanced by people being part of the Open ETCS project. This addresses to the 2 main fields of knowledge to perform this task: the technical knowledge on the ETCS OBU and the technical independency regarding the whole Software development and project activities. 
 
 \subsection{Project context}
 The aim of the internal assessment is to simulate a real assessor activity regarding a usual Railway signaling system development by a railway company. The Open ETCS project main objectives are:
@@ -123,7 +134,7 @@ The aim of the internal assessment is to simulate a real assessor activity regar
 \item Generating symbiotic effects of large companies, R\&D institutes, and SMEs in order to bring together all relevant experts in the field taking advantage from their diverse knowledge within a value adding chain (so called “eco-system” or “Co-Competition”).
 \end{itemize}
 
-These four objectives are all related to specific steps of On Board Unit Software development (European Vital Computer). Moreover, they all encompass underneath performance, reliability, availability, maintainability and safety objectives, that are usually translated into a Safety Integrity Level (SIL), and the conditions regarding quality, process and overall development activities are gathered in the CENELEC standards EN50128, EN20126 and EN50129.
+These four objectives are all related to specific steps of On Board Unit Software development of the European Vital Computer (EVC). Moreover, they all encompass underneath performance, reliability, availability, maintainability and safety objectives, that are usually translated into a Safety Integrity Level (SIL), and the conditions regarding quality, process and overall development activities are gathered in the CENELEC standards EN50128, EN20126 and EN50129.
 Therefore, apply the common development strategy for such a railway system makes sense, and allows the project to base the whole OBU EVC Software development on existing CENELEC standards for such Railway signaling systems. Thus, it will allow us to meet these both conditions on design process and Safety Level.
 
 \subsection{Internal Assessment Plan objectives}
@@ -143,9 +154,9 @@ The Internal Assessment Plan assumes that:
 \item Main reviewers are of this document are:
 	\begin{itemize}
 	\item Frederique Vall\'ee (All4tec), as Internal Assessor for Open ETCS project;
-	\item Merlin Pokam (AEbT), as specialist of CENELEC Standards (to be confirmed);
-	\item Marc Behrens (DLR), as V\&V leader for Open ETCS project (to be confirmed);
-	\item Jan Welte (TU Braunschweig), as Safety leader for Open ETCS project (to be confirmed);
+	\item Norbrt Sch\"afer  (AEbT),  as Internal Assessor for Open ETCS project;
+	\item Marc Behrens (DLR), as V\&V leader for Open ETCS project;
+	\item Jan Welte (TU Braunschweig), as Safety leader for Open ETCS project;
 	\end{itemize}
 \item Customer identification (to be defined for our specific case, the Open ETCS )
 \item Mission context (product description, context regarding the existing assessment of tools or artifacts in the project)
@@ -162,7 +173,7 @@ This point is major because it defines precisely the difference between the Inte
 This chapter details what are the main features to be checked regarding the quality insurance regarding the whole Open ETCS activities, from the very beginning of the project to the end of it.
 The Safety Criteria are defined in the document D2.2 appendix B3, and these criteria will be checked during the Internal Assessment reviews. The main points to be assessed are:
 \begin{itemize}
-\item The Quality Assurance Plan completeness
+\item The Quality Assurance Plan (QAP) completeness
 \item The Project Deliverables compliance with QAP
 \item The Management and Responsibilities management 
 \end{itemize}
@@ -171,9 +182,9 @@ The Safety Criteria are defined in the document D2.2 appendix B3, and these crit
 The compliance to the applicable standards is a major point for the quality management system assessment.
 The major standards to considered within Open ETCS are:
 \begin{itemize}
-\item CENELEC EN 50126
-\item CENELEC EN 50128
-\item CENELEC EN 50129
+\item CENELEC EN 50126 \cite{EN50126:2000}
+\item CENELEC EN 50128 \cite{EN50128:2011}
+\item CENELEC EN 50129 \cite{EN50129:2003}
 \end{itemize}
 
 So far, the 3 CENELEC standards have been identified as defining the normative frame for the OBU EVC Software development. At this moment in the project, we are not sure that EN 50126 and EN 50129 standards will  be applied for the assessment. so far, the CENELEC EN 50128 will be applied for sure, and what is presented in this document is mainly based on the EN 50128 standard.
@@ -453,7 +464,7 @@ The results presented in this report are:
 \section{Internal assessment activities planing}
 This part describes how will be performed the Internal Assessment all along the Open ETCS project. It will identify the main project outcomes and deadlines that will trigger Internal Assessment activities.
 The project is now following this planing:
-\input{gantt.tex}
+
 
 So far, the deadlines that have been decided in the frame of Internal Assessment are corresponding to some of the main outcomes for the overall project, with a month of delay. This delay is supposed to encompass the Internal Assessment Activity and production of the outcomes related to the deadlines considered. The main deadlines so far are the following:
 \begin{itemize}
@@ -485,6 +496,12 @@ The plan and structure of each of assessment report will be based on the same pr
 
 \section{Conclusion}
 ...
+
+
+\nocite{*} 
+
+\bibliographystyle{plain}
+\bibliography{Internal_Assessment_Plan}
 
 
 
