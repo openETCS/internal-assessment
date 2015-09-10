@@ -1,4 +1,4 @@
-\documentclass{template/openetcs_article}
+\documentclass[openetcs]{template/openetcs_article}
 % Use the option "nocc" if the document is not licensed under Creative Commons
 %\documentclass[nocc]{template/openetcs_report}
 \usepackage{lipsum}
@@ -18,12 +18,15 @@
 \usepackage{booktabs}
 \usepackage{multirow}
 \usepackage{color, colortbl}
+\usepackage[modulo]{lineno}
+\definecolor{gray}{rgb}{0.8,0.8,0.8}
 \definecolor{myblue}{rgb}{0.6,.6,1}
 \definecolor{mydarkblue}{rgb}{0,0,0.5}
 \usepackage{datetime}
 \graphicspath{{./template/}{.}{./images/}}
 \usepackage[color=green!40,textsize=footnotesize,textwidth=2.8cm]{todonotes}
 %\usepackage[rond]{natbib}
+\graphicspath{{./template/}{.}{./images/}}
 
 \begin{document}
 
@@ -50,6 +53,22 @@
 %set the date of the report here
 \date{July 2013\\revised August 2015}
 
+
+%document approval
+%define the name and affiliation of the people involved in the documents approbation here
+\creatorname{Fr\'ed\'erique Vall\'ee}
+\creatoraffil{All4tec}
+
+\techassessorname{Jan Welte}
+\techassessoraffil{TU-BS}
+
+\qualityassessorname{Marc Behrens}
+\qualityassessoraffil{DLR}
+
+\approvalname{Klaus-R\"udiger Hase}
+\approvalaffil{DB Netz}
+
+
 %define a list of authors and their affiliation here
 \author{Fr\'ed\'erique Vall\'ee}
 
@@ -72,7 +91,7 @@
 
 
 % define the coverart
-\coverart[width=350pt]{chart}
+\coverart[width=350pt]{openETCS_EUPL}
 
 %define the type of report
 \reporttype{final version}
@@ -80,7 +99,7 @@
 
 \begin{abstract}
 The Internal Assessment Plan describes the Internal Assessment strategy and plan in the frame of V\&V activities in the openETCS \cite{openETCS} project.
-According to the CENELEC EN50128 \cite{EN50128:2011} standard, the assessment is a \"\ Process of analysis to determine whether software, which may include
+According to the CENELEC EN50128 \cite{EN50128} standard, the assessment is a \"\ Process of analysis to determine whether software, which may include
 process, documentation, system, subsystem hardware and/or software components, meets the specified requirements and to form a judgment as to whether the
 software is fit for its intended purpose.\"\
 \\
@@ -90,8 +109,7 @@ The dates, highlights, deliverables and activities split presented in this plan 
 %=============================
 %Do not change the next three lines
 \maketitle
-\setcounter{tocdepth}{2}
-\tableofcontents
+%\setcounter{tocdepth}{2}
 %\listoffiguresandtables
 \newpage
 %=============================
@@ -101,28 +119,34 @@ The dates, highlights, deliverables and activities split presented in this plan 
 %=============================
 
 
-\section*{Document History}
+\section*{Modification History}
 
-\begin{flushleft}
-\tablefirsthead{\hline \rowcolor{myblue} Version & Date & Chapters modified & Reason & Name\\}
 
 %\tabletail{}
 %\tablelasttail{}
 
 
+
+
+
+\tablefirsthead{
+\hline 
+\rowcolor{gray} 
+Version & Section & Modification / Description & Author \\\hline}
+
 \bgroup
 \def\arraystretch{2.5}%  1 is the default, change whatever you need
-\begin{supertabular}{m{1.1cm}m{1.8cm}m{2cm}m{5cm}m{4cm}}
-\hline
- 0.1 & 28/06/2013 & all & 1st version & Cyril Cornu\\ \hline
- 0.1 & 05/07/2013 & §1.3 &  Consistence with Project Quality Documentation & Merlin Pokam\\ \hline
- 0.9 & 04/09/2015 & all &update according to final FPP & Fr\'ed\'erique~Vall\'ee, \newline Marc Behrens \\ \hline
- & & & & \\ \hline
- & & & & \\ \hline
+
+\begin{supertabular}{| m{1.2cm} | m{1.2cm} | m{6.6cm} | m{4cm} |}
+ 0.1 & all & 1st version & Cyril Cornu\\ \hline
+ 0.2 & \S1.3 &  Consistence with Project Quality Documentation & Merlin Pokam\\ \hline
+ 0.9 & all & update according to final FPP & Fr\'ed\'erique~Vall\'ee, \newline Norbert Sch\"afer \\ \hline
+ & & & \\\hline
 \end{supertabular}
 \egroup
-\end{flushleft}
 
+\tableofcontents
+\listoffiguresandtables
 \newpage
 
 
@@ -254,15 +278,13 @@ inputs/outputs of each task, within a work package or a specific task, as well a
 this process description.
 The documents have to be identified in this process, and the connection  between the activities to be performed and the related documents shall be provided.
 
-Documents or information related to some points of this process are of major importance for the assessor. Here is a list of technical items that should be more
-deeply examined by the assessor:
+Documents or information related to some points of this process are of major importance for the assessor. Here is a list of technical items that should be more deeply examined by the assessor:
 \begin{itemize}
 \item The Architecture definition;
 \item The Software components, with their functional interfaces (internal and external);
 \item The functions and sub-functions of the software;
 \item The Safety Requirements traceability;
 \item The consistency of applied technics and methods to the Quality Assurance Plan;
-\item ...
 \end{itemize}
 
 \subsection{The Role and Responsibilities management}
@@ -473,8 +495,9 @@ results of the overall Safety assessment for the project.
 
 \subsection{Detail level for documentation evaluation}
 
-This table gives an overview of the depth of assessment and control activity according to the CERTIFER standards (French Assessor)
+This table \ref{table:depthofassessment} gives an overview of the depth of assessment and control activity according to the CERTIFER standards (French Assessor)
 
+\begin{table}
 \begin{tabular}{p{5cm}|>{\centering\arraybackslash}p{2cm}|>{\centering\arraybackslash}p{2cm}|
 	>{\centering\arraybackslash}p{2cm}|>{\centering\arraybackslash}p{2cm}|} 
 \hline
@@ -492,6 +515,10 @@ Overall tests results & & & X & \\ \hline
 Parameters Validation report & & & X & \\ \hline
 Safety Case & & & & X \\ \hline
 \end{tabular}
+\caption{depth of assessment and control activity according to the CERTIFER standards}
+\label{table:depthofassessment}
+\end{table}
+
 
 \subsection{Detailed tool assessment}
 According to the CENELEC there are 3 different classes of tools, leading to specific assessment for each tool class. According to the D2.2 document, the tool
