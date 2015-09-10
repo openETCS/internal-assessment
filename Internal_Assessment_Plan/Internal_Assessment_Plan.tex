@@ -4,13 +4,14 @@
 \usepackage{lipsum}
 %\usepackage{titledoc}
 \usepackage{longtable}
+\usepackage{array}
 \usepackage{url}
 \usepackage{hyperref}
 \usepackage{xspace}
 \usepackage{graphicx}
 \usepackage{supertabular}
 \usepackage{fixme}
-\usepackage{lscape} 
+\usepackage{lscape}
 \usepackage{pgfgantt}
 \usepackage{adjustbox}
 \usepackage{hhline}
@@ -191,13 +192,6 @@ This point is major because it defines precisely the difference between the Inte
 In our case, the people taking part in the Internal Assessment are not necessarily form outside of the organization, and are moreover part of the project
 directly contributing to it. In addition the assessor shall have acceptance/licence from a recognised safety authority.
 
-\todo[inline]{revision until this point}
-
-
-
-
-
-
 \newpage
 \section{Project Quality Assessment}
 This chapter details what are the main features to be checked regarding the quality assurance regarding the whole openETCS activities, from the very beginning
@@ -219,7 +213,7 @@ The major standards to be considered within openETCS are:
 \item CENELEC EN 50129 \cite{EN50129}
 \end{itemize}
 
-So far, the three CENELEC standards (CENELEC) have been identified as defining the normative frame for the EVC Software development. Due to the scope of the development as described inside the FPP \cte{FPP} only the CENELEC EN 50128 is applicable for the assessment.
+So far, the three CENELEC standards (CENELEC) have been identified as defining the normative frame for the EVC Software development. Due to the scope of the development as described inside the FPP \cite{FPP} only the CENELEC EN 50128 is applicable for the assessment.
 
 \subsection{Quality Assurance Plan - QAP}
 The purpose of the QA Plan is to define the processes, methods and tools that will be used to develop the openETCS project meeting ITEA requirements, following
@@ -474,13 +468,15 @@ precisely defined.
 One deliverable will be issued in the frame of this part of internal assessment activity: The Safety Assessment Report. This deliverable will present the
 results of the overall Safety assessment for the project.
 
+\newpage
 \section{Assessment Method and Processes}
 
 \subsection{Detail level for documentation evaluation}
 
 This table gives an overview of the depth of assessment and control activity according to the CERTIFER standards (French Assessor)
 
-\begin{tabular}{|p{5cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|} 
+\begin{tabular}{p{5cm}|>{\centering\arraybackslash}p{2cm}|>{\centering\arraybackslash}p{2cm}|
+	>{\centering\arraybackslash}p{2cm}|>{\centering\arraybackslash}p{2cm}|} 
 \hline
 \textbf{Document to be evaluated} & \textbf{Not examined} & \textbf{Quick Read} & \textbf{Read by Sampling} & \textbf{Attentive Read} \\ \hline
 Quality Assurance Plan & & & & X \\ \hline
@@ -506,8 +502,8 @@ The Safety Criteria for tools are defined in the document D2.2 appendix A, and t
 
 \subsection{Intermediate Evaluation Assessment}
 The Internal Assessment activities is supposed to improve the openETCS project compliance with a standard need of Assessment for such a SIL4 Software.
-Therefore, different activities related to the assessment have to be performed during the on-going process of Software development. These actions can be
-performed in different ways:
+Therefore, different activities related to the assessment have to be performed during the on-going process of Software development. These actions can be performed in different ways:
+
 \begin{itemize}
 \item Intermediate Reports. These reports will be triggered at specific time/issue of the project, as described in §6.1. They will be based on a pre-defined set
 of documentation defined in accordance with documentation authors and coordinators, and gathered in a specific GitHub repository. Then, Assessor's remarks will
@@ -525,18 +521,19 @@ would then be hosted in a specific GitHub Repository, and then gathered the Inte
 The Assessment Report is the global document gathering all the evaluations or audits that have been performed during the Internal Assessment of the project.
 This report will bring the proof that the software developed within openETCS project is compliant with the Safety objectives.
 The results presented in this report are:
- \begin{itemize}
-\item justifications on cross-acceptance verification activities
+
+\begin{itemize}
+\item justifications on cross-acceptance verification activities;
 \item intermediate assessments synthesis;
 \item Quality and V\&V audits conclusion (including the tracking of improvement axis and corrective actions);
-\item The list of software components evaluated (+configuration management results)
-\item Conclusions on Product Evaluation
+\item The list of software components evaluated (+configuration management results);
+\item Conclusions on Product Evaluation.
 \end{itemize}
 
 \section{Internal assessment activities planning}
 This part describes how will be performed the Internal Assessment all along the openETCS project. It will identify the main project outcomes and deadlines that will trigger Internal Assessment activities. The project is now following this agreed milestones:
 
-\begin{itemze}
+\begin{itemize}
 \item December 2013 1st internal assessment
 \item February 2014 1st internal assessment synchronization meeting N\"urnberg
 \item Freeze on project development process assessment related inputs for the internal assessment: 30.09.2015
