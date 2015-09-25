@@ -103,7 +103,7 @@ According to the CENELEC EN50128 \cite{EN50128} standard, the assessment is a \"
 process, documentation, system, subsystem hardware and/or software components, meets the specified requirements and to form a judgment as to whether the
 software is fit for its intended purpose.\"\
 \\
-The dates, highlights, deliverables and activities split presented in this plan are have been adapted in accordance with the FPP \cite{FPP} final version.
+The dates, highlights, deliverables and activities split presented in this plan have been adapted in accordance with the FPP \cite{FPP} final version.
 \end{abstract}
 
 %=============================
@@ -146,7 +146,9 @@ Version & Section & Modification / Description & Author \\\hline}
 \egroup
 
 \tableofcontents
-\listoffiguresandtables
+%\listoffiguresandtables
+\listoftables
+
 \newpage
 
 
@@ -162,8 +164,8 @@ Furthermore, the Assessor shall have the knowledge of both ERTMS and ETCS, of th
 Software takes part in the project scope.
 \\
 For these reasons, the need of an internal assessment has been identified at the beginning of the project. This activity would simulate a real external
-assessment process, that would be enhanced by people being part of the openETCS project. This addresses to the 2 main fields of knowledge to perform this task:
-the technical knowledge on the ETCS OBU and the technical independency regarding the whole Software development and project activities.
+assessment process, that would be enhanced by people being part of the openETCS project. This addresses the two main aspects of this task:
+the technical knowledge on the ETCS OBU and the technical independency regarding the whole software development and project activities.
 
 \subsection{Project context}
 The aim of the internal assessment is to simulate a real assessor activity regarding a usual Railway signaling system development by a railway company. The openETCS project main objectives are:
@@ -180,8 +182,8 @@ from their diverse knowledge within a value adding chain (so called “eco-syste
 
 These four objectives are all related to specific steps of On Board Unit Software development of the European Vital Computer (EVC). Moreover, they all encompass
 underneath performance, reliability, availability, maintainability and safety objectives, that are usually translated into a Safety Integrity Level (SIL), and
-the conditions regarding quality, process and overall development activities are gathered in the CENELEC standards EN50128 \cite{EN50128}, EN20126
-\cite{EN50216} and EN50129 \cite{EN50129}.
+the conditions regarding quality, process and overall development activities are gathered in the CENELEC standards EN50128 \cite{EN50128}, EN50126
+\cite{EN50126} and EN50129 \cite{EN50129}.
 Therefore, apply the common development strategy for such a railway system makes sense, and allows the project to base the whole EVC Software development on
 existing CENELEC standards for such Railway signaling systems. Thus, it will allow us to meet these both conditions on design process and Safety Level.
 
@@ -189,12 +191,12 @@ existing CENELEC standards for such Railway signaling systems. Thus, it will all
 This document provides the overall assessment plan and objectives that will be followed in the frame of internal assessment activities.
 The activities are shared according to the main software development categories and deal with:
 \begin{itemize}
-\item Project and Software Quality insurance
+\item Project and Software Quality assurance
 \item Verification \& Validation
 \item Safety
 \end{itemize}
 
-For each assessment activities, this assessment plan identifies the relevant deliverables, and the criteria that will be considered for the assessment.
+For each activity, this assessment plan identifies the relevant deliverables, and the criteria that will be considered for the assessment.
 The Internal Assessment Plan assumes that: 
 \begin{itemize}
 \item All versions of the present Assessment Plan and modification tracking are provided in the document history.
@@ -204,9 +206,9 @@ The Internal Assessment Plan assumes that:
 	\item Marc Behrens (DLR), as V\&V leader for openETCS project;
 	\item Jan Welte (TU Braunschweig), as Safety leader for openETCS project.
 	\end{itemize}
-\item Customer identification is not needed
-\item Mission context (product description, context regarding the existing assessment of tools or artifacts in the project) is given
-\item The Product and Process assessment scopes are known
+\item Customer identification is not needed.
+\item Mission context (product description, context regarding the existing assessment of tools or artifacts in the project) is given.
+\item The Product and Process assessment scopes are known.
 \item The standards to be applied for Assessment are the CENELEC EN50126 \cite{EN50126} , EN50128 \cite{EN50128} and EN50129 \cite{EN50129} Standards.
 \end{itemize}
 
@@ -232,12 +234,12 @@ be assessed are:
 The compliance to the applicable standards is a major point for the quality management system assessment.
 The major standards to be considered within openETCS are:
 \begin{itemize}
-\item CENELEC EN 50126 \cite{EN50126}
-\item CENELEC EN 50128 \cite{EN50128}
-\item CENELEC EN 50129 \cite{EN50129}
+\item CENELEC EN 50126 \cite{EN50126},
+\item CENELEC EN 50128 \cite{EN50128} and
+\item CENELEC EN 50129 \cite{EN50129}.
 \end{itemize}
 
-So far, the three CENELEC standards (CENELEC) have been identified as defining the normative frame for the EVC Software development. Due to the scope of the development as described inside the FPP \cite{FPP} only the CENELEC EN 50128 is applicable for the assessment.
+So far, the three standards have been identified as defining the normative frame for the EVC Software development. Due to the scope of the development as described inside the FPP \cite{FPP} only the CENELEC EN 50128 is applicable for the assessment.
 
 \subsection{Quality Assurance Plan - QAP}
 The purpose of the QA Plan is to define the processes, methods and tools that will be used to develop the openETCS project meeting ITEA requirements, following
@@ -284,7 +286,7 @@ Documents or information related to some points of this process are of major imp
 \item The Software components, with their functional interfaces (internal and external);
 \item The functions and sub-functions of the software;
 \item The Safety Requirements traceability;
-\item The consistency of applied technics and methods to the Quality Assurance Plan;
+\item The consistency of applied technics and methods to the Quality Assurance Plan.
 \end{itemize}
 
 \subsection{The Role and Responsibilities management}
@@ -300,7 +302,7 @@ According to the CENELEC EN50128, the 9 software development key roles to be ide
 \item the Verifier,
 \item the Integrator,
 \item the Validator,
-\item the Project Manager,
+\item the Project Manager and
 \item the Configuration Manager.
 \end{itemize}
 
@@ -311,7 +313,7 @@ The information needed in Quality Assurance documentation is:
 contribution to a precise task or outcome).
 \item From the gap identified between actual competencies matrix and required competencies matrix, a Training plan has to be set up for all the commiters of the
 openETCS project. This plan will have to track all the identified needs, and then the solutions chosen in order to harmonize the competencies needed and the
-committers skills (training session, re-organization, role split, task force re-enforcement, etc...).
+committer's skills (training session, re-organization, role split, task force re-enforcement, etc...).
 \end{itemize}
 
 \subsection{Quality Log and Traceability}
@@ -320,13 +322,13 @@ Quality Log. This log will be used by the Assessor as a list of possible or requ
 assurance concerns or discrepancies identified during the whole project life cycle.
 The Quality Log table shall encompass the following information: 
 \begin{itemize}
-\item Number of the log row
-\item Document/ Outcome concerned and precise discrepancy localization
-\item Document/ Outcome version
-\item Date
-\item Discrepancy description by assessor, and comments (assessor, author or else)
-\item Action planned to fix (commonly defined by at least the document author and the assessor)
-\item Action Deadline
+\item Number of the log row,
+\item Document/ Outcome concerned and precise discrepancy localization,
+\item Document/ Outcome version,
+\item Date,
+\item Discrepancy description by assessor, and comments (assessor, author or else),
+\item Action planned to fix (commonly defined by at least the document author and the assessor),
+\item Action Deadline and
 \item Status of the log (fixed, under investigation...)
 \end{itemize}
 
@@ -339,11 +341,11 @@ development activities, from the very beginning of the project to the end of it.
 The Quality Criteria regarding V\&V activities are defined in the document D2.2 appendix B4, and these criteria will be checked during the Internal Assessment
 review. The main points to be assessed are:
 \begin{itemize}
-\item V\&V Plan
-\item Verification \& Validation activities for Primary Toolchain
-\item Verification \& Validation activities for Model
-\item Verification \& Validation activities for Code
-\item Safety
+\item V\&V Plan,
+\item Verification \& Validation activities for Primary Toolchain,
+\item Verification \& Validation activities for Model,
+\item Verification \& Validation activities for Code and
+\item Safety.
 \end{itemize}
 %These activities are recorded in the following outcomes so far:
 %\begin{itemize}
@@ -412,7 +414,7 @@ The internal assessment activity will focus on the coverage of:
 \item The method and process used to fill this log, and the accordance to the CENELEC EN50128;
 \item The tools supporting the process for V\&V at Code level;
 \item The fulfillment of the V\&V log, regarding all the information needed in order to track the issues raised during the V\&V activities;
-\item The traceability respect between the V\&V documentation issued in the frame of V\&V activities, and the V\&V log.
+\item The traceability aspect between the V\&V documentation issued in the frame of V\&V activities, and the V\&V log.
 \end{itemize}
 
 \subsection{Deliverable}
@@ -450,31 +452,31 @@ requirements traceability);
 	\item The software configuration management (version, date, developers, etc...);
 	\item The critical parameters, within the following :
 		\begin{itemize}
-		\item Common parameters for whatever the train or the trackside to be considered;
-		\item Interlocking parameters;
-		\item Fault data and fall-back positions;
+		\item Common parameters for whatever the train or the trackside to be considered,
+		\item Interlocking parameters,
+		\item Fault data and fall-back positions.
 		\end{itemize}
 	\end{itemize}
 \item The Code Safety Analysis activities:
 	\begin{itemize}
-	\item The code metrics analysis;
-	\item The Function call graph Analysis;
-	\item The Safety Requirements traceability;
-	\item The SEEA (Software Errors and their Effects Analysis) for the whole code generated;
-	\item The CCR (Critical Code Review) for the Safety related functions;
+	\item The code metrics analysis,
+	\item The Function call graph Analysis,
+	\item The Safety Requirements traceability,
+	\item The SEEA (Software Errors and their Effects Analysis) for the whole code generated,
+	\item The CCR (Critical Code Review) for the Safety related functions.
 	\end{itemize}
 \item The Safety V\&V activities:
 	\begin{itemize}
 \item The Verification activities on the transformation method from the system model to the sub-system model (bugs on process, side files needed, terminology
 consistency, proof on formalized properties);
 	\item The verification activities on the compilation toolchain (compilation bugs, side files generated, memories mapping, comparison of compiling options);
-	\item Test plan and test reports on the software components;
+	\item Test plan and test reports on the software components.
 	\end{itemize}
 \item The Safety log, filled during the whole project duration. The main information to be assessed is:
 	\begin{itemize}
 	\item The coverage for all hazardous situation identified during the project;
 \item The list of all Safety tickets or corrective actions performed in the frame of safety activities, and their status regarding the Safety property or issue
-related;
+related.
 	\end{itemize}
 \item The Global Safety requirements coverage. A document should gather all the Safety requirements identified since the very beginning of the project. All
 the concerns encountered during the very beginning of the Safety activities should be gathered too, and then linked to the solutions identified and applied, in
@@ -558,7 +560,7 @@ The results presented in this report are:
 \end{itemize}
 
 \section{Internal assessment activities planning}
-This part describes how will be performed the Internal Assessment all along the openETCS project. It will identify the main project outcomes and deadlines that will trigger Internal Assessment activities. The project is now following this agreed milestones:
+This part describes how the Internal Assessment will be performed all along the openETCS project. It will identify the main project outcomes and deadlines that will trigger Internal Assessment activities. The project is now following this agreed milestones:
 
 \begin{itemize}
 \item December 2013 1st internal assessment
@@ -572,7 +574,7 @@ This part describes how will be performed the Internal Assessment all along the 
 \end{itemize}
 
 \subsection{Internal Assessment committers}
-The internal assessment is be realized with people part of the project, but not strongly involved in the main outcomes related to the main topics/objects to be assessed.
+The internal assessment is realized with people part of the project, but not strongly involved in the main outcomes related to the main topics/objects to be assessed.
 \begin{itemize}
 \item Fr\'ed\'erique Vall\'ee (Head of All4tec)
 \item Norbert Sch\"afer (Head of AEbT)
@@ -585,7 +587,7 @@ The plan and structure of each of assessment report will be based on the same pr
 \item Description of the processes, documents and outcomes to be assessed;
 \item Evaluation criteria for each item to be evaluated;
 \item Results of the evaluation on rough criteria (passed or not passed);
-\item List of concerns detected in the frame of evaluation, and recommendations to the project;
+\item List of concerns detected in the frame of evaluation, and recommendations to the project.
 \end{itemize}
 
 % show only documents cited
