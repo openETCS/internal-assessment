@@ -51,7 +51,7 @@
 \subtitle{Planning and Description of tasks that are performed in the frame of Open ETCS Assessment Activities}
 
 %set the date of the report here
-\date{July 2013\\revised August 2015}
+\date{July 2013\\revised November 2015}
 
 
 %document approval
@@ -59,8 +59,8 @@
 \creatorname{Fr\'ed\'erique Vall\'ee}
 \creatoraffil{All4tec}
 
-\techassessorname{Jan Welte}
-\techassessoraffil{TU-BS}
+\techassessorname{Norbert Sch\"afer}
+\techassessoraffil{AEbt}
 
 \qualityassessorname{Marc Behrens}
 \qualityassessoraffil{DLR}
@@ -99,7 +99,7 @@
 
 \begin{abstract}
 The Assessment Plan describes the Assessment strategy and plan in the frame of V\&V activities in the openETCS \cite{openETCS} project.
-According to the CENELEC EN50128 \cite{EN50128} standard, the assessment is a \"\ Process of analysis to determine whether software, which may include
+According to the CENELEC EN50128:2011 \cite{EN50128} standard, the assessment is a \"\ Process of analysis to determine whether software, which may include
 process, documentation, system, subsystem hardware and/or software components, meets the specified requirements and to form a judgment as to whether the
 software is fit for its intended purpose.\"\
 \\
@@ -142,6 +142,7 @@ Version & Section & Modification / Description & Author \\\hline}
  0.2 & \S1.3 &  Consistence with Project Quality Documentation & Merlin Pokam\\ \hline
  0.9 & all & update according to final FPP & Fr\'ed\'erique~Vall\'ee, \newline Norbert Sch\"afer \\ \hline
  0.9.1& all & revision and adding agile workflow description & Marc Behrens \\\hline
+1.0 & all & revision & Marc Behrens \\\hline
 \end{supertabular}
 \egroup
 
@@ -166,7 +167,7 @@ For these reasons, the need of an assessment has been identified at the beginnin
 assessment process, that would be enhanced by people being part of the openETCS project. This addresses the two main aspects of this task:
 the technical knowledge on the ETCS OBU and the technical independency regarding the whole software development and project activities.
 
-\subsection{Project context}
+\subsection{Project Context}
 The aim of the assessment is to simulate a assessor activity regarding a usual Railway signaling system development by a railway company. The openETCS project main objectives are:
 \begin{itemize}
 \item Transforming of higher-level, informal (i.e. expressed in natural language) ETCS requirements in formal requirements that will be used for
@@ -186,7 +187,7 @@ the conditions regarding quality, process and overall development activities are
 Therefore, apply the common development strategy for such a railway system makes sense, and allows the project to base the whole EVC Software development on
 existing CENELEC standards for such Railway signaling systems. Thus, it will allow us to meet these both conditions on design process and Safety Level.
 
-\subsection{Assessment Plan objectives}
+\subsection{Assessment Plan Objectives}
 This document provides the overall assessment plan and objectives that will be followed in the frame of assessment activities.
 The activities are shared according to the main software development categories and deal with:
 \begin{itemize}
@@ -199,7 +200,7 @@ For each activity, this assessment plan identifies the relevant deliverables, an
 The Assessment Plan assumes that: 
 \begin{itemize}
 \item All versions of the present Assessment Plan and modification tracking are provided in the document history.
-\item Author of this document are Fr\'ed\'erique Vall\'ee (All4tec) and Norbert Sch\"afer (AEbt) as Assessors for the openETCS project.
+\item Author of this document are Fr\'ed\'erique Vall\'ee (All4tec) and Norbert Sch\"afer (AEbt) as Independent Assessors for the openETCS project. The assessment will be done according to EN~ISO/IEC~17020 \cite{EN17020}.
 \item Main reviewers of this document are:
 	\begin{itemize}
 	\item Marc Behrens (DLR), as V\&V leader for openETCS project;
@@ -216,7 +217,7 @@ The Assessment Plan assumes that:
 \section{Project Quality Assessment}
 This chapter details what are the main features to be checked regarding the quality assurance regarding the whole openETCS activities, from the very beginning
 of the project to the end of it.
-The Safety Criteria are defined in the document D2.2 appendix B3, and these criteria will be checked during the Assessment reviews. The main points to
+The Safety Criteria are defined in the document D2.2 \cite{D22} appendix B3, and these criteria will be checked during the Assessment reviews. The main points to
 be assessed are:
 \begin{itemize}
 \item The Quality Assurance Plan (QAP) completeness
@@ -257,7 +258,7 @@ model and code issued in the frame of openETCS project.
 \item Review Process. The review process has to be applied from the very beginning of the project to its end.
 \end{itemize}
 
-\subsection{Project Deliverables compliance with QAP}
+\subsection{Project Deliverables Compliance with QAP}
 The Safety Criteria are defined in the document D2.2, and these criteria will be checked during the Assessment review. The main points to be assessed
 for the project deliverables are:
 \begin{itemize}
@@ -285,7 +286,7 @@ Documents or information related to some points of this process are of major imp
 \item The consistency of applied technics and methods to the Quality Assurance Plan.
 \end{itemize}
 
-\subsection{The Role and Responsibilities management}
+\subsection{The Role and Responsibilities Management}
 The Quality Assurance in openETCS has to demonstrate that all the persons involved in the project have the sufficient skills and competencies to fulfill their
 responsibilities. All these competencies have to be gathered and tracked whether in the QAP or in a separate quality related document that has to be identified
 in the QAP.
@@ -368,7 +369,7 @@ activities performed in the Frame of openETCS project.
 The first aspect is related to the Verification activities. The Assessment for Verification will mainly concern the following points:
 \begin{itemize}
 \item Evidence
-\item Test Specifications. The Test Specifications will have to fulfill the CENELEC requirements regarding the tests objectives, the precise content of the test
+\item Test Specifications. The Test Specifications will have to fulfill the CENELEC (EN50128:2011; chap. 6.2) requirements regarding the tests objectives, the precise content of the test
 in terms of environment handling, data and expected results. Their consistency with the test policy will be checked and assessed.
 \item Test Reports. The test reports will have to report as precisely as possible the information related to the test performance. The test results are compared
 with the expected results defined during the test specification, failures have to be recorded, described and then investigated. The test environment such as
@@ -378,7 +379,7 @@ The final reports on one iteration of the Verification and Testing activities ha
 consistency of the Verification activities with the CENELEC Standards. After the milestone of the iteration the results are picked up in the agile process.
 
 \subsection{Validation Activities}
-The second aspect is related to the Validation Activities. The Assessment for Validation will mainly concern the following points:
+The second aspect is related to the Validation Activities according to EN50128:2011 chap. 6.23. The Assessment for Validation will mainly concern the following points:
 \begin{itemize}
 \item The creation of a Validation Plan in order to define a frame for Validation activities (as described in previous paragraph);
 \item The creation of a Validation Report. This report should describe the toolchain, the model or the code tested by functional approach, provide the results
@@ -386,7 +387,7 @@ of validation activities and provide the analysis and the identified discrepanci
 treated shall be gathered in the Software Validation Report.
 \end{itemize}
 
-\subsection{V\&V log and traceability for Model}
+\subsection{V\&V log and Traceability for Model}
 The V\&V activities can be split in testing activities and verification activities. The testing activities aim at verifying the Model behavior and performances
 against the corresponding software specification, in order to achieve the objectives for the EVC Kernel Software Model.
 For each test, a Test Specification has to be issued and will have to fulfill the CENELEC requirements regarding the tests objectives, the precise content of
@@ -402,7 +403,7 @@ the following assessment activities:
 \end{itemize}
 
 
-\subsection{V\&V log and traceability for Code}
+\subsection{V\&V log and Traceability for Code}
 V\&V activities on code will have to take place, mainly in order to complete the coverage of the Model Verification and Validation activities. Indeed,
 requirements that are not covered at the sub-system level will have to be highlighted in the Code Verification activity, whatever their content.
 The assessment activity will focus on the coverage of:
@@ -494,7 +495,7 @@ results of the overall Safety assessment for the project.
 \newpage
 \section{Assessment Method and Processes}
 
-\subsection{Detail level for documentation evaluation}
+\subsection{Detail Level for Documentation Evaluation}
 
 This table \ref{table:depthofassessment} gives an overview of the depth of assessment and control activity according to the CERTIFER standards (French Assessor)
 
@@ -521,7 +522,7 @@ Safety Case & & & & X \\ \hline
 \end{table}
 
 
-\subsection{Detailed tool assessment}
+\subsection{Detailed Tool Assessment}
 According to the CENELEC there are 3 different classes of tools, leading to specific assessment for each tool class. According to the D2.2 document, the tool
 Assessment for the project toolchain will focus on different aspects according to the role and the category of each tool proposed for the project. The tool
 category definition is described in \S 2.3 of this document.
@@ -560,7 +561,7 @@ The results presented in this report are:
 
 
 
-\subsection{Agile Assessment}
+\subsection{Agile Independent Assessment}
 The agile approach is expected to be described inside the documents from the planning phase (this document is also part of the planning phase) and will be part of the development and the assessment.
 
 The assessment itself is also performed in an agile way making use of the project ecosystem. Thus the different documents to be assessed as well as the findings will be tracked on the github story board \cite{ASB}. 
@@ -637,14 +638,14 @@ This part describes how the Assessment will be performed all along the openETCS 
 \item Release of Assessment Report as review: 4.12.2015
 \end{itemize}
 
-\subsection{Assessment committers}
+\subsection{Assessment Committers}
 The assessment is realized with people part of the project, but not involved in the main outcomes related to the main topics/objects to be assessed.
 \begin{itemize}
-\item Fr\'ed\'erique Vall\'ee (Head of All4tec)
-\item Norbert Sch\"afer (Head of AEbT)
+\item Fr\'ed\'erique Vall\'ee (Head of All4tec, SW- Assessor)
+\item Norbert Sch\"afer (Head of AEbt, SW- Assessor)
 \end{itemize}
 
-\subsection{Assessment formalism}
+\subsection{Assessment Formalism}
 The formalism and structure of each part of the Assessment Plan is based on the LaTeX templates provided to the project as global template.
 The plan and structure of each of assessment report will be based on the same principle:
  \begin{itemize}
@@ -658,7 +659,7 @@ The plan and structure of each of assessment report will be based on the same pr
 %\nocite{*} 
 
 \bibliographystyle{plain}
-\bibliography{Internal_Assessment_Plan}
+\bibliography{Assessment_Plan}
 
 
 
