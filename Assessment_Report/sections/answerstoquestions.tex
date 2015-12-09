@@ -1,0 +1,483 @@
+\section{Answers to Questions}
+
+Here a brief description to this chapter (three aspects of Assessment see. AssPlan) 
+
+\subsection{Project Quality Assessment}
+\subsubsection{Goals, conformity and SIL [EN 50128 Section 4] PQ}
+
+{\itshape
+Goal: allocating the safety related system functions to openETCS SW, as well as SW APIs shall be identified in the
+system documentation. Also the SW-SIL shall be specified here. }
+
+
+\bigskip
+
+
+\bigskip
+
+Assessment:
+
+
+\bigskip
+
+
+\bigskip
+
+
+\bigskip
+
+\subsubsection{Personnel and responsibility [EN 50128 section 5.1 and 5.2] PQ}
+Goal: Ensure that all the staff members are accountable for the software, are organized, competent and capable of
+exercising this responsibility.
+
+We have examined the document D1.3.1 ``\textit{Project Quality Assurance Plan''}. 
+
+{\bfseries
+ASS512.1}
+
+
+\bigskip
+
+The openETCS organization consists of seven work packages (WP1 to WP7) where each WP has its own WP-Leader and team
+members who shall fulfill the roles and their independency required in the EN 50128:2011. The following image shows the
+minimum requirements for the independence of the assessor as well as that between the members of the project team.
+
+ \includegraphics[width=13.626cm,height=3.493cm]{images/organizationalstructure.pdf} 
+
+Figure 2: Preferred organizational structure for SIL 4 SW-Development
+
+WP-Leader 1 (WPL1) is the project manager of the whole project. For the actual development three WPLs have an equivalent
+role to that of a project manager depicted in Figure 1. Other roles are distributed within the different WPs depending
+on their tasks and goals.
+
+
+\bigskip
+
+\begin{center}
+\tablefirsthead{}
+\tablehead{}
+\tabletail{}
+\tablelasttail{}
+\begin{supertabular}{|m{5.467cm}|m{5.467cm}|m{3.467cm}|}
+\hline
+EN 50128:2011 Role  &
+Person  &
+WP (Entity) \\\hline
+Project manager of all WPs  &
+Mr. Dr. Hase (DB)  &
+WP1 \\\hline
+WPLs as Project manager  &
+Mr. Cochetti (Alstom)  &
+WP3\\\hline
+~
+ &
+Mr. Behrens (DLR) &
+WP4\\\hline
+~
+ &
+Mr. Deutsch (ERSA)  &
+WP5\\\hline
+~
+ &
+Mr. Jastram (Formal Mind)  &
+WP7\\\hline
+\end{supertabular}
+\end{center}
+Table 1 Work package Leaders as project manager
+
+
+\bigskip
+
+Assessment:
+
+For the targeted SIL4 the roles were chosen appropriately within the openETCS organization. There are seven WPLs where
+the WPL1 is also the leader of all WPLs. The Assessors have examined the independencies of the roles within the
+openETCS organization and came to following conclusions:
+
+{}-- Although the validator belongs organizationally to WP4 he is an independent entity in the openETCS project and does
+not underlie the WPL1, WPL3, WPL5 nor WPL7.
+
+{}-- The verifiers are not the same persons as the entities integrator, Tester, requirements manager, designer nor
+implementer
+
+{}-- The independency of the rest of the entities are guaranteed according to Figure 1.
+
+Due to the fact that every project partner is EN ISO 90001 certified in addition to the many technical discussions the
+assessors had held with the WPLs or the many attended openETCS Scrum meetings the assessors can confirm the competences
+of the WPLs and their team, which are listed in the competence matrix in the QAP.
+
+The training and qualification of the project participants is also sufficient for the tasks to be implemented. For
+example a SCADE Suite training is held for all partners using the SCADE Suite software tool in 2014.
+
+This requirement is fulfilled.
+
+\subsubsection[5.1.3 Life cycle and documentation [EN 50128 section 5.3{]} PQ]{5.1.3 Life cycle and documentation [EN
+50128 section 5.3] PQ}
+Goal: Organization of the software development into set phases and activities as well as registration of all the
+information used for the software throughout the entire life cycle of the software.
+
+Assessment:
+
+
+\bigskip
+
+
+\bigskip
+
+
+\bigskip
+
+\subsubsection[5.1.4 Software quality assurance [EN 50128 section 6.5{]}* PQ]{5.1.4 Software quality assurance [EN 50128
+section 6.5]* PQ}
+(*): other EN 5018 parts to be examined here = \textit{sections 7.3.4.25 to 7.3.4.27 related to coding standards. }
+
+Goal: Identification, monitoring and controlling of all technical and management activities that are necessary in order
+to ensure that the software attains the required quality. This is necessary to guarantee the required qualitative
+defense against systematic faults and to ensure that an audit can be set up to make it possible to efficiently take
+verification and validation measures. 
+
+
+\bigskip
+
+Assessment:
+
+
+\bigskip
+
+The description of the process of configuration management (above list) is not described in enough detail and is to be
+improved.
+
+
+\bigskip
+
+\subsubsection{Changes and change management [EN 50128 sect. 6.6] PQ}
+Goal: Ensure that the software functions as required and that the software safety requirement and reliability is
+retained upon modification of the software.
+
+
+\bigskip
+
+Assessment:
+
+
+\bigskip
+
+\subsection{V\&V Assessment}
+
+\bigskip
+
+\subsubsection{Software test [EN 50128 sect. 6.1]* V\&V}
+(*): other EN 5018 parts to be examined here = section 7.3.4.33 (software component test specification) and sections
+7.3.4.29 to 7.3.4.40 (software integration and software/hardware integration specifications)
+
+The goal of the software test is to check the behavior or performance of the software.
+
+
+\bigskip
+
+Assessment:
+
+\subsubsection{Software verification [EN 50128 sect.
+6.2]* V\&V}
+(*): other EN 5018 parts to be examined here = sections 7.3.4.41 to 7.3.4.43 (software architecture and design
+verification).
+
+
+\bigskip
+
+The goal of the software verification is the investigation and evaluation based on demonstrating that the results of a
+certain development phase are sufficient.
+
+Assessment:
+
+
+\bigskip
+
+\subsubsection[5.2.3 Software validation [EN 50128 sect. 6.3{]} V\&V]{5.2.3 Software validation [EN 50128 sect. 6.3]
+V\&V}
+The goal of the software validation is to demonstrate that the processes and output variables of the software comply
+with the set SIL, satisfy the software requirements and are suitable for the intended application. The main validation
+activities consist of analysis and/or testing and evaluation of the safety criticality of all the faults and
+deficiencies.
+
+
+\bigskip
+
+Assessment:
+
+
+\bigskip
+
+\subsubsection{Software implementation and test
+(EN 50128 sect. 7.5) V\&V}
+Goal: Creation of software that is analyzable, testable, verifiable and repairable. This phase also covers component
+tests.
+
+
+\bigskip
+
+
+\bigskip
+
+Assessment:
+
+
+\bigskip
+
+
+\bigskip
+
+\subsubsection{Software integration (EN 50128 sect. 7.6) V\&V}
+Goal: Execution of the software integration and software/hardware integration. Demonstration that the software and the
+hardware properly work together to perform their intended functions.
+
+
+\bigskip
+
+
+\bigskip
+
+Assessment:
+
+
+\bigskip
+
+\subsection{Safety Activities Assessment}
+
+\bigskip
+
+\subsubsection{Software assessment [EN 50128 sect. 6.4] SA}
+Goal: Evaluation of the process of the life cycle and the products arising from it allow the conclusion that the
+software exhibits the set SIL 1 to 4 and is suitable for it intended use.
+
+
+\bigskip
+
+Assessment:
+
+
+\bigskip
+
+\subsubsection{Supporting tools and languages [EN 50128 sect. 6.7] SA}
+Goal: Software tools must be appropriately selected for the software development process, the tools should be able to
+work together, the use of tools in classes T2 and T3 must be justified and for T3 proof of suitability must be present.
+
+
+\bigskip
+
+
+\bigskip
+
+Assessment:
+
+
+\bigskip
+
+\subsubsection{Software requirement (EN 50128 sect. 7.2) SA}
+Goal: Description of a complete set of requirements for the software that satisfies all the system and safety
+requirements and provides an extensive set of documents for each later phase.
+
+
+\bigskip
+
+
+\bigskip
+
+
+\bigskip
+
+Assessment:
+
+
+\bigskip
+
+\subsubsection{Software architecture and design
+(EN 50128 sect. 7.3) SA}
+Goal: Development of a software architecture. Identify and evaluate what the interaction between hardware and software
+means for safety. Selection of a design process. Design of the software of a defined SIL. Ensure that the resulting
+system and its software can easily be tested from the outset.
+
+We have examined the document: D3.5.3 ``openETCS Architecture and Design Specification''.
+
+Notice that the section 7.3 of EN 50128 covers not only architecture, interface and design specifications but also test
+specification for software component test, software integration and software/hardware integration. These elements are
+not covered by D3.5.3. So section 7.3.4.33 and sections 7.3.4.29 to 7.3.4.40 have been transferred to \& 5.2.1 of this
+document. For the same reason, sections 7.3.4.41 to 7.3.4.43 dealing with verification have been transferred to \& 5.2.2
+of this document, and sections 7.3.4.25 to 7.3.4.27 related to coding standards have been transferred to \& 5.1.4 of
+this document.
+
+{\bfseries
+ASS534.1}
+
+Considering the safety aspects we have some doubt about the robustness of the proposed design. Theoretically the
+following fields ``Behaviour when value is at boundary / Behaviour for values out of valid range / Behaviour when value
+is erroneous, absent or unwanted'', given for all inputs should explain which safety mechanisms have been implemented
+and how they work . Numerous remarks can be done on these fields:
+
+{\textbullet} Sometimes the behavior in case of ``erroneous data'' is considered as identical to the behavior in case of
+``data at the boundary'' which is not acceptable (see for example 5.2.2.1.3 ActualOdometry; 5.2.2.1.11
+inSupervisingRbcId {\dots}).
+
+{\textbullet} Sometimes the behavior in case of ``erroneous data'' could result in a hazard but no safety mechanism is
+proposed (see for example 5.2.2.1.13 q\_nvlocacc; 5.3.2.1.2 Status\_MA\_FS\_SR\_OS\_LS\_SH\_from\_MA\_L2\_Management;
+5.3.2.1.8 statusValid\_Position\_from\_Position\_Calculation {\dots}).
+
+{\textbullet} A majority of these fields indicates ``n/a'' and that seems very curious for a SIL4 software. These n/a
+should be justified (For example, the input ``5.9.2.1.19 SafetyCriticalFailure'' is considered has having no effect
+when it is absent or erroneous which is very curious considering the name of the data).
+
+
+\bigskip
+
+{\bfseries
+ASS534.2}
+
+Requirement 7.3.4.5 of the EN 50128 is: ``The Software Architecture Specification shall identify, \textbf{analyse and
+detail the significance} of all hardware/software interactions''. This requirement is not fulfilled.
+
+
+\bigskip
+
+{\bfseries
+ASS534.3}
+
+Requirement 7.3.4.6 b) of the EN 50128 is: ``Software components shall be clearly identified and \textbf{independently
+versioned inside the configuration management system}{}''. This requirement is not fulfilled.
+
+
+\bigskip
+
+{\bfseries
+ASS534.4}
+
+The following EN 50128 requirements are not fulfilled:
+
+{\textbullet} 7.3.4.10 The Software Architecture Specification shall \textbf{describe the strategy for the software
+development} to the extent required by the software safety integrity level. 
+
+{\textbullet} 7.3.4.11 \textbf{Measures for handling faults} shall be included in the Software Architecture
+Specification in order to achieve the balance between the fault avoidance and fault handling strategies.
+
+
+\bigskip
+
+{\bfseries
+ASS534.5}
+
+The Software Interface Specification (see requirements 7.3.4.18 and 7.3.4.19 of EN 50128) is missing. The description of
+interface data given in D3.5.3 is incomplete [a) pre/post conditions; f) allocated memory, f) and h) synchronization
+mechanisms are missing].
+
+
+\bigskip
+
+{\bfseries
+ASS534.6}
+
+The description given in the software design part does address neither the main algorithms and sequencing or concurrency
+aspects, nor the error reporting mechanisms (see f) and g) of requirement 7.3.4.23 of EN 50128 and b3) and b4) of
+requirement 7.3.4.28 of EN 50128. 
+
+
+\bigskip
+
+Assessment:
+
+Design Specification is incomplete (Scrum process) but numerous requirements of the CENELEC standard are not fulfilled
+and will not be if the content of the document is not modified. 
+
+Notwithstanding these previous remarks, a major remark is that safety aspects are not well addressed in this design.
+
+\subsubsection{Software components design (EN 50128
+sect. 7.4) SA}
+Goal: development of a software component design and software component test specifications, with which the requirements
+of the software design specifications are satisfied to the extent required by the SIL.
+
+
+\bigskip
+
+
+\bigskip
+
+Assessment:
+
+
+\bigskip
+
+
+\bigskip
+
+\subsubsection[5.3.6 Overall software test [EN 50128 sect. 7.7{]} SA]{5.3.6 Overall software test [EN 50128 sect. 7.7]
+SA}
+Analysis and test of the integrated SW and HW in order to ensure accordance with the software requirement
+specifications, especially the functional and safety aspects as per the SIL.
+
+
+\bigskip
+
+Assessment:
+
+
+\bigskip
+
+\subsubsection{Application data or algorithms -- systems configured by application data or algorithms [EN 50128
+sect. 8] SA}
+
+\bigskip
+
+
+\bigskip
+
+
+\bigskip
+
+Assessment:
+
+
+\bigskip
+
+
+\bigskip
+
+\subsubsection{Deployment of the software [EN 50128
+sect. 9.1] SA}
+Goal: Ensure that the software works as intended, adheres to the required SIL and reliability when it is deployed in the
+final environment of application
+
+
+\bigskip
+
+
+\bigskip
+
+Assessment:
+
+
+\bigskip
+
+
+\bigskip
+
+\subsubsection{Maintenance of the software [EN 50128 sect. 9.2] PQ or SA}
+Goal: Verification that the software functions as required and the obligatory SIL and reliability are maintained if
+corrections, extensions or adjustments are performed on the software.
+
+
+\bigskip
+
+
+\bigskip
+
+Assessment:
+
+
+\bigskip
+
+\subsection{Answer to the question: \newline
+Are the measures taken for satisfying EN 50128 SIL 4 sufficient?}
+Answer to the above question
+
+\subsection{5.5 OTHER Question?}
+{\textbullet} E.g.: Agile development in openETCS and its conformity to the EN 50128 
+
+{\textbullet} {\dots}.
