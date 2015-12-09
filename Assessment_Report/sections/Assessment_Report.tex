@@ -1,0 +1,175 @@
+\documentclass[openetcs]{template/openetcs_article}
+% Use the option "nocc" if the document is not licensed under Creative Commons
+%\documentclass[nocc]{template/openetcs_report}
+\usepackage{lipsum}
+%\usepackage{titledoc}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{xspace}
+\usepackage{graphicx}
+\usepackage{supertabular}
+\usepackage{fixme}
+\usepackage{lscape}
+\usepackage{pgfgantt}
+\usepackage{adjustbox}
+\usepackage{hhline}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{color, colortbl}
+\usepackage[modulo]{lineno}
+\definecolor{gray}{rgb}{0.8,0.8,0.8}
+\definecolor{myblue}{rgb}{0.6,.6,1}
+\definecolor{mydarkblue}{rgb}{0,0,0.5}
+\usepackage{datetime}
+\graphicspath{{./template/}{.}{./images/}}
+\usepackage[color=green!40,textsize=footnotesize,textwidth=2.8cm]{todonotes}
+%\usepackage[rond]{natbib}
+\graphicspath{{./template/}{.}{./images/}}
+
+\begin{document}
+
+
+\frontmatter
+\project{openETCS}
+
+%Please do not change anything above this line
+%============================
+% The document metadata is defined below
+
+%assign a report number here
+\reportnum{openETCS/WP4/D4.5}
+
+%define your workpackage here
+\wp{Work-Package 4: "V\&V Strategy"}
+
+%set a title here
+\title{openETCS D4.5: Assessment Report}
+
+%set a subtitle here
+\subtitle{Independent Assessment according to the standard EN 50128:2011}
+
+%set the date of the report here
+\date{December 2015}
+
+
+%document approval
+%define the name and affiliation of the people involved in the documents approbation here
+\creatorname{Fr\'ed\'erique Vall\'ee}
+\creatoraffil{All4tec}
+
+\techassessorname{Norbert Sch\"afer}
+\techassessoraffil{AEbt}
+
+\qualityassessorname{Marc Behrens}
+\qualityassessoraffil{DLR}
+
+\approvalname{Klaus-R\"udiger Hase}
+\approvalaffil{DB Netz}
+
+
+%define a list of authors and their affiliation here
+\author{Fr\'ed\'erique Vall\'ee}
+
+\affiliation{All4tec\\
+  Immeuble Odyss\'ee B\^{a}timent E \\
+  2-12, rue du Chemin des femmes\\
+  91 300 MASSY\\
+  France\\
+ \\
+}
+
+\author{Norbert Sch\"afer}
+
+\affiliation{AEbt Angewandte Eisenbahntechnik GmbH\\
+  Adam-Klein-Str. 26\\
+  90429 N\"urnberg\\
+  Germany\\
+\\
+}
+
+
+
+
+
+% define the coverart
+\coverart[width=350pt]{openETCS_EUPL}
+
+%define the type of report
+\reporttype{final version}
+
+
+\begin{abstract}
+The Assessment Report describes the Assessmentresults in the frame of V\&V activities in the openETCS \cite{openETCS} project.
+According to the CENELEC EN50128:2011 \cite{EN50128} standard, the assessment is a \"\ Process of analysis to determine whether software, which may include
+process, documentation, system, subsystem hardware and/or software components, meets the specified requirements and to form a judgment as to whether the
+software is fit for its intended purpose.\"\
+\\
+\end{abstract}
+
+%=============================
+%Do not change the next three lines
+\maketitle
+%\setcounter{tocdepth}{2}
+%\listoffiguresandtables
+\newpage
+%=============================
+
+
+% The actual document starts below this line
+%=============================
+
+
+\section*{Modification History}
+
+
+%\tabletail{}
+%\tablelasttail{}
+
+
+
+
+
+\tablefirsthead{
+\hline 
+\rowcolor{gray} 
+Version & Section & Modification / Description & Author \\\hline}
+
+\bgroup
+\def\arraystretch{2.5}%  1 is the default, change whatever you need
+
+\begin{supertabular}{| m{1.2cm} | m{1.2cm} | m{6cm} | m{4cm} |}
+ 0.1 & all & template of 1st version & Abdelnasir Mohamed \\\hline
+ 0.2 & all & entering assessment result of ADD document & Fr\'ed\'erique Vall\'ee \\\hline
+ 0.3 & all & conversion to LaTeX & Marc Behrens \\\hline
+\end{supertabular}
+\egroup
+
+\tableofcontents
+%\listoffiguresandtables
+\listoftables
+
+\newpage
+
+
+\include{contractinformation}\cleardoublepage
+\include{general}\cleardoublepage
+\include{introduction}\cleardoublepage
+\include{expertassessment}\cleardoublepage
+\include{answerstoquestions}\cleardoublepage
+\include{summary}\cleardoublepage
+\include{finalization}\cleardoublepage
+
+% show only documents cited
+%\nocite{*} 
+
+\bibliographystyle{plain}
+\bibliography{Assessment_Report}
+
+
+
+%===================================================
+%Do NOT change anything below this line
+
+\end{document}
